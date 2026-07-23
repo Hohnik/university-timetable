@@ -1,0 +1,4920 @@
+{
+ "meta": {
+  "source": "HS Landshut Primuss",
+  "faculty": "IF",
+  "days": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu",
+   "Fri"
+  ],
+  "grid": [
+   [
+    "08:45",
+    "09:30"
+   ],
+   [
+    "09:30",
+    "10:15"
+   ],
+   [
+    "10:30",
+    "11:15"
+   ],
+   [
+    "11:15",
+    "12:00"
+   ],
+   [
+    "12:50",
+    "13:35"
+   ],
+   [
+    "13:35",
+    "14:20"
+   ],
+   [
+    "14:30",
+    "15:15"
+   ],
+   [
+    "15:15",
+    "16:00"
+   ],
+   [
+    "16:10",
+    "16:55"
+   ],
+   [
+    "16:55",
+    "17:40"
+   ],
+   [
+    "17:50",
+    "18:35"
+   ],
+   [
+    "18:35",
+    "19:20"
+   ]
+  ]
+ },
+ "cohorts": {
+  "166": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Automobilinformatik",
+   "label": "AIF2"
+  },
+  "167": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Automobilinformatik",
+   "label": "AIF4"
+  },
+  "168": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Automobilinformatik",
+   "label": "AIF6"
+  },
+  "169": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Digitales Verwaltungsmanagement",
+   "label": "DVM2"
+  },
+  "170": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Digitales Verwaltungsmanagement",
+   "label": "DVM4"
+  },
+  "171": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Digitales Verwaltungsmanagement",
+   "label": "DVM6"
+  },
+  "160": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Informatik",
+   "label": "IF2"
+  },
+  "161": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Informatik",
+   "label": "IF4"
+  },
+  "162": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Informatik",
+   "label": "IF6"
+  },
+  "163": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Künstliche Intelligenz",
+   "label": "KI2"
+  },
+  "164": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Künstliche Intelligenz",
+   "label": "KI4"
+  },
+  "165": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Künstliche Intelligenz",
+   "label": "KI6"
+  },
+  "63": {
+   "faculty": "IF",
+   "degree": "Master",
+   "program": "Master Informatik",
+   "label": "MIF1"
+  },
+  "66": {
+   "faculty": "IF",
+   "degree": "Master",
+   "program": "Master Systems Engineering",
+   "label": "MSE1"
+  },
+  "68": {
+   "faculty": "IF",
+   "degree": "Master",
+   "program": "Master Systems Engineering",
+   "label": "MSE3"
+  },
+  "69": {
+   "faculty": "IF",
+   "degree": "Master",
+   "program": "Master Wirtschaftsinformatik",
+   "label": "MWIF1"
+  },
+  "45": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Wirtschaftsinformatik",
+   "label": "WIF2"
+  },
+  "92": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Wirtschaftsinformatik",
+   "label": "WIF4"
+  },
+  "49": {
+   "faculty": "IF",
+   "degree": "Bachelor",
+   "program": "Bachelor Wirtschaftsinformatik",
+   "label": "WIF6"
+  }
+ },
+ "lecturer_days": {
+  "Auer, Christopher": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Blechinger, Markus": [
+   "Tue"
+  ],
+  "Busse, Johannes": [
+   "Mon",
+   "Tue",
+   "Thu"
+  ],
+  "Böhm, Markus": [
+   "Mon",
+   "Tue",
+   "Wed"
+  ],
+  "Dalnodar, Corinna": [
+   "Wed"
+  ],
+  "Diekhoff, Sebastian": [
+   "Mon",
+   "Tue"
+  ],
+  "Dieses, Patrick": [
+   "Thu"
+  ],
+  "Dorfner, Matthias": [
+   "Tue",
+   "Wed"
+  ],
+  "Eder, Klaus": [
+   "Mon"
+  ],
+  "Fischer, Marcus": [
+   "Thu"
+  ],
+  "Franzke, Thomas": [
+   "Wed",
+   "Fri"
+  ],
+  "Gerlit, Robert": [
+   "Wed"
+  ],
+  "Giersch, Jürgen": [
+   "Wed",
+   "Fri"
+  ],
+  "Greipl, Dieter": [
+   "Mon",
+   "Wed"
+  ],
+  "Griebl, Ludwig": [
+   "Wed"
+  ],
+  "Gronover, Sandra": [
+   "Wed"
+  ],
+  "Gruber, Michaela": [
+   "Mon",
+   "Tue"
+  ],
+  "Hanel, Thomas": [
+   "Wed"
+  ],
+  "Hartmann, Peter": [
+   "Wed"
+  ],
+  "Höllerer, Reinhard": [
+   "Tue"
+  ],
+  "Jakob, Markus": [
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Jochum, Bernadette": [
+   "Wed"
+  ],
+  "Jörg, Hannah": [
+   "Thu"
+  ],
+  "Khelil, Abdelmajid": [
+   "Tue",
+   "Fri"
+  ],
+  "Kinalzyk, Dietmar": [
+   "Fri"
+  ],
+  "Kolbeck, Maike": [
+   "Mon",
+   "Thu"
+  ],
+  "Koletzko, Christian": [
+   "Mon"
+  ],
+  "Kreis, Raimund": [
+   "Mon"
+  ],
+  "Krieger, Tina": [
+   "Wed"
+  ],
+  "Kromer, Eduard": [
+   "Mon",
+   "Thu"
+  ],
+  "Lachner, Michael": [
+   "Tue"
+  ],
+  "Lipp, Wolfram": [
+   "Mon"
+  ],
+  "Matzeder, Marco": [
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Michaeli, Philipp": [
+   "Tue",
+   "Wed"
+  ],
+  "Mock, Markus": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Nazareth, Dieter": [
+   "Mon",
+   "Tue"
+  ],
+  "Osendorfer, Christian": [
+   "Mon",
+   "Tue",
+   "Thu",
+   "Fri"
+  ],
+  "Pellkofer, Martin": [
+   "Wed",
+   "Thu"
+  ],
+  "Remmele, Stefanie": [
+   "Mon"
+  ],
+  "Roderer, Götz": [
+   "Wed"
+  ],
+  "Sagraloff, Michael": [
+   "Mon",
+   "Tue",
+   "Thu"
+  ],
+  "Schmidtner, Markus": [
+   "Fri"
+  ],
+  "Scholz, Peter": [
+   "Wed"
+  ],
+  "Schröter, Sebastian": [
+   "Wed",
+   "Thu",
+   "Fri"
+  ],
+  "Schuller, Dagmar": [
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Siebert, Andreas": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Strohe, Manfred": [
+   "Tue",
+   "Wed"
+  ],
+  "Strunz, Manuel": [
+   "Mon"
+  ],
+  "Thoen, Haavard": [
+   "Thu"
+  ],
+  "Tomashevich, Victor": [
+   "Fri"
+  ],
+  "Trautmann, Philip": [
+   "Wed",
+   "Fri"
+  ],
+  "Uhrmann, Johann": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Varma, Devendra": [
+   "Fri"
+  ],
+  "Wagensoner, Matthias": [
+   "Wed"
+  ],
+  "Wallis, Alexander": [
+   "Tue"
+  ],
+  "Wanner-Seidl, Veronika": [
+   "Tue"
+  ],
+  "Weber, Yannick": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Weisensee, Michael": [
+   "Mon"
+  ],
+  "Wunderlich, Jürgen": [
+   "Mon",
+   "Tue"
+  ],
+  "Wundsam-Gollwitzer, Kerstin": [
+   "Wed"
+  ],
+  "Ziegler, Konstantin": [
+   "Tue",
+   "Wed",
+   "Thu"
+  ]
+ },
+ "sessions": [
+  {
+   "id": "4175-Wed-8",
+   "lv_id": "4175",
+   "fach_id": "1061",
+   "course": "Echtzeitbetriebssysteme",
+   "short": "Echtzeitbetriebssysteme",
+   "lecturers": [
+    "Pellkofer, Martin"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4176-Thu-0",
+   "lv_id": "4176",
+   "fach_id": "1062",
+   "course": "Praktikum Echtzeitbetriebssysteme",
+   "short": "Prakt. Echtzeitbetriebssysteme",
+   "lecturers": [
+    "Pellkofer, Martin"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4177-Thu-4",
+   "lv_id": "4177",
+   "fach_id": "1063",
+   "course": "Algorithmen und Datenstrukturen",
+   "short": "Algorithmen u. Datenstrukturen",
+   "lecturers": [
+    "Siebert, Andreas"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4179-Mon-4",
+   "lv_id": "4179",
+   "fach_id": "1064",
+   "course": "Modellbasierte Entwicklung II",
+   "short": "Modellbas. Entw. II",
+   "lecturers": [
+    "Nazareth, Dieter"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4180-Tue-0",
+   "lv_id": "4180",
+   "fach_id": "1065",
+   "course": "Praktikum Modellbasierte Entwicklung II",
+   "short": "Prakt. Modellbas. Entw. II",
+   "lecturers": [
+    "Nazareth, Dieter"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4181-Mon-2",
+   "lv_id": "4181",
+   "fach_id": "1066",
+   "course": "Softwarearchitekturen",
+   "short": "Softwarearchitekturen",
+   "lecturers": [
+    "Nazareth, Dieter"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4182-Tue-0",
+   "lv_id": "4182",
+   "fach_id": "1067",
+   "course": "Praktikum Softwarearchitekturen",
+   "short": "Prakt. Softwarearchitekturen",
+   "lecturers": [
+    "Nazareth, Dieter"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4184-Thu-6",
+   "lv_id": "4184",
+   "fach_id": "1119",
+   "course": "Autonome Fahrzeuge",
+   "short": "Autonome Fahrzeuge",
+   "lecturers": [
+    "Pellkofer, Martin"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4185-Thu-0",
+   "lv_id": "4185",
+   "fach_id": "1119",
+   "course": "Autonome Fahrzeuge",
+   "short": "Autonome Fahrzeuge",
+   "lecturers": [
+    "Pellkofer, Martin"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "168"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4185-Wed-0",
+   "lv_id": "4185",
+   "fach_id": "1119",
+   "course": "Autonome Fahrzeuge",
+   "short": "Autonome Fahrzeuge",
+   "lecturers": [
+    "Pellkofer, Martin"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "168"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 9,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4191-Mon-6",
+   "lv_id": "4191",
+   "fach_id": "1115",
+   "course": "Open Government and Open Data",
+   "short": "Open Governm. & Open Data",
+   "lecturers": [
+    "Busse, Johannes"
+   ],
+   "groups": [
+    "162",
+    "169",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4191-Mon-8",
+   "lv_id": "4191",
+   "fach_id": "1115",
+   "course": "Open Government and Open Data",
+   "short": "Open Governm. & Open Data",
+   "lecturers": [
+    "Busse, Johannes"
+   ],
+   "groups": [
+    "162",
+    "169",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4192-Tue-2",
+   "lv_id": "4192",
+   "fach_id": "1008",
+   "course": "Effizienz im öffentlichen Sektor",
+   "short": "Effizienz im öffentl. Sektor",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "169"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4193-Tue-0",
+   "lv_id": "4193",
+   "fach_id": "1009",
+   "course": "Foundations of Scientific Work in Smart Administration",
+   "short": "DVM290",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "169"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4194-Fri-0",
+   "lv_id": "4194",
+   "fach_id": "1010",
+   "course": "IT-Business Case",
+   "short": "IT-Business Case",
+   "lecturers": [
+    "Varma, Devendra"
+   ],
+   "groups": [
+    "170"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 6,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4195-Tue-10",
+   "lv_id": "4195",
+   "fach_id": "1114",
+   "course": "Process Mining",
+   "short": "Process Mining",
+   "lecturers": [
+    "Böhm, Markus"
+   ],
+   "groups": [
+    "162",
+    "170",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 10
+   }
+  },
+  {
+   "id": "4195-Tue-8",
+   "lv_id": "4195",
+   "fach_id": "1114",
+   "course": "Process Mining",
+   "short": "Process Mining",
+   "lecturers": [
+    "Böhm, Markus"
+   ],
+   "groups": [
+    "162",
+    "170",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4196-Mon-2",
+   "lv_id": "4196",
+   "fach_id": "1012",
+   "course": "Visual Analytics",
+   "short": "Visual Analythics",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "170"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4196-Thu-4",
+   "lv_id": "4196",
+   "fach_id": "1012",
+   "course": "Visual Analytics",
+   "short": "Visual Analythics",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "170"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4197-Wed-0",
+   "lv_id": "4197",
+   "fach_id": "1014",
+   "course": "Management von Veränderungsprojekten und -prozessen",
+   "short": "Mmgt. Veränderungsproj. u. prozes.",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "170"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4197-Wed-4",
+   "lv_id": "4197",
+   "fach_id": "1014",
+   "course": "Management von Veränderungsprojekten und -prozessen",
+   "short": "Mmgt. Veränderungsproj. u. prozes.",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "170"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4198-Tue-0",
+   "lv_id": "4198",
+   "fach_id": "1015",
+   "course": "Verwaltungsrecht",
+   "short": "Verwaltungsrecht",
+   "lecturers": [
+    "Schuller, Dagmar"
+   ],
+   "groups": [
+    "170"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4198-Tue-4",
+   "lv_id": "4198",
+   "fach_id": "1015",
+   "course": "Verwaltungsrecht",
+   "short": "Verwaltungsrecht",
+   "lecturers": [
+    "Schuller, Dagmar"
+   ],
+   "groups": [
+    "170"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4199-Tue-0",
+   "lv_id": "4199",
+   "fach_id": "1018",
+   "course": "Standard-IT-Anwendungen in der Verwaltung",
+   "short": "Standard-IT-Anwend.",
+   "lecturers": [
+    "Wunderlich, Jürgen"
+   ],
+   "groups": [
+    "171"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4199-Wed-0",
+   "lv_id": "4199",
+   "fach_id": "1018",
+   "course": "Standard-IT-Anwendungen in der Verwaltung",
+   "short": "Standard-IT-Anwend.",
+   "lecturers": [
+    "Gerlit, Robert"
+   ],
+   "groups": [
+    "171"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 7,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4200-Tue-0",
+   "lv_id": "4200",
+   "fach_id": "1125",
+   "course": "Smart Cities",
+   "short": "Smart Cities",
+   "lecturers": [
+    "Höllerer, Reinhard"
+   ],
+   "groups": [
+    "171",
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4200-Tue-4",
+   "lv_id": "4200",
+   "fach_id": "1125",
+   "course": "Smart Cities",
+   "short": "Smart Cities",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4201-Mon-4",
+   "lv_id": "4201",
+   "fach_id": "843",
+   "course": "Grundlagen der theoretischen Informatik",
+   "short": "GTI",
+   "lecturers": [
+    "Auer, Christopher",
+    "Siebert, Andreas"
+   ],
+   "groups": [
+    "160"
+   ],
+   "length": 2,
+   "rhythm": "0",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4201-Wed-2",
+   "lv_id": "4201",
+   "fach_id": "843",
+   "course": "Grundlagen der theoretischen Informatik",
+   "short": "GTI",
+   "lecturers": [
+    "Auer, Christopher",
+    "Siebert, Andreas"
+   ],
+   "groups": [
+    "160"
+   ],
+   "length": 2,
+   "rhythm": "0",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4203-Thu-0",
+   "lv_id": "4203",
+   "fach_id": "846",
+   "course": "Praktikum Programmieren II",
+   "short": "Prakt. Programmieren II",
+   "lecturers": [
+    "Auer, Christopher"
+   ],
+   "groups": [
+    "160",
+    "166"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4203-Tue-0",
+   "lv_id": "4203",
+   "fach_id": "846",
+   "course": "Praktikum Programmieren II",
+   "short": "Prakt. Programmieren II",
+   "lecturers": [
+    "Matzeder, Marco"
+   ],
+   "groups": [
+    "160",
+    "166"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4204-Wed-4",
+   "lv_id": "4204",
+   "fach_id": "844",
+   "course": "Präsentation und Kommunikation",
+   "short": "IB440",
+   "lecturers": [
+    "Jochum, Bernadette"
+   ],
+   "groups": [
+    "160",
+    "168"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4205-Mon-2",
+   "lv_id": "4205",
+   "fach_id": "832",
+   "course": "Programmieren II",
+   "short": "Programmieren II",
+   "lecturers": [
+    "Auer, Christopher"
+   ],
+   "groups": [
+    "160",
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4205-Tue-4",
+   "lv_id": "4205",
+   "fach_id": "832",
+   "course": "Programmieren II",
+   "short": "Programmieren II",
+   "lecturers": [
+    "Auer, Christopher"
+   ],
+   "groups": [
+    "160",
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4207-Thu-4",
+   "lv_id": "4207",
+   "fach_id": "945",
+   "course": "Betriebssysteme",
+   "short": "Betriebssysteme",
+   "lecturers": [
+    "Pellkofer, Martin"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4208-Thu-8",
+   "lv_id": "4208",
+   "fach_id": "980",
+   "course": "Internettechnologien",
+   "short": "Internettechnologien",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "161",
+    "162",
+    "168",
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4210-Fri-0",
+   "lv_id": "4210",
+   "fach_id": "946",
+   "course": "Praktikum Betriebssysteme",
+   "short": "Prakt. Betriebssysteme",
+   "lecturers": [
+    "Franzke, Thomas"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 6,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4210-Wed-0",
+   "lv_id": "4210",
+   "fach_id": "946",
+   "course": "Praktikum Betriebssysteme",
+   "short": "Prakt. Betriebssysteme",
+   "lecturers": [
+    "Franzke, Thomas"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 9,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4211-Fri-0",
+   "lv_id": "4211",
+   "fach_id": "879",
+   "course": "Praktikum Rechnerarchitektur",
+   "short": "Prakt. Rechnerarchitekturen",
+   "lecturers": [
+    "Franzke, Thomas"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4211-Wed-0",
+   "lv_id": "4211",
+   "fach_id": "879",
+   "course": "Praktikum Rechnerarchitektur",
+   "short": "Prakt. Rechnerarchitekturen",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "161",
+    "165"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4212-Mon-2",
+   "lv_id": "4212",
+   "fach_id": "845",
+   "course": "Rechnerarchitektur",
+   "short": "Rechnerarchitektur",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "161",
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4212-Thu-0",
+   "lv_id": "4212",
+   "fach_id": "845",
+   "course": "Rechnerarchitektur",
+   "short": "Rechnerarchitektur",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "161",
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4217-Tue-0",
+   "lv_id": "4217",
+   "fach_id": "996",
+   "course": "Praktikum Praxisgrundlagen der Informatik",
+   "short": "Prakt. PGI",
+   "lecturers": [
+    "Auer, Christopher",
+    "Matzeder, Marco"
+   ],
+   "groups": [
+    "163"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4218-Wed-0",
+   "lv_id": "4218",
+   "fach_id": "1267",
+   "course": "Praxisgrundlagen der Informatik",
+   "short": "PGI",
+   "lecturers": [
+    "Auer, Christopher",
+    "Matzeder, Marco",
+    "Uhrmann, Johann"
+   ],
+   "groups": [
+    "162",
+    "163",
+    "168",
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "0",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4220-Mon-4",
+   "lv_id": "4220",
+   "fach_id": "979",
+   "course": "Verteilte Systeme",
+   "short": "Verteilte Systeme",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "162"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4220-Tue-0",
+   "lv_id": "4220",
+   "fach_id": "979",
+   "course": "Verteilte Systeme",
+   "short": "Verteilte Systeme",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "162"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4221-Wed-2",
+   "lv_id": "4221",
+   "fach_id": "984",
+   "course": "Data Science II",
+   "short": "Data Science II",
+   "lecturers": [
+    "Matzeder, Marco"
+   ],
+   "groups": [
+    "163"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4221-Wed-4",
+   "lv_id": "4221",
+   "fach_id": "984",
+   "course": "Data Science II",
+   "short": "Data Science II",
+   "lecturers": [
+    "Matzeder, Marco"
+   ],
+   "groups": [
+    "163"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4222-Thu-0",
+   "lv_id": "4222",
+   "fach_id": "833",
+   "course": "Mathematik II",
+   "short": "Mathe II",
+   "lecturers": [
+    "Thoen, Haavard"
+   ],
+   "groups": [
+    "163"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4224-Wed-6",
+   "lv_id": "4224",
+   "fach_id": "985",
+   "course": "Praktikum Programmieren II",
+   "short": "Prakt. Programmieren II",
+   "lecturers": [
+    "Hanel, Thomas"
+   ],
+   "groups": [
+    "163"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4225-Fri-0",
+   "lv_id": "4225",
+   "fach_id": "1033",
+   "course": "Statistik",
+   "short": "Statistik",
+   "lecturers": [
+    "Tomashevich, Victor"
+   ],
+   "groups": [
+    "163",
+    "92"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4225-Fri-2",
+   "lv_id": "4225",
+   "fach_id": "1033",
+   "course": "Statistik",
+   "short": "Statistik",
+   "lecturers": [
+    "Tomashevich, Victor"
+   ],
+   "groups": [
+    "163",
+    "92"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4225-Mon-6",
+   "lv_id": "4225",
+   "fach_id": "1033",
+   "course": "Statistik",
+   "short": "Statistik",
+   "lecturers": [
+    "Kromer, Eduard"
+   ],
+   "groups": [
+    "163",
+    "92"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4227-Thu-0",
+   "lv_id": "4227",
+   "fach_id": "1030",
+   "course": "Algorithmen und Datenstrukturen",
+   "short": "Algorithmen u. Datenstrukturen",
+   "lecturers": [
+    "Matzeder, Marco"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4228-Thu-4",
+   "lv_id": "4228",
+   "fach_id": "1032",
+   "course": "Künstliche Intelligenz II",
+   "short": "KI II",
+   "lecturers": [
+    "Kromer, Eduard"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4228-Wed-6",
+   "lv_id": "4228",
+   "fach_id": "1032",
+   "course": "Künstliche Intelligenz II",
+   "short": "KI II",
+   "lecturers": [
+    "Matzeder, Marco"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4229-Fri-0",
+   "lv_id": "4229",
+   "fach_id": "1034",
+   "course": "Machine Learning II",
+   "short": "ML II",
+   "lecturers": [
+    "Trautmann, Philip"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4229-Fri-2",
+   "lv_id": "4229",
+   "fach_id": "1034",
+   "course": "Machine Learning II",
+   "short": "ML II",
+   "lecturers": [
+    "Trautmann, Philip"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4229-Wed-4",
+   "lv_id": "4229",
+   "fach_id": "1034",
+   "course": "Machine Learning II",
+   "short": "ML II",
+   "lecturers": [
+    "Trautmann, Philip"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4230-Mon-4",
+   "lv_id": "4230",
+   "fach_id": "1031",
+   "course": "Natural Language Processing",
+   "short": "NLP",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4230-Tue-4",
+   "lv_id": "4230",
+   "fach_id": "1031",
+   "course": "Natural Language Processing",
+   "short": "NLP",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4230-Tue-6",
+   "lv_id": "4230",
+   "fach_id": "1031",
+   "course": "Natural Language Processing",
+   "short": "NLP",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4234-Wed-4",
+   "lv_id": "4234",
+   "fach_id": "1117",
+   "course": "Big Data Algorithms and Systems",
+   "short": "Big Data Algorithms a. Systems",
+   "lecturers": [
+    "Siebert, Andreas"
+   ],
+   "groups": [
+    "162",
+    "165"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 9,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4234-Wed-8",
+   "lv_id": "4234",
+   "fach_id": "1117",
+   "course": "Big Data Algorithms and Systems",
+   "short": "Big Data Algorithms a. Systems",
+   "lecturers": [
+    "Siebert, Andreas"
+   ],
+   "groups": [
+    "162",
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4237-Tue-0",
+   "lv_id": "4237",
+   "fach_id": "1123",
+   "course": "Machine Learning III",
+   "short": "ML III",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4237-Tue-2",
+   "lv_id": "4237",
+   "fach_id": "1123",
+   "course": "Machine Learning III",
+   "short": "ML III",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4238-Fri-0",
+   "lv_id": "4238",
+   "fach_id": "1334",
+   "course": "Quantencomputing",
+   "short": "Quantencomputing",
+   "lecturers": [
+    "Schröter, Sebastian"
+   ],
+   "groups": [
+    "162",
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4238-Fri-2",
+   "lv_id": "4238",
+   "fach_id": "1334",
+   "course": "Quantencomputing",
+   "short": "Quantencomputing",
+   "lecturers": [
+    "Schröter, Sebastian"
+   ],
+   "groups": [
+    "162",
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4240-Mon-2",
+   "lv_id": "4240",
+   "fach_id": "212",
+   "course": "Kosten- und Leistungsrechnung",
+   "short": "KLR",
+   "lecturers": [
+    "Weisensee, Michael"
+   ],
+   "groups": [
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4241-Tue-4",
+   "lv_id": "4241",
+   "fach_id": "399",
+   "course": "Grundlagen Produktion, Logistik und Dienstleistungen",
+   "short": "Grundl. Produktion, Logist. u. Dienstl.",
+   "lecturers": [
+    "Michaeli, Philipp"
+   ],
+   "groups": [
+    "92"
+   ],
+   "length": 5,
+   "rhythm": "7",
+   "occurrences": 10,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4241-Tue-4",
+   "lv_id": "4241",
+   "fach_id": "399",
+   "course": "Grundlagen Produktion, Logistik und Dienstleistungen",
+   "short": "Grundl. Produktion, Logist. u. Dienstl.",
+   "lecturers": [
+    "Michaeli, Philipp"
+   ],
+   "groups": [
+    "92"
+   ],
+   "length": 2,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4242-Tue-0",
+   "lv_id": "4242",
+   "fach_id": "834",
+   "course": "Mathematik II",
+   "short": "Mathe II",
+   "lecturers": [
+    "Sagraloff, Michael"
+   ],
+   "groups": [
+    "45"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4245-Wed-2",
+   "lv_id": "4245",
+   "fach_id": "1036",
+   "course": "Software Engineering",
+   "short": "SWE",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "167",
+    "169",
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4246-Mon-4",
+   "lv_id": "4246",
+   "fach_id": "835",
+   "course": "Programmieren II",
+   "short": "Programmieren II",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "163",
+    "169",
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4246-Tue-4",
+   "lv_id": "4246",
+   "fach_id": "835",
+   "course": "Programmieren II",
+   "short": "Programmieren II",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "163",
+    "169",
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4247-Mon-6",
+   "lv_id": "4247",
+   "fach_id": "1021",
+   "course": "Foundations of Scientific Work in Business Informatics",
+   "short": "WIF290",
+   "lecturers": [
+    "Böhm, Markus"
+   ],
+   "groups": [
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4247-Mon-8",
+   "lv_id": "4247",
+   "fach_id": "1021",
+   "course": "Foundations of Scientific Work in Business Informatics",
+   "short": "WIF290",
+   "lecturers": [
+    "Böhm, Markus"
+   ],
+   "groups": [
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4250-Wed-4",
+   "lv_id": "4250",
+   "fach_id": "1023",
+   "course": "Algorithmen und Datenstrukturen",
+   "short": "Algorithmen u. Datenstrukturen",
+   "lecturers": [
+    "Franzke, Thomas"
+   ],
+   "groups": [
+    "92"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4252-Tue-2",
+   "lv_id": "4252",
+   "fach_id": "1013",
+   "course": "IT-Infrastrukturen",
+   "short": "IT-Infrastrukturen",
+   "lecturers": [
+    "Uhrmann, Johann"
+   ],
+   "groups": [
+    "170",
+    "92"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4252-Wed-2",
+   "lv_id": "4252",
+   "fach_id": "1013",
+   "course": "IT-Infrastrukturen",
+   "short": "IT-Infrastrukturen",
+   "lecturers": [
+    "Uhrmann, Johann"
+   ],
+   "groups": [
+    "170",
+    "92"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4253-Mon-2",
+   "lv_id": "4253",
+   "fach_id": "1113",
+   "course": "Operations Research",
+   "short": "OR",
+   "lecturers": [
+    "Sagraloff, Michael"
+   ],
+   "groups": [
+    "162",
+    "92"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4253-Thu-0",
+   "lv_id": "4253",
+   "fach_id": "1113",
+   "course": "Operations Research",
+   "short": "OR",
+   "lecturers": [
+    "Sagraloff, Michael"
+   ],
+   "groups": [
+    "162",
+    "92"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4256-Wed-10",
+   "lv_id": "4256",
+   "fach_id": "1017",
+   "course": "IT-Management",
+   "short": "IT-Management",
+   "lecturers": [
+    "Böhm, Markus"
+   ],
+   "groups": [
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 10
+   }
+  },
+  {
+   "id": "4256-Wed-8",
+   "lv_id": "4256",
+   "fach_id": "1017",
+   "course": "IT-Management",
+   "short": "IT-Management",
+   "lecturers": [
+    "Böhm, Markus"
+   ],
+   "groups": [
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4257-Thu-0",
+   "lv_id": "4257",
+   "fach_id": "1077",
+   "course": "Praktikum Programmieren II",
+   "short": "Prakt. Programmieren II",
+   "lecturers": [
+    "Uhrmann, Johann"
+   ],
+   "groups": [
+    "169",
+    "45"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4257-Tue-0",
+   "lv_id": "4257",
+   "fach_id": "1077",
+   "course": "Praktikum Programmieren II",
+   "short": "Prakt. Programmieren II",
+   "lecturers": [
+    "Lachner, Michael"
+   ],
+   "groups": [
+    "169",
+    "45"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4259-Mon-2",
+   "lv_id": "4259",
+   "fach_id": "1118",
+   "course": "Produktions- und Servicelogistik",
+   "short": "Produktions- u. Servicelogistik",
+   "lecturers": [
+    "Wunderlich, Jürgen"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4259-Tue-6",
+   "lv_id": "4259",
+   "fach_id": "1118",
+   "course": "Produktions- und Servicelogistik",
+   "short": "Produktions- u. Servicelogistik",
+   "lecturers": [
+    "Wunderlich, Jürgen"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4260-Fri-4",
+   "lv_id": "4260",
+   "fach_id": "1126",
+   "course": "Informations- und Metamodellierung",
+   "short": "Info.- und Metamodellierung",
+   "lecturers": [
+    "Schmidtner, Markus"
+   ],
+   "groups": [
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4260-Thu-0",
+   "lv_id": "4260",
+   "fach_id": "1126",
+   "course": "Informations- und Metamodellierung",
+   "short": "Info.- und Metamodellierung",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "171",
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4261-Tue-4",
+   "lv_id": "4261",
+   "fach_id": "1757",
+   "course": "Smart Grids",
+   "short": "IM600",
+   "lecturers": [
+    "Wallis, Alexander"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4261-Tue-8",
+   "lv_id": "4261",
+   "fach_id": "1757",
+   "course": "Smart Grids",
+   "short": "IM600",
+   "lecturers": [
+    "Wallis, Alexander"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4262-Fri-0",
+   "lv_id": "4262",
+   "fach_id": "1816",
+   "course": "Computer Systems",
+   "short": "IM110",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4262-Fri-2",
+   "lv_id": "4262",
+   "fach_id": "1816",
+   "course": "Computer Systems",
+   "short": "IM110",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4263-Thu-0",
+   "lv_id": "4263",
+   "fach_id": "1820",
+   "course": "Advanced Machine Learning",
+   "short": "IM510",
+   "lecturers": [
+    "Kromer, Eduard"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4263-Thu-2",
+   "lv_id": "4263",
+   "fach_id": "1820",
+   "course": "Advanced Machine Learning",
+   "short": "IM510",
+   "lecturers": [
+    "Kromer, Eduard"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4265-Tue-0",
+   "lv_id": "4265",
+   "fach_id": "1835",
+   "course": "Computer Vision",
+   "short": "IM520",
+   "lecturers": [
+    "Wanner-Seidl, Veronika"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4265-Tue-2",
+   "lv_id": "4265",
+   "fach_id": "1835",
+   "course": "Computer Vision",
+   "short": "IM520",
+   "lecturers": [
+    "Wanner-Seidl, Veronika"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4266-Wed-0",
+   "lv_id": "4266",
+   "fach_id": "1839",
+   "course": "Kryptographie",
+   "short": "IM730",
+   "lecturers": [
+    "Griebl, Ludwig"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4266-Wed-2",
+   "lv_id": "4266",
+   "fach_id": "1839",
+   "course": "Kryptographie",
+   "short": "IM730",
+   "lecturers": [
+    "Ziegler, Konstantin"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4267-Wed-4",
+   "lv_id": "4267",
+   "fach_id": "1841",
+   "course": "Autonomes Fahren",
+   "short": "IM470",
+   "lecturers": [
+    "Pellkofer, Martin"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4267-Wed-6",
+   "lv_id": "4267",
+   "fach_id": "1841",
+   "course": "Autonomes Fahren",
+   "short": "IM470",
+   "lecturers": [
+    "Pellkofer, Martin"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4268-Mon-4",
+   "lv_id": "4268",
+   "fach_id": "1845",
+   "course": "Computational Geometry",
+   "short": "IM720",
+   "lecturers": [
+    "Sagraloff, Michael"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4268-Tue-4",
+   "lv_id": "4268",
+   "fach_id": "1845",
+   "course": "Computational Geometry",
+   "short": "IM720",
+   "lecturers": [
+    "Sagraloff, Michael"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4269-Tue-0",
+   "lv_id": "4269",
+   "fach_id": "1847",
+   "course": "Semantic Web",
+   "short": "IM480",
+   "lecturers": [
+    "Busse, Johannes"
+   ],
+   "groups": [
+    "63",
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4269-Tue-2",
+   "lv_id": "4269",
+   "fach_id": "1847",
+   "course": "Semantic Web",
+   "short": "IM480",
+   "lecturers": [
+    "Busse, Johannes"
+   ],
+   "groups": [
+    "63",
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4270-Mon-0",
+   "lv_id": "4270",
+   "fach_id": "1848",
+   "course": "Deep Reinforcement Learning",
+   "short": "IM530",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4270-Mon-2",
+   "lv_id": "4270",
+   "fach_id": "1848",
+   "course": "Deep Reinforcement Learning",
+   "short": "IM530",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4271-Wed-4",
+   "lv_id": "4271",
+   "fach_id": "1078",
+   "course": "Konzepte des Systems Engineering",
+   "short": "Konzepte d. SE",
+   "lecturers": [
+    "Schröter, Sebastian"
+   ],
+   "groups": [
+    "66"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4272-Tue-0",
+   "lv_id": "4272",
+   "fach_id": "1079",
+   "course": "Projektmanagement",
+   "short": "Projektmanagement",
+   "lecturers": [
+    "Dorfner, Matthias"
+   ],
+   "groups": [
+    "66"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4272-Tue-2",
+   "lv_id": "4272",
+   "fach_id": "1079",
+   "course": "Projektmanagement",
+   "short": "Projektmanagement",
+   "lecturers": [
+    "Dorfner, Matthias"
+   ],
+   "groups": [
+    "66"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4273-Mon-8",
+   "lv_id": "4273",
+   "fach_id": "1080",
+   "course": "Konzepte des Modellbasierten Systems Engineering",
+   "short": "Konzepte d. Modellbas. SE",
+   "lecturers": [
+    "Diekhoff, Sebastian"
+   ],
+   "groups": [
+    "66"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Mon",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4273-Tue-8",
+   "lv_id": "4273",
+   "fach_id": "1080",
+   "course": "Konzepte des Modellbasierten Systems Engineering",
+   "short": "Konzepte d. Modellbas. SE",
+   "lecturers": [
+    "Diekhoff, Sebastian"
+   ],
+   "groups": [
+    "66"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4274-Mon-0",
+   "lv_id": "4274",
+   "fach_id": "1081",
+   "course": "Integriertes Qualitäts- und Umweltmanagement",
+   "short": "Integr. Quali.- und Umweltmgmt.",
+   "lecturers": [
+    "Eder, Klaus"
+   ],
+   "groups": [
+    "66"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4275-Wed-0",
+   "lv_id": "4275",
+   "fach_id": "1082",
+   "course": "Arbeitsmethodik und Führungskompetenz",
+   "short": "AMFK",
+   "lecturers": [
+    "Dalnodar, Corinna",
+    "Wundsam-Gollwitzer, Kerstin"
+   ],
+   "groups": [
+    "66"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 13,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4279-Wed-1",
+   "lv_id": "4279",
+   "fach_id": "1140",
+   "course": "Masterarbeit inkl. Master-Seminar",
+   "short": "Masterseminar",
+   "lecturers": [
+    "Dorfner, Matthias"
+   ],
+   "groups": [
+    "68"
+   ],
+   "length": 3,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 1
+   }
+  },
+  {
+   "id": "4280-Thu-4",
+   "lv_id": "4280",
+   "fach_id": "1830",
+   "course": "Methodik Angewandter Wissenschaften",
+   "short": "IM100",
+   "lecturers": [
+    "Busse, Johannes"
+   ],
+   "groups": [
+    "63",
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4280-Thu-6",
+   "lv_id": "4280",
+   "fach_id": "1830",
+   "course": "Methodik Angewandter Wissenschaften",
+   "short": "IM100",
+   "lecturers": [
+    "Busse, Johannes"
+   ],
+   "groups": [
+    "63",
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4281-Mon-2",
+   "lv_id": "4281",
+   "fach_id": "1843",
+   "course": "Operational Security",
+   "short": "IM410",
+   "lecturers": [
+    "Uhrmann, Johann"
+   ],
+   "groups": [
+    "63",
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4281-Tue-0",
+   "lv_id": "4281",
+   "fach_id": "1843",
+   "course": "Operational Security",
+   "short": "IM410",
+   "lecturers": [
+    "Uhrmann, Johann"
+   ],
+   "groups": [
+    "63",
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4282-Mon-0",
+   "lv_id": "4282",
+   "fach_id": "1090",
+   "course": "Management Support Systeme",
+   "short": "WM120",
+   "lecturers": [
+    "Auer, Christopher"
+   ],
+   "groups": [
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4282-Tue-8",
+   "lv_id": "4282",
+   "fach_id": "1090",
+   "course": "Management Support Systeme",
+   "short": "WM120",
+   "lecturers": [
+    "Wunderlich, Jürgen"
+   ],
+   "groups": [
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4284-Wed-6",
+   "lv_id": "4284",
+   "fach_id": "1092",
+   "course": "Dienstleistungsmanagement und Wertschöpfungsnetze",
+   "short": "WM160",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4284-Wed-8",
+   "lv_id": "4284",
+   "fach_id": "1092",
+   "course": "Dienstleistungsmanagement und Wertschöpfungsnetze",
+   "short": "WM160",
+   "lecturers": [
+    "Jakob, Markus"
+   ],
+   "groups": [
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4285-Tue-4",
+   "lv_id": "4285",
+   "fach_id": "1093",
+   "course": "E-Government",
+   "short": "WM170",
+   "lecturers": [
+    "Höllerer, Reinhard"
+   ],
+   "groups": [
+    "69"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4286-Fri-0",
+   "lv_id": "4286",
+   "fach_id": "1094",
+   "course": "IT-Consulting",
+   "short": "WM180",
+   "lecturers": [
+    "Varma, Devendra"
+   ],
+   "groups": [
+    "69"
+   ],
+   "length": 10,
+   "rhythm": "0",
+   "occurrences": 5,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4287-Tue-2",
+   "lv_id": "4287",
+   "fach_id": "1838",
+   "course": "Digital Entrepreneurship",
+   "short": "BW210",
+   "lecturers": [
+    "Schuller, Dagmar"
+   ],
+   "groups": [
+    "63",
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4287-Wed-2",
+   "lv_id": "4287",
+   "fach_id": "1838",
+   "course": "Digital Entrepreneurship",
+   "short": "BW210",
+   "lecturers": [
+    "Schuller, Dagmar"
+   ],
+   "groups": [
+    "63",
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4288-Mon-4",
+   "lv_id": "4288",
+   "fach_id": "1831",
+   "course": "Prozess-Simulation",
+   "short": "WM140",
+   "lecturers": [
+    "Wunderlich, Jürgen"
+   ],
+   "groups": [
+    "63",
+    "66",
+    "69"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4289-Wed-4",
+   "lv_id": "4289",
+   "fach_id": "1131",
+   "course": "Softwarequalität",
+   "short": "WM250",
+   "lecturers": [
+    "Scholz, Peter"
+   ],
+   "groups": [
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4289-Wed-6",
+   "lv_id": "4289",
+   "fach_id": "1131",
+   "course": "Softwarequalität",
+   "short": "WM250",
+   "lecturers": [
+    "Scholz, Peter"
+   ],
+   "groups": [
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4290-Mon-0",
+   "lv_id": "4290",
+   "fach_id": "822",
+   "course": "Mathematik II",
+   "short": "Mathe II",
+   "lecturers": [
+    "Sagraloff, Michael"
+   ],
+   "groups": [
+    "160",
+    "163",
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4290-Thu-4",
+   "lv_id": "4290",
+   "fach_id": "822",
+   "course": "Mathematik II",
+   "short": "Mathe II",
+   "lecturers": [
+    "Sagraloff, Michael"
+   ],
+   "groups": [
+    "160",
+    "163",
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4291-Wed-0",
+   "lv_id": "4291",
+   "fach_id": "836",
+   "course": "Software Engineering I",
+   "short": "SWE I",
+   "lecturers": [
+    "Schröter, Sebastian"
+   ],
+   "groups": [
+    "160",
+    "164",
+    "167",
+    "169",
+    "45"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4292-Mon-0",
+   "lv_id": "4292",
+   "fach_id": "880",
+   "course": "Algorithmen und Datenstrukturen",
+   "short": "Algorithmen u. Datenstrukturen",
+   "lecturers": [
+    "Siebert, Andreas"
+   ],
+   "groups": [
+    "161",
+    "164",
+    "167",
+    "92"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4293-Tue-1",
+   "lv_id": "4293",
+   "fach_id": "912",
+   "course": "Statistik",
+   "short": "Statistik",
+   "lecturers": [
+    "Ziegler, Konstantin"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 3,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 1
+   }
+  },
+  {
+   "id": "4438-Mon-6",
+   "lv_id": "4438",
+   "fach_id": "801",
+   "course": "Grundlagen Marketing und Vertrieb",
+   "short": "MKM_M&V",
+   "lecturers": [
+    "Kolbeck, Maike"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4438-Thu-6",
+   "lv_id": "4438",
+   "fach_id": "801",
+   "course": "Grundlagen Marketing und Vertrieb",
+   "short": "MKM_M&V",
+   "lecturers": [
+    "Kolbeck, Maike"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4445-Mon-6",
+   "lv_id": "4445",
+   "fach_id": "2658",
+   "course": "FWPF",
+   "short": "WPN_FWPF",
+   "lecturers": [
+    "Strunz, Manuel"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4447-Wed-0",
+   "lv_id": "4447",
+   "fach_id": "1404",
+   "course": "Geschäftsmodell- und Strategieentwicklung",
+   "short": "MKM_GmuStrE",
+   "lecturers": [
+    "Michaeli, Philipp"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4447-Wed-6",
+   "lv_id": "4447",
+   "fach_id": "1404",
+   "course": "Geschäftsmodell- und Strategieentwicklung",
+   "short": "MKM_GmuStrE",
+   "lecturers": [
+    "Michaeli, Philipp"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4448-Thu-6",
+   "lv_id": "4448",
+   "fach_id": "1403",
+   "course": "Grundlagen Controlling",
+   "short": "MKM_Co",
+   "lecturers": [
+    "Dieses, Patrick"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4450-Mon-2",
+   "lv_id": "4450",
+   "fach_id": "1405",
+   "course": "Innovations- und Projektmanagement",
+   "short": "MKM",
+   "lecturers": [
+    "Lipp, Wolfram"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 3,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4465-Mon-0",
+   "lv_id": "4465",
+   "fach_id": "33",
+   "course": "Wirtschaftsinformatik I",
+   "short": "BW_KM WIF I",
+   "lecturers": [
+    "Greipl, Dieter"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4465-Wed-4",
+   "lv_id": "4465",
+   "fach_id": "33",
+   "course": "Wirtschaftsinformatik I",
+   "short": "BW_KM WIF I",
+   "lecturers": [
+    "Greipl, Dieter"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 9,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4469-Mon-2",
+   "lv_id": "4469",
+   "fach_id": "46",
+   "course": "European Law",
+   "short": "IB_EuLaw",
+   "lecturers": [
+    "Strunz, Manuel"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 3,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4493-Thu-6",
+   "lv_id": "4493",
+   "fach_id": "398",
+   "course": "Finanzen, Investition",
+   "short": "Finanzen, Investition",
+   "lecturers": [
+    "Fischer, Marcus"
+   ],
+   "groups": [
+    "92"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4494-Wed-6",
+   "lv_id": "4494",
+   "fach_id": "2658",
+   "course": "FWPF",
+   "short": "WPN_FWPF",
+   "lecturers": [
+    "Gronover, Sandra",
+    "Krieger, Tina"
+   ],
+   "groups": [
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4629-Thu-0",
+   "lv_id": "4629",
+   "fach_id": "2667",
+   "course": "Inverse Problems",
+   "short": "IM740",
+   "lecturers": [
+    "Jörg, Hannah"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4629-Thu-2",
+   "lv_id": "4629",
+   "fach_id": "2667",
+   "course": "Inverse Problems",
+   "short": "IM740",
+   "lecturers": [
+    "Ziegler, Konstantin"
+   ],
+   "groups": [
+    "63"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4749-Tue-4",
+   "lv_id": "4749",
+   "fach_id": "2668",
+   "course": "Prakt. Algorithmen und Datenstruktur",
+   "short": "Prakt. AuD",
+   "lecturers": [
+    "Siebert, Andreas"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4750-Thu-0",
+   "lv_id": "4750",
+   "fach_id": "2669",
+   "course": "Prakt. Grundlagen theoretischer Informatik",
+   "short": "Prakt. GTI",
+   "lecturers": [
+    "Auer, Christopher"
+   ],
+   "groups": [
+    "160"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4751-Thu-0",
+   "lv_id": "4751",
+   "fach_id": "2670",
+   "course": "Prakt. Mathematik II",
+   "short": "Prakt. Mathe II",
+   "lecturers": [
+    "Thoen, Haavard"
+   ],
+   "groups": [
+    "160",
+    "163",
+    "45"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4751-Tue-0",
+   "lv_id": "4751",
+   "fach_id": "2670",
+   "course": "Prakt. Mathematik II",
+   "short": "Prakt. Mathe II",
+   "lecturers": [
+    "Siebert, Andreas"
+   ],
+   "groups": [
+    "160"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4752-Thu-6",
+   "lv_id": "4752",
+   "fach_id": "2671",
+   "course": "Übung SWE I",
+   "short": "Übung SWE I",
+   "lecturers": [
+    "Schröter, Sebastian"
+   ],
+   "groups": [
+    "160",
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4752-Tue-8",
+   "lv_id": "4752",
+   "fach_id": "2671",
+   "course": "Übung SWE I",
+   "short": "Übung SWE I",
+   "lecturers": [
+    "Blechinger, Markus"
+   ],
+   "groups": [
+    "160",
+    "164"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 8
+   }
+  },
+  {
+   "id": "4753-Thu-4",
+   "lv_id": "4753",
+   "fach_id": "2672",
+   "course": "Prakt. Internettechnologien",
+   "short": "Prakt. Internettechn.",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "162"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4753-Wed-4",
+   "lv_id": "4753",
+   "fach_id": "2672",
+   "course": "Prakt. Internettechnologien",
+   "short": "Prakt. Internettechn.",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "162"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4754-Tue-0",
+   "lv_id": "4754",
+   "fach_id": "2673",
+   "course": "Internet of Things",
+   "short": "Prakt. IoT",
+   "lecturers": [
+    "Khelil, Abdelmajid"
+   ],
+   "groups": [
+    "161",
+    "162"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4754-Tue-4",
+   "lv_id": "4754",
+   "fach_id": "2673",
+   "course": "Internet of Things",
+   "short": "Prakt. IoT",
+   "lecturers": [
+    "Khelil, Abdelmajid"
+   ],
+   "groups": [
+    "161",
+    "162"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4755-Wed-0",
+   "lv_id": "4755",
+   "fach_id": "2674",
+   "course": "Prakt. Statistik",
+   "short": "Prakt. Statistik",
+   "lecturers": [
+    "Hartmann, Peter"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4755-Wed-2",
+   "lv_id": "4755",
+   "fach_id": "2674",
+   "course": "Prakt. Statistik",
+   "short": "Prakt. Statistik",
+   "lecturers": [
+    "Hartmann, Peter"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4755-Wed-4",
+   "lv_id": "4755",
+   "fach_id": "2674",
+   "course": "Prakt. Statistik",
+   "short": "Prakt. Statistik",
+   "lecturers": [
+    "Hartmann, Peter"
+   ],
+   "groups": [
+    "161"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4789-Mon-0",
+   "lv_id": "4789",
+   "fach_id": "1060",
+   "course": "Ingenieurmathematik II",
+   "short": "Ingenieurmathe II",
+   "lecturers": [
+    "Gruber, Michaela"
+   ],
+   "groups": [
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4789-Tue-2",
+   "lv_id": "4789",
+   "fach_id": "1060",
+   "course": "Ingenieurmathematik II",
+   "short": "Ingenieurmathe II",
+   "lecturers": [
+    "Gruber, Michaela"
+   ],
+   "groups": [
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4790-Mon-6",
+   "lv_id": "4790",
+   "fach_id": "1261",
+   "course": "Ingenieurmathematik II",
+   "short": "Ing.mathe II Üb.",
+   "lecturers": [
+    "Kreis, Raimund"
+   ],
+   "groups": [
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4814-Mon-0",
+   "lv_id": "4814",
+   "fach_id": "2926",
+   "course": "Biomedizinische Projektarbeit",
+   "short": "Biomed. PA",
+   "lecturers": [
+    "Kromer, Eduard",
+    "Remmele, Stefanie"
+   ],
+   "groups": [
+    "165"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4834-Fri-0",
+   "lv_id": "4834",
+   "fach_id": "1071",
+   "course": "Elektronik und Messtechnik",
+   "short": "Elektronik u. Messtechnik",
+   "lecturers": [
+    "Giersch, Jürgen"
+   ],
+   "groups": [
+    "166"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4835-Wed-0",
+   "lv_id": "4835",
+   "fach_id": "1386",
+   "course": "LN Elektronik und Messtechnik",
+   "short": "Elektr./Messt. Prakt.",
+   "lecturers": [
+    "Roderer, Götz"
+   ],
+   "groups": [
+    "166"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4836-Fri-4",
+   "lv_id": "4836",
+   "fach_id": "1072",
+   "course": "Angewandte Physik",
+   "short": "Angew. Physik",
+   "lecturers": [
+    "Giersch, Jürgen"
+   ],
+   "groups": [
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4836-Wed-6",
+   "lv_id": "4836",
+   "fach_id": "1072",
+   "course": "Angewandte Physik",
+   "short": "Angew. Physik",
+   "lecturers": [
+    "Giersch, Jürgen"
+   ],
+   "groups": [
+    "166"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4893-Tue-6",
+   "lv_id": "4893",
+   "fach_id": "1321",
+   "course": "Grundlagen der Automobiltechnik",
+   "short": "Grundl. Automobiltechnik",
+   "lecturers": [
+    "Strohe, Manfred"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4893-Wed-4",
+   "lv_id": "4893",
+   "fach_id": "1321",
+   "course": "Grundlagen der Automobiltechnik",
+   "short": "Grundl. Automobiltechnik",
+   "lecturers": [
+    "Strohe, Manfred"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4894-Tue-4",
+   "lv_id": "4894",
+   "fach_id": "1394",
+   "course": "Grundlagen der Automobiltechnik",
+   "short": "AT-Grundl. Prakt.",
+   "lecturers": [
+    "Strohe, Manfred"
+   ],
+   "groups": [
+    "167"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4911-Mon-0",
+   "lv_id": "4911",
+   "fach_id": "1073",
+   "course": "Fahrwerktechnik",
+   "short": "Fahrwerktechnik",
+   "lecturers": [
+    "Koletzko, Christian"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4911-Mon-2",
+   "lv_id": "4911",
+   "fach_id": "1073",
+   "course": "Fahrwerktechnik",
+   "short": "Fahrwerktechnik",
+   "lecturers": [
+    "Koletzko, Christian"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4912-Wed-2",
+   "lv_id": "4912",
+   "fach_id": "1074",
+   "course": "Antriebskonzepte",
+   "short": "Antriebskonzepte",
+   "lecturers": [
+    "Wagensoner, Matthias"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4912-Wed-4",
+   "lv_id": "4912",
+   "fach_id": "1074",
+   "course": "Antriebskonzepte",
+   "short": "Antriebskonzepte",
+   "lecturers": [
+    "Strohe, Manfred"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 9,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4915-Mon-4",
+   "lv_id": "4915",
+   "fach_id": "2590",
+   "course": "Automobiltechnik I: Fahrwerk",
+   "short": "AT1: Fahrwerk Prakt",
+   "lecturers": [
+    "Koletzko, Christian"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Mon",
+    "slot": 4
+   }
+  },
+  {
+   "id": "4916-Wed-0",
+   "lv_id": "4916",
+   "fach_id": "1397",
+   "course": "Automobiltechnik II: Antriebskonzepte",
+   "short": "AT2: Antrieb Prakt",
+   "lecturers": [
+    "Wagensoner, Matthias"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 9,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4990-Thu-0",
+   "lv_id": "4990",
+   "fach_id": "2836",
+   "course": "Prakt. Praxisgrundlagen der Informatik",
+   "short": "Prakt. PGI",
+   "lecturers": [
+    "Uhrmann, Johann"
+   ],
+   "groups": [
+    "162",
+    "168",
+    "171",
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "slot": 0
+   }
+  },
+  {
+   "id": "4991-Thu-2",
+   "lv_id": "4991",
+   "fach_id": "947",
+   "course": "Datenkommunikation",
+   "short": "IB420",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "161",
+    "162"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 2
+   }
+  },
+  {
+   "id": "4992-Mon-6",
+   "lv_id": "4992",
+   "fach_id": "978",
+   "course": "Praktikum Datenkommunikation",
+   "short": "Prakt. IB420",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "161",
+    "162"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 6
+   }
+  },
+  {
+   "id": "4992-Wed-4",
+   "lv_id": "4992",
+   "fach_id": "978",
+   "course": "Praktikum Datenkommunikation",
+   "short": "Prakt. IB420",
+   "lecturers": [
+    "Weber, Yannick"
+   ],
+   "groups": [
+    "161",
+    "162"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 9,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "5087-Thu-6",
+   "lv_id": "5087",
+   "fach_id": "2953",
+   "course": "Hightech meets Business: AI & Robotics",
+   "short": "HMB:AI&R",
+   "lecturers": [
+    "Kromer, Eduard"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "171",
+    "49"
+   ],
+   "length": 1,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 6
+   }
+  },
+  {
+   "id": "5087-Thu-7",
+   "lv_id": "5087",
+   "fach_id": "2953",
+   "course": "Hightech meets Business: AI & Robotics",
+   "short": "HMB:AI&R",
+   "lecturers": [
+    "Osendorfer, Christian"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "171",
+    "49"
+   ],
+   "length": 1,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 7
+   }
+  },
+  {
+   "id": "5180-Wed-0",
+   "lv_id": "5180",
+   "fach_id": "2950",
+   "course": "Einführung in die digitale Forensik und Mobile Forensics",
+   "short": "IB766",
+   "lecturers": [
+    "Scholz, Peter"
+   ],
+   "groups": [
+    "162",
+    "165"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 0
+   }
+  },
+  {
+   "id": "5180-Wed-8",
+   "lv_id": "5180",
+   "fach_id": "2950",
+   "course": "Einführung in die digitale Forensik und Mobile Forensics",
+   "short": "IB766",
+   "lecturers": [
+    "Scholz, Peter"
+   ],
+   "groups": [
+    "162",
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "slot": 8
+   }
+  },
+  {
+   "id": "5181-Tue-8",
+   "lv_id": "5181",
+   "fach_id": "1110",
+   "course": "Internet of Things",
+   "short": "IB764",
+   "lecturers": [
+    "Khelil, Abdelmajid"
+   ],
+   "groups": [
+    "161",
+    "162",
+    "165",
+    "168",
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "slot": 8
+   }
+  },
+  {
+   "id": "5182-Fri-0",
+   "lv_id": "5182",
+   "fach_id": "2140",
+   "course": "Innovationslabor loT Projekt",
+   "short": "IB765",
+   "lecturers": [
+    "Khelil, Abdelmajid"
+   ],
+   "groups": [
+    "161",
+    "165",
+    "49"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "5183-Thu-4",
+   "lv_id": "5183",
+   "fach_id": "1109",
+   "course": "Bias Mitigation",
+   "short": "Bias Mitigation",
+   "lecturers": [
+    "Schuller, Dagmar"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "5183-Thu-6",
+   "lv_id": "5183",
+   "fach_id": "1109",
+   "course": "Bias Mitigation",
+   "short": "Bias Mitigation",
+   "lecturers": [
+    "Schuller, Dagmar"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "171",
+    "49"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 6
+   }
+  },
+  {
+   "id": "5184-Mon-6",
+   "lv_id": "5184",
+   "fach_id": "2954",
+   "course": "Einführung in die Programmiersprache Rust",
+   "short": "Rust",
+   "lecturers": [
+    "Nazareth, Dieter"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 6
+   }
+  },
+  {
+   "id": "5184-Tue-4",
+   "lv_id": "5184",
+   "fach_id": "2954",
+   "course": "Einführung in die Programmiersprache Rust",
+   "short": "Rust",
+   "lecturers": [
+    "Nazareth, Dieter"
+   ],
+   "groups": [
+    "162",
+    "165",
+    "168"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  },
+  {
+   "id": "5185-Thu-2",
+   "lv_id": "5185",
+   "fach_id": "2956",
+   "course": "Machine Learning in the Cloud",
+   "short": "ML Cloud",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "165"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 2
+   }
+  },
+  {
+   "id": "5185-Wed-4",
+   "lv_id": "5185",
+   "fach_id": "2956",
+   "course": "Machine Learning in the Cloud",
+   "short": "ML Cloud",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "165"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "slot": 4
+   }
+  },
+  {
+   "id": "5201-Fri-0",
+   "lv_id": "5201",
+   "fach_id": "1209",
+   "course": "Fahrzeuginformatik",
+   "short": "AP604 FI",
+   "lecturers": [
+    "Kinalzyk, Dietmar"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 5,
+   "published": {
+    "day": "Fri",
+    "slot": 0
+   }
+  },
+  {
+   "id": "5202-Thu-4",
+   "lv_id": "5202",
+   "fach_id": "2969",
+   "course": "ESKS - Einführung in das Systems Engineering",
+   "short": "ESKS - Einführung in Sys. Eng.",
+   "lecturers": [
+    "Schröter, Sebastian"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "slot": 4
+   }
+  },
+  {
+   "id": "5204-Fri-4",
+   "lv_id": "5204",
+   "fach_id": "2970",
+   "course": "ESKS - Funktionale Sicherheit",
+   "short": "ESKS - Prakt. Funkt. Sicherheit",
+   "lecturers": [
+    "Kinalzyk, Dietmar"
+   ],
+   "groups": [
+    "168"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Fri",
+    "slot": 4
+   }
+  },
+  {
+   "id": "5228-Mon-0",
+   "lv_id": "5228",
+   "fach_id": "1971",
+   "course": "Compiler",
+   "short": "IB610",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "162"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "slot": 0
+   }
+  },
+  {
+   "id": "5229-Tue-4",
+   "lv_id": "5229",
+   "fach_id": "1972",
+   "course": "Praktikum Compiler",
+   "short": "IB610 Prakt.",
+   "lecturers": [
+    "Mock, Markus"
+   ],
+   "groups": [
+    "162"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Tue",
+    "slot": 4
+   }
+  }
+ ],
+ "summary": {
+  "professors": [
+   "Auer, Christopher",
+   "Blechinger, Markus",
+   "Busse, Johannes",
+   "Böhm, Markus",
+   "Dalnodar, Corinna",
+   "Diekhoff, Sebastian",
+   "Dieses, Patrick",
+   "Dorfner, Matthias",
+   "Eder, Klaus",
+   "Fischer, Marcus",
+   "Franzke, Thomas",
+   "Gerlit, Robert",
+   "Giersch, Jürgen",
+   "Greipl, Dieter",
+   "Griebl, Ludwig",
+   "Gronover, Sandra",
+   "Gruber, Michaela",
+   "Hanel, Thomas",
+   "Hartmann, Peter",
+   "Höllerer, Reinhard",
+   "Jakob, Markus",
+   "Jochum, Bernadette",
+   "Jörg, Hannah",
+   "Khelil, Abdelmajid",
+   "Kinalzyk, Dietmar",
+   "Kolbeck, Maike",
+   "Koletzko, Christian",
+   "Kreis, Raimund",
+   "Krieger, Tina",
+   "Kromer, Eduard",
+   "Lachner, Michael",
+   "Lipp, Wolfram",
+   "Matzeder, Marco",
+   "Michaeli, Philipp",
+   "Mock, Markus",
+   "Nazareth, Dieter",
+   "Osendorfer, Christian",
+   "Pellkofer, Martin",
+   "Remmele, Stefanie",
+   "Roderer, Götz",
+   "Sagraloff, Michael",
+   "Schmidtner, Markus",
+   "Scholz, Peter",
+   "Schröter, Sebastian",
+   "Schuller, Dagmar",
+   "Siebert, Andreas",
+   "Strohe, Manfred",
+   "Strunz, Manuel",
+   "Thoen, Haavard",
+   "Tomashevich, Victor",
+   "Trautmann, Philip",
+   "Uhrmann, Johann",
+   "Varma, Devendra",
+   "Wagensoner, Matthias",
+   "Wallis, Alexander",
+   "Wanner-Seidl, Veronika",
+   "Weber, Yannick",
+   "Weisensee, Michael",
+   "Wunderlich, Jürgen",
+   "Wundsam-Gollwitzer, Kerstin",
+   "Ziegler, Konstantin"
+  ],
+  "courses": [
+   "Advanced Machine Learning",
+   "Algorithmen und Datenstrukturen",
+   "Angewandte Physik",
+   "Antriebskonzepte",
+   "Arbeitsmethodik und Führungskompetenz",
+   "Automobiltechnik I: Fahrwerk",
+   "Automobiltechnik II: Antriebskonzepte",
+   "Autonome Fahrzeuge",
+   "Autonomes Fahren",
+   "Betriebssysteme",
+   "Bias Mitigation",
+   "Big Data Algorithms and Systems",
+   "Biomedizinische Projektarbeit",
+   "Compiler",
+   "Computational Geometry",
+   "Computer Systems",
+   "Computer Vision",
+   "Data Science II",
+   "Datenkommunikation",
+   "Deep Reinforcement Learning",
+   "Dienstleistungsmanagement und Wertschöpfungsnetze",
+   "Digital Entrepreneurship",
+   "E-Government",
+   "ESKS - Einführung in das Systems Engineering",
+   "ESKS - Funktionale Sicherheit",
+   "Echtzeitbetriebssysteme",
+   "Effizienz im öffentlichen Sektor",
+   "Einführung in die Programmiersprache Rust",
+   "Einführung in die digitale Forensik und Mobile Forensics",
+   "Elektronik und Messtechnik",
+   "European Law",
+   "FWPF",
+   "Fahrwerktechnik",
+   "Fahrzeuginformatik",
+   "Finanzen, Investition",
+   "Foundations of Scientific Work in Business Informatics",
+   "Foundations of Scientific Work in Smart Administration",
+   "Geschäftsmodell- und Strategieentwicklung",
+   "Grundlagen Controlling",
+   "Grundlagen Marketing und Vertrieb",
+   "Grundlagen Produktion, Logistik und Dienstleistungen",
+   "Grundlagen der Automobiltechnik",
+   "Grundlagen der theoretischen Informatik",
+   "Hightech meets Business: AI & Robotics",
+   "IT-Business Case",
+   "IT-Consulting",
+   "IT-Infrastrukturen",
+   "IT-Management",
+   "Informations- und Metamodellierung",
+   "Ingenieurmathematik II",
+   "Innovations- und Projektmanagement",
+   "Innovationslabor loT Projekt",
+   "Integriertes Qualitäts- und Umweltmanagement",
+   "Internet of Things",
+   "Internettechnologien",
+   "Inverse Problems",
+   "Konzepte des Modellbasierten Systems Engineering",
+   "Konzepte des Systems Engineering",
+   "Kosten- und Leistungsrechnung",
+   "Kryptographie",
+   "Künstliche Intelligenz II",
+   "LN Elektronik und Messtechnik",
+   "Machine Learning II",
+   "Machine Learning III",
+   "Machine Learning in the Cloud",
+   "Management Support Systeme",
+   "Management von Veränderungsprojekten und -prozessen",
+   "Masterarbeit inkl. Master-Seminar",
+   "Mathematik II",
+   "Methodik Angewandter Wissenschaften",
+   "Modellbasierte Entwicklung II",
+   "Natural Language Processing",
+   "Open Government and Open Data",
+   "Operational Security",
+   "Operations Research",
+   "Prakt. Algorithmen und Datenstruktur",
+   "Prakt. Grundlagen theoretischer Informatik",
+   "Prakt. Internettechnologien",
+   "Prakt. Mathematik II",
+   "Prakt. Praxisgrundlagen der Informatik",
+   "Prakt. Statistik",
+   "Praktikum Betriebssysteme",
+   "Praktikum Compiler",
+   "Praktikum Datenkommunikation",
+   "Praktikum Echtzeitbetriebssysteme",
+   "Praktikum Modellbasierte Entwicklung II",
+   "Praktikum Praxisgrundlagen der Informatik",
+   "Praktikum Programmieren II",
+   "Praktikum Rechnerarchitektur",
+   "Praktikum Softwarearchitekturen",
+   "Praxisgrundlagen der Informatik",
+   "Process Mining",
+   "Produktions- und Servicelogistik",
+   "Programmieren II",
+   "Projektmanagement",
+   "Prozess-Simulation",
+   "Präsentation und Kommunikation",
+   "Quantencomputing",
+   "Rechnerarchitektur",
+   "Semantic Web",
+   "Smart Cities",
+   "Smart Grids",
+   "Software Engineering",
+   "Software Engineering I",
+   "Softwarearchitekturen",
+   "Softwarequalität",
+   "Standard-IT-Anwendungen in der Verwaltung",
+   "Statistik",
+   "Verteilte Systeme",
+   "Verwaltungsrecht",
+   "Visual Analytics",
+   "Wirtschaftsinformatik I",
+   "Übung SWE I"
+  ],
+  "course_hours_per_week": {
+   "Advanced Machine Learning": 3.0,
+   "Algorithmen und Datenstrukturen": 6.0,
+   "Angewandte Physik": 4.5,
+   "Antriebskonzepte": 2.25,
+   "Arbeitsmethodik und Führungskompetenz": 3.0,
+   "Automobiltechnik I: Fahrwerk": 0.75,
+   "Automobiltechnik II: Antriebskonzepte": 0.75,
+   "Autonome Fahrzeuge": 4.5,
+   "Autonomes Fahren": 3.0,
+   "Betriebssysteme": 1.5,
+   "Bias Mitigation": 3.0,
+   "Big Data Algorithms and Systems": 3.0,
+   "Biomedizinische Projektarbeit": 1.5,
+   "Compiler": 1.5,
+   "Computational Geometry": 3.0,
+   "Computer Systems": 3.0,
+   "Computer Vision": 3.0,
+   "Data Science II": 3.0,
+   "Datenkommunikation": 1.5,
+   "Deep Reinforcement Learning": 3.0,
+   "Dienstleistungsmanagement und Wertschöpfungsnetze": 3.0,
+   "Digital Entrepreneurship": 3.0,
+   "E-Government": 3.0,
+   "ESKS - Einführung in das Systems Engineering": 1.5,
+   "ESKS - Funktionale Sicherheit": 3.0,
+   "Echtzeitbetriebssysteme": 1.5,
+   "Effizienz im öffentlichen Sektor": 1.5,
+   "Einführung in die Programmiersprache Rust": 3.0,
+   "Einführung in die digitale Forensik und Mobile Forensics": 3.0,
+   "Elektronik und Messtechnik": 3.0,
+   "European Law": 2.25,
+   "FWPF": 6.0,
+   "Fahrwerktechnik": 2.25,
+   "Fahrzeuginformatik": 3.0,
+   "Finanzen, Investition": 3.0,
+   "Foundations of Scientific Work in Business Informatics": 3.0,
+   "Foundations of Scientific Work in Smart Administration": 1.5,
+   "Geschäftsmodell- und Strategieentwicklung": 6.0,
+   "Grundlagen Controlling": 3.0,
+   "Grundlagen Marketing und Vertrieb": 3.0,
+   "Grundlagen Produktion, Logistik und Dienstleistungen": 5.25,
+   "Grundlagen der Automobiltechnik": 3.0,
+   "Grundlagen der theoretischen Informatik": 3.0,
+   "Hightech meets Business: AI & Robotics": 1.5,
+   "IT-Business Case": 1.5,
+   "IT-Consulting": 7.5,
+   "IT-Infrastrukturen": 3.0,
+   "IT-Management": 3.0,
+   "Informations- und Metamodellierung": 3.0,
+   "Ingenieurmathematik II": 4.5,
+   "Innovations- und Projektmanagement": 2.25,
+   "Innovationslabor loT Projekt": 3.0,
+   "Integriertes Qualitäts- und Umweltmanagement": 3.0,
+   "Internet of Things": 4.5,
+   "Internettechnologien": 1.5,
+   "Inverse Problems": 3.0,
+   "Konzepte des Modellbasierten Systems Engineering": 3.0,
+   "Konzepte des Systems Engineering": 3.0,
+   "Kosten- und Leistungsrechnung": 1.5,
+   "Kryptographie": 3.0,
+   "Künstliche Intelligenz II": 3.0,
+   "LN Elektronik und Messtechnik": 1.5,
+   "Machine Learning II": 4.5,
+   "Machine Learning III": 3.0,
+   "Machine Learning in the Cloud": 3.0,
+   "Management Support Systeme": 3.0,
+   "Management von Veränderungsprojekten und -prozessen": 3.0,
+   "Masterarbeit inkl. Master-Seminar": 2.25,
+   "Mathematik II": 6.0,
+   "Methodik Angewandter Wissenschaften": 3.0,
+   "Modellbasierte Entwicklung II": 1.5,
+   "Natural Language Processing": 4.5,
+   "Open Government and Open Data": 3.0,
+   "Operational Security": 3.0,
+   "Operations Research": 3.0,
+   "Prakt. Algorithmen und Datenstruktur": 1.5,
+   "Prakt. Grundlagen theoretischer Informatik": 1.5,
+   "Prakt. Internettechnologien": 3.0,
+   "Prakt. Mathematik II": 3.0,
+   "Prakt. Praxisgrundlagen der Informatik": 1.5,
+   "Prakt. Statistik": 2.25,
+   "Praktikum Betriebssysteme": 3.0,
+   "Praktikum Compiler": 1.5,
+   "Praktikum Datenkommunikation": 3.0,
+   "Praktikum Echtzeitbetriebssysteme": 1.5,
+   "Praktikum Modellbasierte Entwicklung II": 1.5,
+   "Praktikum Praxisgrundlagen der Informatik": 1.5,
+   "Praktikum Programmieren II": 7.5,
+   "Praktikum Rechnerarchitektur": 3.0,
+   "Praktikum Softwarearchitekturen": 1.5,
+   "Praxisgrundlagen der Informatik": 1.5,
+   "Process Mining": 3.0,
+   "Produktions- und Servicelogistik": 3.0,
+   "Programmieren II": 6.0,
+   "Projektmanagement": 3.0,
+   "Prozess-Simulation": 1.5,
+   "Präsentation und Kommunikation": 3.0,
+   "Quantencomputing": 3.0,
+   "Rechnerarchitektur": 3.0,
+   "Semantic Web": 3.0,
+   "Smart Cities": 3.0,
+   "Smart Grids": 3.0,
+   "Software Engineering": 1.5,
+   "Software Engineering I": 1.5,
+   "Softwarearchitekturen": 1.5,
+   "Softwarequalität": 3.0,
+   "Standard-IT-Anwendungen in der Verwaltung": 4.5,
+   "Statistik": 5.25,
+   "Verteilte Systeme": 3.0,
+   "Verwaltungsrecht": 3.0,
+   "Visual Analytics": 3.0,
+   "Wirtschaftsinformatik I": 3.0,
+   "Übung SWE I": 3.0
+  },
+  "professor_hours_per_week": {
+   "Auer, Christopher": 13.5,
+   "Blechinger, Markus": 1.5,
+   "Busse, Johannes": 9.0,
+   "Böhm, Markus": 9.0,
+   "Dalnodar, Corinna": 3.0,
+   "Diekhoff, Sebastian": 3.0,
+   "Dieses, Patrick": 3.0,
+   "Dorfner, Matthias": 5.25,
+   "Eder, Klaus": 3.0,
+   "Fischer, Marcus": 3.0,
+   "Franzke, Thomas": 6.0,
+   "Gerlit, Robert": 3.0,
+   "Giersch, Jürgen": 7.5,
+   "Greipl, Dieter": 3.0,
+   "Griebl, Ludwig": 1.5,
+   "Gronover, Sandra": 3.0,
+   "Gruber, Michaela": 3.0,
+   "Hanel, Thomas": 1.5,
+   "Hartmann, Peter": 2.25,
+   "Höllerer, Reinhard": 4.5,
+   "Jakob, Markus": 13.5,
+   "Jochum, Bernadette": 3.0,
+   "Jörg, Hannah": 1.5,
+   "Khelil, Abdelmajid": 7.5,
+   "Kinalzyk, Dietmar": 6.0,
+   "Kolbeck, Maike": 3.0,
+   "Koletzko, Christian": 3.0,
+   "Kreis, Raimund": 1.5,
+   "Krieger, Tina": 3.0,
+   "Kromer, Eduard": 7.5,
+   "Lachner, Michael": 1.5,
+   "Lipp, Wolfram": 2.25,
+   "Matzeder, Marco": 10.5,
+   "Michaeli, Philipp": 11.25,
+   "Mock, Markus": 13.5,
+   "Nazareth, Dieter": 9.0,
+   "Osendorfer, Christian": 14.25,
+   "Pellkofer, Martin": 12.0,
+   "Remmele, Stefanie": 1.5,
+   "Roderer, Götz": 1.5,
+   "Sagraloff, Michael": 10.5,
+   "Schmidtner, Markus": 1.5,
+   "Scholz, Peter": 6.0,
+   "Schröter, Sebastian": 10.5,
+   "Schuller, Dagmar": 9.0,
+   "Siebert, Andreas": 12.0,
+   "Strohe, Manfred": 3.75,
+   "Strunz, Manuel": 5.25,
+   "Thoen, Haavard": 3.0,
+   "Tomashevich, Victor": 2.25,
+   "Trautmann, Philip": 4.5,
+   "Uhrmann, Johann": 10.5,
+   "Varma, Devendra": 9.0,
+   "Wagensoner, Matthias": 2.25,
+   "Wallis, Alexander": 3.0,
+   "Wanner-Seidl, Veronika": 3.0,
+   "Weber, Yannick": 15.0,
+   "Weisensee, Michael": 1.5,
+   "Wunderlich, Jürgen": 7.5,
+   "Wundsam-Gollwitzer, Kerstin": 3.0,
+   "Ziegler, Konstantin": 5.25
+  }
+ }
+}

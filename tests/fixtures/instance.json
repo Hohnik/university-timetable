@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "test fixture",
-  "faculty": "TEST",
+  "faculties": ["TEST"],
   "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
   "grid": [
    ["08:45", "09:30"], ["09:30", "10:15"],
@@ -12,23 +12,23 @@
    ["17:50", "18:35"], ["18:35", "19:20"]
   ]
  },
- "cohorts": {
+ "curricula": {
   "g1": {"faculty": "TEST", "degree": "Bachelor", "program": "Test Program", "label": "T2"}
  },
- "lecturer_days": {
+ "teacher_days": {
   "Prof A": ["Mon", "Tue", "Wed"],
   "Prof B": ["Mon", "Tue", "Wed", "Thu", "Fri"]
  },
- "sessions": [
+ "lectures": [
   {"id": "s1", "lv_id": "1", "fach_id": "1", "course": "Mathematik", "short": "Mathe",
-   "lecturers": ["Prof A"], "groups": ["g1"], "length": 2, "rhythm": "1", "occurrences": 10,
-   "published": {"day": "Mon", "slot": 0}},
+   "teachers": ["Prof A"], "curricula": ["g1"], "length": 2, "rhythm": "1", "occurrences": 10,
+   "published": {"day": "Mon", "timeslot": 0}},
   {"id": "s2", "lv_id": "2", "fach_id": "2", "course": "Programmieren", "short": "Prog",
-   "lecturers": ["Prof B"], "groups": ["g1"], "length": 2, "rhythm": "1", "occurrences": 10,
-   "published": {"day": "Tue", "slot": 2}},
+   "teachers": ["Prof B"], "curricula": ["g1"], "length": 2, "rhythm": "1", "occurrences": 10,
+   "published": {"day": "Tue", "timeslot": 2}},
   {"id": "s3", "lv_id": "3", "fach_id": "3", "course": "Wahlfach", "short": "Wahl",
-   "lecturers": ["Prof B"], "groups": ["g1"], "length": 1, "rhythm": "1", "occurrences": 10,
-   "published": {"day": "Wed", "slot": 4}}
+   "teachers": ["Prof B"], "curricula": ["g1"], "length": 1, "rhythm": "1", "occurrences": 10,
+   "published": {"day": "Wed", "timeslot": 4}}
  ],
  "summary": {}
 }

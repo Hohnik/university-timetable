@@ -1,16 +1,17 @@
 """Solve the HS Landshut timetabling instance with `python-constraint`.
 
-One variable per weekly SESSION, value = (day, first 45-minute block). Rooms
-are not modeled — assigning them is a comparatively easy post-processing step
-(bipartite matching per timeslot), left for later. See constraints.md for the
-hard/soft rule catalogue; each rule lives in constraints/hard/ or
-constraints/soft/, one file per rule.
+Modeled as Curriculum-Based Course Timetabling (CB-CTT, Di Gaspero & Schaerf
+2003 / ITC-2007): one variable per weekly LECTURE, value = (day, first
+45-minute timeslot). Rooms are not modeled — assigning them is a
+comparatively easy post-processing step (bipartite matching per timeslot),
+left for later. See constraints.md for the hard/soft rule catalogue; each
+rule lives in constraints/hard/ or constraints/soft/, one file per rule.
 
 Usage
 -----
     uv run src/solve.py                       # semester 2, all programs
     uv run src/solve.py --semester 4
-    uv run src/solve.py --faculty              # every session, all semesters
+    uv run src/solve.py --faculty              # every lecture, all semesters
     uv run src/solve.py --published            # score the real published timetable
     uv run src/solve.py --solver minconflicts
 """
@@ -38,60 +39,60 @@ from instance import Instance
 def build_problem(inst: Instance, rng=None, solver=None,
                   hard_long_day=False, hard_no_late_mandatory=False):
     problem = Problem(solver) if solver is not None else Problem()
-    n_slots = len(inst.grid)
+    n_timeslots = len(inst.grid)
 
-    for i, s in enumerate(inst.sessions):
-        length = s["length"]
-        allowed = inst.available_days(s)                                     # H3
-        # A session may run from before the lunch break to after it — a long
+    for i, lec in enumerate(inst.lectures):
+        length = lec["length"]
+        allowed = inst.available_days(lec)                                   # H3
+        # A lecture may run from before the lunch break to after it — a long
         # practical scheduled 10:30-14:20 is legitimate, students simply take
         # their lunch within it. Nothing about lunch is filtered here.
-        domain = [(day, slot)
+        domain = [(day, timeslot)
                   for day in inst.days if day in allowed
-                  for slot in range(n_slots - length + 1)]
+                  for timeslot in range(n_timeslots - length + 1)]
 
-        if hard_no_late_mandatory and s["required_by"]:
+        if hard_no_late_mandatory and lec["required_by"]:
             domain = hard.no_late_mandatory.filter_domain(domain, length)     # H7
 
         if rng:
             rng.shuffle(domain)
         problem.addVariable(i, domain)
 
-    for i, j, a, b in grid.session_pairs(inst.sessions):
+    for i, j, a, b in grid.lecture_pairs(inst.lectures):
         la, lb = a["length"], b["length"]
 
         if not grid.is_parallel(a, b):                                       # H5 exemption
-            clash_cohorts = hard.cohort_no_overlap.conflicts(a, b)            # H1
-            clash_prof = bool(hard.lecturer_no_overlap.conflicts(a, b))       # H2
-            if clash_cohorts or clash_prof:
+            clash_curricula = hard.curriculum_no_overlap.conflicts(a, b)      # H1
+            clash_teacher = bool(hard.teacher_no_overlap.conflicts(a, b))     # H2
+            if clash_curricula or clash_teacher:
                 problem.addConstraint(
                     lambda x, y, la=la, lb=lb: not grid.blocks(x, y, la, lb), (i, j))
 
-        if hard.module_daily_cap.applies(a, b):                               # H4
-            cap = hard.module_daily_cap.cap_for(la, lb)
+        if hard.course_daily_cap.applies(a, b):                               # H4
+            cap = hard.course_daily_cap.cap_for(la, lb)
             problem.addConstraint(
                 lambda x, y, la=la, lb=lb, cap=cap:
-                    hard.module_daily_cap.pairwise(x, y, la, lb, cap), (i, j))
+                    hard.course_daily_cap.pairwise(x, y, la, lb, cap), (i, j))
 
         if hard.contiguous_same_type.applies(a, b):                           # H6
             problem.addConstraint(
                 lambda x, y, la=la, lb=lb:
                     hard.contiguous_same_type.touching(x, y, la, lb), (i, j))
 
-    # H4 (exact): modules with 3+ sessions need an n-ary check, since pairwise
-    # sums can't see three separate 1-slot sessions piling onto one day.
-    for idx in hard.module_daily_cap.groups_by_module(inst).values():
+    # H4 (exact): courses with 3+ lectures need an n-ary check, since pairwise
+    # sums can't see three separate 1-timeslot lectures piling onto one day.
+    for idx in hard.course_daily_cap.groups_by_course(inst).values():
         if len(idx) >= 3:
-            problem.addConstraint(hard.module_daily_cap.n_ary_constraint(inst, idx), idx)
+            problem.addConstraint(hard.course_daily_cap.n_ary_constraint(inst, idx), idx)
 
-    # H8 (optional): n-ary over a whole cohort's sessions — the shape that
+    # H8 (optional): n-ary over a whole curriculum's lectures — the shape that
     # makes backtracking degenerate into generate-and-test, but MinConflicts
     # copes.
     if hard_long_day:
-        for g in inst.cohorts:
-            idx = hard.cohort_day_cap.cohort_sessions(inst, g)
+        for g in inst.curricula:
+            idx = hard.curriculum_day_cap.curriculum_lectures(inst, g)
             if len(idx) > limits.MAX_PER_DAY:
-                problem.addConstraint(hard.cohort_day_cap.build_constraint(inst, idx), idx)
+                problem.addConstraint(hard.curriculum_day_cap.build_constraint(inst, idx), idx)
 
     return problem
 
@@ -113,32 +114,32 @@ def soft_score(inst: Instance, solution):
 
 def validate(inst: Instance, solution):
     errors = []
-    S = inst.sessions
+    L = inst.lectures
 
-    for i, s in enumerate(S):
-        day, _slot = solution[i]
-        if day not in inst.available_days(s):
-            errors.append(f"H3 availability: {s['short']} on {day}")
+    for i, lec in enumerate(L):
+        day, _timeslot = solution[i]
+        if day not in inst.available_days(lec):
+            errors.append(f"H3 availability: {lec['short']} on {day}")
 
-    for i, j, a, b in grid.session_pairs(S):
+    for i, j, a, b in grid.lecture_pairs(L):
         if grid.is_parallel(a, b):
             continue                                                          # H5
         if not grid.blocks(solution[i], solution[j], a["length"], b["length"]):
             continue
-        if hard.cohort_no_overlap.conflicts(a, b):
+        if hard.curriculum_no_overlap.conflicts(a, b):
             errors.append(f"H1 mandatory clash: {a['short']} / {b['short']}")
-        if hard.lecturer_no_overlap.conflicts(a, b):
-            errors.append(f"H2 lecturer clash: {a['short']} / {b['short']}")
+        if hard.teacher_no_overlap.conflicts(a, b):
+            errors.append(f"H2 teacher clash: {a['short']} / {b['short']}")
 
-    for i, j, a, b in grid.session_pairs(S):
+    for i, j, a, b in grid.lecture_pairs(L):
         if not hard.contiguous_same_type.applies(a, b):
             continue
         if not hard.contiguous_same_type.touching(solution[i], solution[j], a["length"], b["length"]):
             errors.append(f"H6 split lecture: {a['course'][:28]} twice on {solution[i][0]}")
 
-    for (g, key), idx in hard.module_daily_cap.groups_by_module(inst).items():
-        for day, count in hard.module_daily_cap.violations(inst, idx, solution):
-            errors.append(f"H4 block too long: {inst.label(g)} {key[:26]} {count} slots on {day}")
+    for (g, key), idx in hard.course_daily_cap.groups_by_course(inst).items():
+        for day, count in hard.course_daily_cap.violations(inst, idx, solution):
+            errors.append(f"H4 course overload: {inst.label(g)} {key[:26]} {count} timeslots on {day}")
 
     return errors
 
@@ -147,35 +148,35 @@ def validate(inst: Instance, solution):
 # SWS budget check (diagnostic, from the SPO)
 # ---------------------------------------------------------------------------
 
-def student_slots(inst: Instance, group):
-    """Slots ONE student of this cohort actually sits through in a week.
+def student_timeslots(inst: Instance, curriculum):
+    """Timeslots ONE student of this curriculum actually sits through in a week.
 
-    Summing raw sessions overstates the load by ~50%, for two reasons that
+    Summing raw lectures overstates the load by ~50%, for two reasons that
     both had to be handled before the SPO's SWS figures could be matched:
 
-      * PARALLEL GROUPS — a Praktikum offered to several lab groups appears
-        once per group in the data, but a student attends one. Collapsed by
-        taking a single representative lv_id per module (fach_id).
+      * PARALLEL LAB SECTIONS — a Praktikum offered to several lab sections
+        appears once per section in the data, but a student attends one.
+        Collapsed by taking a single representative lv_id per course (fach_id).
 
-      * RHYTHM — `rhythmus 14` means fortnightly. Such a session averages
-        half its length per week. And where two fortnightly sessions share
-        an lv_id, they are alternating halves of one group (occurrences 7
+      * RHYTHM — `rhythmus 14` means fortnightly. Such a lecture averages
+        half its length per week. And where two fortnightly lectures share
+        an lv_id, they are alternating halves of one section (occurrences 7
         and 8 over a 15-week semester), so a student attends one, not both.
 
     Verified against the SPO: this brings IF2 from a nonsensical 38 SWS to 22
     against a prescribed 26, the remainder being electives not counted here.
     """
     byfach = collections.defaultdict(lambda: collections.defaultdict(list))
-    for s in inst.sessions:
-        if group in s["required_by"]:
-            byfach[s["fach_id"]][s["lv_id"]].append(s)
+    for lec in inst.lectures:
+        if curriculum in lec["required_by"]:
+            byfach[lec["fach_id"]][lec["lv_id"]].append(lec)
 
     total = 0.0
     for lvs in byfach.values():
         best = 0.0
-        for sessions in lvs.values():
-            weekly = sum(s["length"] for s in sessions if s["rhythm"] != "14")
-            fortnightly = [s["length"] for s in sessions if s["rhythm"] == "14"]
+        for lecs in lvs.values():
+            weekly = sum(lec["length"] for lec in lecs if lec["rhythm"] != "14")
+            fortnightly = [lec["length"] for lec in lecs if lec["rhythm"] == "14"]
             weekly += max(fortnightly) * 0.5 if fortnightly else 0
             best = max(best, weekly)
         total += best
@@ -185,16 +186,16 @@ def student_slots(inst: Instance, group):
 def sws_report(inst: Instance):
     """Compare a student's weekly load against the SWS the SPO prescribes.
 
-    One 90-minute grid slot = 2 SWS.
+    One 90-minute grid timeslot pair = 2 SWS.
     """
     rows = []
-    for g, c in inst.cohorts.items():
+    for g, c in inst.curricula.items():
         m = re.search(r"(\d)", c["label"])
         sem = int(m.group(1)) if m else None
         want = CU.expected_sws(c["program"], sem)
         if not want:
             continue
-        rows.append((c["label"], want, student_slots(inst, g) * 2))
+        rows.append((c["label"], want, student_timeslots(inst, g) * 2))
     return rows
 
 
@@ -213,11 +214,11 @@ SOLVERS = {
 def search_adaptive(inst: Instance, seconds, solver="minconflicts"):
     """Try the strictest model first, relax if it proves unsatisfiable.
 
-    Banning compulsory teaching from the last slot improves quality a lot
+    Banning compulsory teaching from the last timeslot improves quality a lot
     (soft 236 -> 140 on semester 2) but removes a fifth of the week's
-    capacity. Semester 4 needs 19 of the 20 slots that remain, so the strict
-    model is infeasible there. Rather than pick one globally, spend half the
-    budget on the strict model and fall back if it yields nothing.
+    capacity. Semester 4 needs 19 of the 20 timeslots that remain, so the
+    strict model is infeasible there. Rather than pick one globally, spend
+    half the budget on the strict model and fall back if it yields nothing.
     """
     best = search(inst, seconds / 2, solver, hard_no_late_mandatory=True)
     if best[0] is not None:
@@ -274,40 +275,40 @@ def search(inst: Instance, seconds, solver="minconflicts", per_restart=30,
 # ---------------------------------------------------------------------------
 
 def to_records(inst: Instance, solution) -> list[dict]:
-    """One row per (session, attending group) — day/start/end/course/lecturer/
-    cohort — independent of internal grid-block indices. The one interchange
-    format for display, JSON, or CSV."""
+    """One row per (lecture, attending curriculum) — day/start/end/course/
+    teacher/curriculum — independent of internal grid-timeslot indices. The
+    one interchange format for display, JSON, or CSV."""
     rows = []
-    for i, s in enumerate(inst.sessions):
-        day, slot = solution[i]
-        start, _ = inst.grid[slot]
-        _, end = inst.grid[slot + s["length"] - 1]
-        who = ", ".join(p.split(",")[0] for p in s["lecturers"]) or "—"
-        for g in s["groups"]:
+    for i, lec in enumerate(inst.lectures):
+        day, timeslot = solution[i]
+        start, _ = inst.grid[timeslot]
+        _, end = inst.grid[timeslot + lec["length"] - 1]
+        who = ", ".join(p.split(",")[0] for p in lec["teachers"]) or "—"
+        for g in lec["curricula"]:
             rows.append({
-                "cohort": inst.label(g), "day": day, "start": start, "end": end,
-                "course": s["course"], "lecturer": who,
-                "kind": "mandatory" if g in s["required_by"] else "elective",
+                "curriculum": inst.label(g), "day": day, "start": start, "end": end,
+                "course": lec["course"], "teacher": who,
+                "kind": "mandatory" if g in lec["required_by"] else "elective",
             })
     day_index = {d: i for i, d in enumerate(inst.days)}
-    return sorted(rows, key=lambda r: (r["cohort"], day_index[r["day"]], r["start"]))
+    return sorted(rows, key=lambda r: (r["curriculum"], day_index[r["day"]], r["start"]))
 
 
 def print_timetable(inst: Instance, solution):
     records = to_records(inst, solution)
-    for cohort in dict.fromkeys(r["cohort"] for r in records):
-        print(f"\n=== {cohort} ===")
+    for curriculum in dict.fromkeys(r["curriculum"] for r in records):
+        print(f"\n=== {curriculum} ===")
         for r in records:
-            if r["cohort"] != cohort:
+            if r["curriculum"] != curriculum:
                 continue
             kind = "  " if r["kind"] == "mandatory" else "(W)"
             print(f"  {r['day']} {r['start']}-{r['end']:<8} {kind} "
-                  f"{r['course'][:36]:<36} {r['lecturer'][:20]}")
+                  f"{r['course'][:36]:<36} {r['teacher'][:20]}")
 
 
 def published_solution(inst: Instance):
-    return {i: (s["published"]["day"], s["published"]["slot"])
-            for i, s in enumerate(inst.sessions)}
+    return {i: (lec["published"]["day"], lec["published"]["timeslot"])
+            for i, lec in enumerate(inst.lectures)}
 
 
 def main():
@@ -326,16 +327,21 @@ def main():
     args = ap.parse_args()
 
     if args.faculty:
-        inst, label = Instance(), "faculty IF, all semesters"
+        inst = Instance()
     else:
         inst = Instance(scope=args.program, semester=args.semester or None)
-        label = f"{args.program or 'faculty IF'}, semester {args.semester or 'all'}"
+    faculties = "+".join(sorted({c["faculty"] for c in inst.curricula.values()}))
 
-    n_mand = sum(1 for s in inst.sessions if s["required_by"])
+    if args.faculty:
+        label = f"faculty {faculties}, all semesters"
+    else:
+        label = f"{args.program or f'faculty {faculties}'}, semester {args.semester or 'all'}"
+
+    n_mand = sum(1 for lec in inst.lectures if lec["required_by"])
     print(f"scope: {label}")
-    print(f"{len(inst.sessions)} sessions ({n_mand} mandatory, "
-          f"{len(inst.sessions)-n_mand} elective), {len(inst.cohorts)} cohorts, "
-          f"{len({p for s in inst.sessions for p in s['lecturers']})} lecturers")
+    print(f"{len(inst.lectures)} lectures ({n_mand} mandatory, "
+          f"{len(inst.lectures)-n_mand} elective), {len(inst.curricula)} curricula, "
+          f"{len({p for lec in inst.lectures for p in lec['teachers']})} teachers")
 
     if args.published:
         sol = published_solution(inst)

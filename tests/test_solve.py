@@ -20,7 +20,7 @@ def inst(monkeypatch):
 
 
 def test_instance_tags_mandatory_vs_elective_from_curriculum(inst):
-    by_course = {s["course"]: s for s in inst.sessions}
+    by_course = {lec["course"]: lec for lec in inst.lectures}
     assert by_course["Mathematik"]["required_by"] == ["g1"]
     assert by_course["Programmieren"]["required_by"] == ["g1"]
     assert by_course["Wahlfach"]["required_by"] == []
@@ -39,11 +39,11 @@ def test_validate_ok_for_conflict_free_solution(inst):
     assert validate(inst, solution) == []
 
 
-def test_soft_score_penalizes_late_slot(inst):
+def test_soft_score_penalizes_late_timeslot(inst):
     solution = {0: ("Mon", 0), 1: ("Tue", 2), 2: ("Wed", 10)}
     score, pen = soft_score(inst, solution)
     assert score > 0
-    assert any(msg.startswith("S4 late slot") for _, msg in pen)
+    assert any(msg.startswith("S4 late timeslot") for _, msg in pen)
 
 
 def test_build_problem_produces_a_valid_solution(inst):
@@ -56,5 +56,5 @@ def test_to_records_produces_uniform_format(inst):
     solution = {0: ("Mon", 0), 1: ("Tue", 2), 2: ("Wed", 4)}
     records = to_records(inst, solution)
     assert {r["course"] for r in records} == {"Mathematik", "Programmieren", "Wahlfach"}
-    assert all({"cohort", "day", "start", "end", "course", "lecturer", "kind"} <= r.keys()
+    assert all({"curriculum", "day", "start", "end", "course", "teacher", "kind"} <= r.keys()
                for r in records)

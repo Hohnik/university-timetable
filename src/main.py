@@ -47,9 +47,9 @@ def _(best, inst, mo, to_records, validate):
         records = to_records(inst, best)
         errors = validate(inst, best)
         tables = [
-            mo.vstack([mo.md(f"### {cohort}"),
-                       mo.ui.table([r for r in records if r["cohort"] == cohort])])
-            for cohort in dict.fromkeys(r["cohort"] for r in records)
+            mo.vstack([mo.md(f"### {curriculum}"),
+                       mo.ui.table([r for r in records if r["curriculum"] == curriculum])])
+            for curriculum in dict.fromkeys(r["curriculum"] for r in records)
         ]
         status = mo.md(f"---\n{len(errors)} hard violation(s)" if errors else "---\nhard validation OK")
         mo.vstack(tables + [status])

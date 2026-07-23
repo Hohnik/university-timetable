@@ -1,4 +1,4 @@
-"""Shared fixtures. Most constraint files only need duck-typed sessions/instances,
+"""Shared fixtures. Most constraint files only need duck-typed lectures/instances,
 not a real Instance loaded from JSON + curriculum -- these keep unit tests fast
 and independent of real HS Landshut data."""
 from types import SimpleNamespace
@@ -6,32 +6,32 @@ from types import SimpleNamespace
 import pytest
 
 
-def _session(**over):
+def _lecture(**over):
     base = dict(
         id="s", lv_id="1", fach_id="1", course="Course", short="C",
-        lecturers=["Prof A"], groups=["g1"], length=2, rhythm="1",
-        occurrences=10, published={"day": "Mon", "slot": 0},
-        required_by=[], elective=True, module_key="course", practical=False,
+        teachers=["Prof A"], curricula=["g1"], length=2, rhythm="1",
+        occurrences=10, published={"day": "Mon", "timeslot": 0},
+        required_by=[], elective=True, course_key="course", practical=False,
     )
     base.update(over)
     return base
 
 
 @pytest.fixture
-def make_session():
-    return _session
+def make_lecture():
+    return _lecture
 
 
 @pytest.fixture
 def make_inst():
-    def _make(sessions, cohorts=None, days=None, lecturer_days=None, teach_count=None):
-        cohorts = cohorts or {}
+    def _make(lectures, curricula=None, days=None, teacher_days=None, teach_count=None):
+        curricula = curricula or {}
         return SimpleNamespace(
-            sessions=sessions,
-            cohorts=cohorts,
+            lectures=lectures,
+            curricula=curricula,
             days=days or ["Mon", "Tue", "Wed", "Thu", "Fri"],
-            lecturer_days=lecturer_days or {},
+            teacher_days=teacher_days or {},
             teach_count=teach_count or {},
-            label=lambda g: cohorts.get(g, {}).get("label", g),
+            label=lambda g: curricula.get(g, {}).get("label", g),
         )
     return _make

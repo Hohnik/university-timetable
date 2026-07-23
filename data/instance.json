@@ -1,7 +1,10 @@
 {
  "meta": {
   "source": "HS Landshut Primuss",
-  "faculty": "IF",
+  "faculties": [
+   "IF",
+   "SA"
+  ],
   "days": [
    "Mon",
    "Tue",
@@ -60,7 +63,7 @@
    ]
   ]
  },
- "cohorts": {
+ "curricula": {
   "166": {
    "faculty": "IF",
    "degree": "Bachelor",
@@ -79,6 +82,12 @@
    "program": "Bachelor Automobilinformatik",
    "label": "AIF6"
   },
+  "87": {
+   "faculty": "SA",
+   "degree": "Master",
+   "program": "Soziale Arbeit: Diversität gestalten",
+   "label": "DGE2"
+  },
   "169": {
    "faculty": "IF",
    "degree": "Bachelor",
@@ -96,6 +105,12 @@
    "degree": "Bachelor",
    "program": "Bachelor Digitales Verwaltungsmanagement",
    "label": "DVM6"
+  },
+  "285": {
+   "faculty": "SA",
+   "degree": "Sonstige",
+   "program": "Sonderveranstaltungen SA",
+   "label": "Fakultät SA"
   },
   "160": {
    "faculty": "IF",
@@ -133,6 +148,36 @@
    "program": "Bachelor Künstliche Intelligenz",
    "label": "KI6"
   },
+  "80": {
+   "faculty": "SA",
+   "degree": "Bachelor",
+   "program": "Soziale Arbeit in der Kinder- und Jugendhilfe",
+   "label": "KIJ2"
+  },
+  "82": {
+   "faculty": "SA",
+   "degree": "Bachelor",
+   "program": "Soziale Arbeit in der Kinder- und Jugendhilfe",
+   "label": "KIJ4"
+  },
+  "84": {
+   "faculty": "SA",
+   "degree": "Bachelor",
+   "program": "Soziale Arbeit in der Kinder- und Jugendhilfe",
+   "label": "KIJ6"
+  },
+  "89": {
+   "faculty": "SA",
+   "degree": "Master",
+   "program": "Soziale Arbeit: Klinische Sozialarbeit",
+   "label": "KSA1"
+  },
+  "91": {
+   "faculty": "SA",
+   "degree": "Master",
+   "program": "Soziale Arbeit: Klinische Sozialarbeit",
+   "label": "KSA3"
+  },
   "63": {
    "faculty": "IF",
    "degree": "Master",
@@ -157,6 +202,24 @@
    "program": "Master Wirtschaftsinformatik",
    "label": "MWIF1"
   },
+  "73": {
+   "faculty": "SA",
+   "degree": "Bachelor",
+   "program": "Soziale Arbeit",
+   "label": "SA2"
+  },
+  "75": {
+   "faculty": "SA",
+   "degree": "Bachelor",
+   "program": "Soziale Arbeit",
+   "label": "SA4"
+  },
+  "77": {
+   "faculty": "SA",
+   "degree": "Bachelor",
+   "program": "Soziale Arbeit",
+   "label": "SA6"
+  },
   "45": {
    "faculty": "IF",
    "degree": "Bachelor",
@@ -176,7 +239,7 @@
    "label": "WIF6"
   }
  },
- "lecturer_days": {
+ "teacher_days": {
   "Auer, Christopher": [
    "Mon",
    "Tue",
@@ -185,6 +248,10 @@
   ],
   "Blechinger, Markus": [
    "Tue"
+  ],
+  "Borrmann, Stefan": [
+   "Mon",
+   "Thu"
   ],
   "Busse, Johannes": [
    "Mon",
@@ -199,8 +266,11 @@
   "Dalnodar, Corinna": [
    "Wed"
   ],
+  "Dannenbeck, Clemens": [
+   "Tue",
+   "Wed"
+  ],
   "Diekhoff, Sebastian": [
-   "Mon",
    "Tue"
   ],
   "Dieses, Patrick": [
@@ -215,6 +285,11 @@
   ],
   "Fischer, Marcus": [
    "Thu"
+  ],
+  "Franceschini, Bruno": [
+   "Mon",
+   "Tue",
+   "Wed"
   ],
   "Franzke, Thomas": [
    "Wed",
@@ -247,6 +322,22 @@
   "Hartmann, Peter": [
    "Wed"
   ],
+  "Hartmann, Thomas": [
+   "Mon"
+  ],
+  "Heigermoser, Christiane": [
+   "Mon",
+   "Tue",
+   "Wed"
+  ],
+  "Hofer, Anna": [
+   "Mon"
+  ],
+  "Houben, Daniel": [
+   "Mon",
+   "Tue",
+   "Wed"
+  ],
   "Höllerer, Reinhard": [
    "Tue"
   ],
@@ -268,6 +359,9 @@
   "Kinalzyk, Dietmar": [
    "Fri"
   ],
+  "Kolb, Stefan": [
+   "Tue"
+  ],
   "Kolbeck, Maike": [
    "Mon",
    "Thu"
@@ -285,11 +379,44 @@
    "Mon",
    "Thu"
   ],
+  "Kühbeck, Bettina": [
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "Kühnel, Markus": [
+   "Wed",
+   "Thu"
+  ],
   "Lachner, Michael": [
    "Tue"
   ],
+  "Laub, Matthias": [
+   "Mon",
+   "Tue",
+   "Thu"
+  ],
+  "Leibetseder, Bettina": [
+   "Tue",
+   "Wed"
+  ],
+  "Liel, Katrin": [
+   "Tue",
+   "Wed"
+  ],
   "Lipp, Wolfram": [
    "Mon"
+  ],
+  "Lohner, Johannes": [
+   "Tue",
+   "Thu"
+  ],
+  "Lübke, Kathrin": [
+   "Mon",
+   "Tue",
+   "Thu",
+   "Fri"
   ],
   "Matzeder, Marco": [
    "Tue",
@@ -310,26 +437,58 @@
    "Mon",
    "Tue"
   ],
+  "Oberhauser, Gertraud": [
+   "Mon",
+   "Tue",
+   "Wed"
+  ],
   "Osendorfer, Christian": [
    "Mon",
    "Tue",
    "Thu",
    "Fri"
   ],
+  "Otto, Marius": [
+   "Mon",
+   "Wed",
+   "Thu"
+  ],
   "Pellkofer, Martin": [
+   "Wed",
+   "Thu"
+  ],
+  "Pichlmeier, Michael": [
+   "Thu"
+  ],
+  "Pinkl, Johanna": [
+   "Mon",
+   "Tue",
    "Wed",
    "Thu"
   ],
   "Remmele, Stefanie": [
    "Mon"
   ],
+  "Ritter, Monique": [
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
   "Roderer, Götz": [
+   "Wed"
+  ],
+  "Rogall, Bianca": [
    "Wed"
   ],
   "Sagraloff, Michael": [
    "Mon",
    "Tue",
    "Thu"
+  ],
+  "Schmidtke, Anja": [
+   "Mon",
+   "Tue",
+   "Wed"
   ],
   "Schmidtner, Markus": [
    "Fri"
@@ -360,6 +519,11 @@
   "Strunz, Manuel": [
    "Mon"
   ],
+  "Studentische Tutoren, Sammeleintrag für alle Organisationseinheiten": [
+   "Mon",
+   "Tue",
+   "Wed"
+  ],
   "Thoen, Haavard": [
    "Thu"
   ],
@@ -379,6 +543,10 @@
   "Varma, Devendra": [
    "Fri"
   ],
+  "Viehhauser, Ralph": [
+   "Mon",
+   "Thu"
+  ],
   "Wagensoner, Matthias": [
    "Wed"
   ],
@@ -397,6 +565,11 @@
   "Weisensee, Michael": [
    "Mon"
   ],
+  "Wolff, Mechthild": [
+   "Mon",
+   "Wed",
+   "Thu"
+  ],
   "Wunderlich, Jürgen": [
    "Mon",
    "Tue"
@@ -408,19 +581,302 @@
    "Tue",
    "Wed",
    "Thu"
+  ],
+  "Özdogan, Mihri": [
+   "Wed"
   ]
  },
- "sessions": [
+ "lectures": [
+  {
+   "id": "4140-Wed-0",
+   "lv_id": "4140",
+   "fach_id": "505",
+   "course": "Netzwerk- und Projektmanagement",
+   "short": "DGE2.1.2",
+   "teachers": [
+    "Rogall, Bianca"
+   ],
+   "curricula": [
+    "87"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4141-Mon-6",
+   "lv_id": "4141",
+   "fach_id": "837",
+   "course": "Rekonstruktiv Forschen: Fachfremde Quereinsteiger*innen in der Sozialen Arbeit",
+   "short": "DGE 2.4.1",
+   "teachers": [
+    "Laub, Matthias"
+   ],
+   "curricula": [
+    "87"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4143-Wed-2",
+   "lv_id": "4143",
+   "fach_id": "512",
+   "course": "Soziale Ungleichheit",
+   "short": "DGE2.3.1",
+   "teachers": [
+    "Dannenbeck, Clemens"
+   ],
+   "curricula": [
+    "87"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4146-Mon-2",
+   "lv_id": "4146",
+   "fach_id": "2625",
+   "course": "Diversität Gestalten durch die UN-Behindertenrechtskonvention",
+   "short": "DGE2.2.2",
+   "teachers": [
+    "Laub, Matthias"
+   ],
+   "curricula": [
+    "87"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4147-Wed-6",
+   "lv_id": "4147",
+   "fach_id": "2626",
+   "course": "Rassismuskritische Theorien",
+   "short": "DGE2.3.2",
+   "teachers": [
+    "Özdogan, Mihri"
+   ],
+   "curricula": [
+    "87"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4150-Tue-0",
+   "lv_id": "4150",
+   "fach_id": "515",
+   "course": "Einführung \"Soziale Arbeit und Gesundheit\"",
+   "short": "KSA1.1.1",
+   "teachers": [
+    "Liel, Katrin"
+   ],
+   "curricula": [
+    "89"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4151-Thu-2",
+   "lv_id": "4151",
+   "fach_id": "517",
+   "course": "Theoretische Grundlagen und Modelle psychosozialer Interventionen",
+   "short": "KSA1.1.2",
+   "teachers": [
+    "Viehhauser, Ralph"
+   ],
+   "curricula": [
+    "89"
+   ],
+   "length": 3,
+   "rhythm": "14",
+   "occurrences": 6,
+   "published": {
+    "day": "Thu",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4152-Thu-6",
+   "lv_id": "4152",
+   "fach_id": "518",
+   "course": "Rechtliche Grundlagen der Klinischen Sozialarbeit",
+   "short": "KSA1.1.3",
+   "teachers": [
+    "Kühbeck, Bettina"
+   ],
+   "curricula": [
+    "89"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4155-Tue-2",
+   "lv_id": "4155",
+   "fach_id": "524",
+   "course": "Quantitative Forschungsmethoden im sozial-klinischen Feld und Evaluation",
+   "short": "KSA1.3.1",
+   "teachers": [
+    "Leibetseder, Bettina"
+   ],
+   "curricula": [
+    "89"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4156-Thu-0",
+   "lv_id": "4156",
+   "fach_id": "525",
+   "course": "Qualitative Methoden der empirischen Sozialforschung",
+   "short": "KSA1.3.2",
+   "teachers": [
+    "Kühnel, Markus"
+   ],
+   "curricula": [
+    "89"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4158-Thu-2",
+   "lv_id": "4158",
+   "fach_id": "528",
+   "course": "Professionelle Beziehungsgestaltung und Motivationsarbeit",
+   "short": "KSA1.4.2",
+   "teachers": [
+    "Viehhauser, Ralph"
+   ],
+   "curricula": [
+    "89"
+   ],
+   "length": 3,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4161-Wed-0",
+   "lv_id": "4161",
+   "fach_id": "534",
+   "course": "Ethische und gesundheitspolitische Fragestellungen im Kontext Klinischer Sozialarbeit",
+   "short": "KSA3.2.2",
+   "teachers": [
+    "Leibetseder, Bettina"
+   ],
+   "curricula": [
+    "91"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4162-Wed-2",
+   "lv_id": "4162",
+   "fach_id": "536",
+   "course": "Wissenschaftlicher Diskurs Masterarbeit",
+   "short": "KSA3.3.1",
+   "teachers": [
+    "Wolff, Mechthild"
+   ],
+   "curricula": [
+    "91"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4163-Thu-0",
+   "lv_id": "4163",
+   "fach_id": "2455",
+   "course": "Klientenbezogene Selbst- und Praxisreflexion II",
+   "short": "KSA3.1.2_Gr.2",
+   "teachers": [
+    "Pinkl, Johanna"
+   ],
+   "curricula": [
+    "91"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "timeslot": 0
+   }
+  },
   {
    "id": "4175-Wed-8",
    "lv_id": "4175",
    "fach_id": "1061",
    "course": "Echtzeitbetriebssysteme",
    "short": "Echtzeitbetriebssysteme",
-   "lecturers": [
+   "teachers": [
     "Pellkofer, Martin"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 2,
@@ -428,7 +884,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -437,10 +893,10 @@
    "fach_id": "1062",
    "course": "Praktikum Echtzeitbetriebssysteme",
    "short": "Prakt. Echtzeitbetriebssysteme",
-   "lecturers": [
+   "teachers": [
     "Pellkofer, Martin"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 4,
@@ -448,7 +904,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -457,10 +913,10 @@
    "fach_id": "1063",
    "course": "Algorithmen und Datenstrukturen",
    "short": "Algorithmen u. Datenstrukturen",
-   "lecturers": [
+   "teachers": [
     "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 4,
@@ -468,7 +924,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -477,10 +933,10 @@
    "fach_id": "1064",
    "course": "Modellbasierte Entwicklung II",
    "short": "Modellbas. Entw. II",
-   "lecturers": [
+   "teachers": [
     "Nazareth, Dieter"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 2,
@@ -488,7 +944,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -497,10 +953,10 @@
    "fach_id": "1065",
    "course": "Praktikum Modellbasierte Entwicklung II",
    "short": "Prakt. Modellbas. Entw. II",
-   "lecturers": [
+   "teachers": [
     "Nazareth, Dieter"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 4,
@@ -508,7 +964,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -517,10 +973,10 @@
    "fach_id": "1066",
    "course": "Softwarearchitekturen",
    "short": "Softwarearchitekturen",
-   "lecturers": [
+   "teachers": [
     "Nazareth, Dieter"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 2,
@@ -528,7 +984,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -537,10 +993,10 @@
    "fach_id": "1067",
    "course": "Praktikum Softwarearchitekturen",
    "short": "Prakt. Softwarearchitekturen",
-   "lecturers": [
+   "teachers": [
     "Nazareth, Dieter"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 4,
@@ -548,7 +1004,7 @@
    "occurrences": 7,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -557,10 +1013,10 @@
    "fach_id": "1119",
    "course": "Autonome Fahrzeuge",
    "short": "Autonome Fahrzeuge",
-   "lecturers": [
+   "teachers": [
     "Pellkofer, Martin"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "168"
@@ -570,7 +1026,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -579,10 +1035,10 @@
    "fach_id": "1119",
    "course": "Autonome Fahrzeuge",
    "short": "Autonome Fahrzeuge",
-   "lecturers": [
+   "teachers": [
     "Pellkofer, Martin"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "168"
@@ -592,7 +1048,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -601,10 +1057,10 @@
    "fach_id": "1119",
    "course": "Autonome Fahrzeuge",
    "short": "Autonome Fahrzeuge",
-   "lecturers": [
+   "teachers": [
     "Pellkofer, Martin"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "168"
@@ -614,7 +1070,7 @@
    "occurrences": 9,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -623,10 +1079,10 @@
    "fach_id": "1115",
    "course": "Open Government and Open Data",
    "short": "Open Governm. & Open Data",
-   "lecturers": [
+   "teachers": [
     "Busse, Johannes"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "169",
     "49"
@@ -636,7 +1092,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -645,10 +1101,10 @@
    "fach_id": "1115",
    "course": "Open Government and Open Data",
    "short": "Open Governm. & Open Data",
-   "lecturers": [
+   "teachers": [
     "Busse, Johannes"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "169",
     "49"
@@ -658,7 +1114,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -667,10 +1123,10 @@
    "fach_id": "1008",
    "course": "Effizienz im öffentlichen Sektor",
    "short": "Effizienz im öffentl. Sektor",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "169"
    ],
    "length": 2,
@@ -678,7 +1134,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -687,10 +1143,10 @@
    "fach_id": "1009",
    "course": "Foundations of Scientific Work in Smart Administration",
    "short": "DVM290",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "169"
    ],
    "length": 2,
@@ -698,7 +1154,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -707,10 +1163,10 @@
    "fach_id": "1010",
    "course": "IT-Business Case",
    "short": "IT-Business Case",
-   "lecturers": [
+   "teachers": [
     "Varma, Devendra"
    ],
-   "groups": [
+   "curricula": [
     "170"
    ],
    "length": 4,
@@ -718,7 +1174,7 @@
    "occurrences": 6,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -727,10 +1183,10 @@
    "fach_id": "1114",
    "course": "Process Mining",
    "short": "Process Mining",
-   "lecturers": [
+   "teachers": [
     "Böhm, Markus"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "170",
     "49"
@@ -740,7 +1196,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 10
+    "timeslot": 10
    }
   },
   {
@@ -749,10 +1205,10 @@
    "fach_id": "1114",
    "course": "Process Mining",
    "short": "Process Mining",
-   "lecturers": [
+   "teachers": [
     "Böhm, Markus"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "170",
     "49"
@@ -762,7 +1218,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -771,10 +1227,10 @@
    "fach_id": "1012",
    "course": "Visual Analytics",
    "short": "Visual Analythics",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "170"
    ],
    "length": 2,
@@ -782,7 +1238,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -791,10 +1247,10 @@
    "fach_id": "1012",
    "course": "Visual Analytics",
    "short": "Visual Analythics",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "170"
    ],
    "length": 4,
@@ -802,7 +1258,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -811,10 +1267,10 @@
    "fach_id": "1014",
    "course": "Management von Veränderungsprojekten und -prozessen",
    "short": "Mmgt. Veränderungsproj. u. prozes.",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "170"
    ],
    "length": 2,
@@ -822,7 +1278,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -831,10 +1287,10 @@
    "fach_id": "1014",
    "course": "Management von Veränderungsprojekten und -prozessen",
    "short": "Mmgt. Veränderungsproj. u. prozes.",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "170"
    ],
    "length": 2,
@@ -842,7 +1298,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -851,10 +1307,10 @@
    "fach_id": "1015",
    "course": "Verwaltungsrecht",
    "short": "Verwaltungsrecht",
-   "lecturers": [
+   "teachers": [
     "Schuller, Dagmar"
    ],
-   "groups": [
+   "curricula": [
     "170"
    ],
    "length": 2,
@@ -862,7 +1318,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -871,10 +1327,10 @@
    "fach_id": "1015",
    "course": "Verwaltungsrecht",
    "short": "Verwaltungsrecht",
-   "lecturers": [
+   "teachers": [
     "Schuller, Dagmar"
    ],
-   "groups": [
+   "curricula": [
     "170"
    ],
    "length": 2,
@@ -882,7 +1338,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -891,10 +1347,10 @@
    "fach_id": "1018",
    "course": "Standard-IT-Anwendungen in der Verwaltung",
    "short": "Standard-IT-Anwend.",
-   "lecturers": [
+   "teachers": [
     "Wunderlich, Jürgen"
    ],
-   "groups": [
+   "curricula": [
     "171"
    ],
    "length": 4,
@@ -902,7 +1358,7 @@
    "occurrences": 7,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -911,10 +1367,10 @@
    "fach_id": "1018",
    "course": "Standard-IT-Anwendungen in der Verwaltung",
    "short": "Standard-IT-Anwend.",
-   "lecturers": [
+   "teachers": [
     "Gerlit, Robert"
    ],
-   "groups": [
+   "curricula": [
     "171"
    ],
    "length": 4,
@@ -922,7 +1378,7 @@
    "occurrences": 7,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -931,10 +1387,10 @@
    "fach_id": "1125",
    "course": "Smart Cities",
    "short": "Smart Cities",
-   "lecturers": [
+   "teachers": [
     "Höllerer, Reinhard"
    ],
-   "groups": [
+   "curricula": [
     "171",
     "49"
    ],
@@ -943,7 +1399,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -952,10 +1408,10 @@
    "fach_id": "1125",
    "course": "Smart Cities",
    "short": "Smart Cities",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "171",
     "49"
    ],
@@ -964,7 +1420,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -973,11 +1429,11 @@
    "fach_id": "843",
    "course": "Grundlagen der theoretischen Informatik",
    "short": "GTI",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher",
     "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "160"
    ],
    "length": 2,
@@ -985,7 +1441,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -994,11 +1450,11 @@
    "fach_id": "843",
    "course": "Grundlagen der theoretischen Informatik",
    "short": "GTI",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher",
     "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "160"
    ],
    "length": 2,
@@ -1006,7 +1462,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1015,10 +1471,10 @@
    "fach_id": "846",
    "course": "Praktikum Programmieren II",
    "short": "Prakt. Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "166"
    ],
@@ -1027,7 +1483,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1036,10 +1492,10 @@
    "fach_id": "846",
    "course": "Praktikum Programmieren II",
    "short": "Prakt. Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Matzeder, Marco"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "166"
    ],
@@ -1048,7 +1504,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1057,10 +1513,10 @@
    "fach_id": "844",
    "course": "Präsentation und Kommunikation",
    "short": "IB440",
-   "lecturers": [
+   "teachers": [
     "Jochum, Bernadette"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "168"
    ],
@@ -1069,7 +1525,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1078,10 +1534,10 @@
    "fach_id": "832",
    "course": "Programmieren II",
    "short": "Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "166"
    ],
@@ -1090,7 +1546,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1099,10 +1555,10 @@
    "fach_id": "832",
    "course": "Programmieren II",
    "short": "Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "166"
    ],
@@ -1111,7 +1567,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1120,10 +1576,10 @@
    "fach_id": "945",
    "course": "Betriebssysteme",
    "short": "Betriebssysteme",
-   "lecturers": [
+   "teachers": [
     "Pellkofer, Martin"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 2,
@@ -1131,7 +1587,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1140,10 +1596,10 @@
    "fach_id": "980",
    "course": "Internettechnologien",
    "short": "Internettechnologien",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "162",
     "168",
@@ -1155,7 +1611,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -1164,10 +1620,10 @@
    "fach_id": "946",
    "course": "Praktikum Betriebssysteme",
    "short": "Prakt. Betriebssysteme",
-   "lecturers": [
+   "teachers": [
     "Franzke, Thomas"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 4,
@@ -1175,7 +1631,7 @@
    "occurrences": 6,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1184,10 +1640,10 @@
    "fach_id": "946",
    "course": "Praktikum Betriebssysteme",
    "short": "Prakt. Betriebssysteme",
-   "lecturers": [
+   "teachers": [
     "Franzke, Thomas"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 4,
@@ -1195,7 +1651,7 @@
    "occurrences": 9,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1204,10 +1660,10 @@
    "fach_id": "879",
    "course": "Praktikum Rechnerarchitektur",
    "short": "Prakt. Rechnerarchitekturen",
-   "lecturers": [
+   "teachers": [
     "Franzke, Thomas"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 4,
@@ -1215,7 +1671,7 @@
    "occurrences": 7,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1224,10 +1680,10 @@
    "fach_id": "879",
    "course": "Praktikum Rechnerarchitektur",
    "short": "Prakt. Rechnerarchitekturen",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "165"
    ],
@@ -1236,7 +1692,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1245,10 +1701,10 @@
    "fach_id": "845",
    "course": "Rechnerarchitektur",
    "short": "Rechnerarchitektur",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "165"
    ],
@@ -1257,7 +1713,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1266,10 +1722,10 @@
    "fach_id": "845",
    "course": "Rechnerarchitektur",
    "short": "Rechnerarchitektur",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "165"
    ],
@@ -1278,7 +1734,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1287,11 +1743,11 @@
    "fach_id": "996",
    "course": "Praktikum Praxisgrundlagen der Informatik",
    "short": "Prakt. PGI",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher",
     "Matzeder, Marco"
    ],
-   "groups": [
+   "curricula": [
     "163"
    ],
    "length": 4,
@@ -1299,7 +1755,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1308,12 +1764,12 @@
    "fach_id": "1267",
    "course": "Praxisgrundlagen der Informatik",
    "short": "PGI",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher",
     "Matzeder, Marco",
     "Uhrmann, Johann"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "163",
     "168",
@@ -1325,7 +1781,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1334,10 +1790,10 @@
    "fach_id": "979",
    "course": "Verteilte Systeme",
    "short": "Verteilte Systeme",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "162"
    ],
    "length": 2,
@@ -1345,7 +1801,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1354,18 +1810,18 @@
    "fach_id": "979",
    "course": "Verteilte Systeme",
    "short": "Verteilte Systeme",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "162"
    ],
    "length": 4,
    "rhythm": "14",
-   "occurrences": 7,
+   "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1374,10 +1830,10 @@
    "fach_id": "984",
    "course": "Data Science II",
    "short": "Data Science II",
-   "lecturers": [
+   "teachers": [
     "Matzeder, Marco"
    ],
-   "groups": [
+   "curricula": [
     "163"
    ],
    "length": 2,
@@ -1385,7 +1841,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1394,10 +1850,10 @@
    "fach_id": "984",
    "course": "Data Science II",
    "short": "Data Science II",
-   "lecturers": [
+   "teachers": [
     "Matzeder, Marco"
    ],
-   "groups": [
+   "curricula": [
     "163"
    ],
    "length": 2,
@@ -1405,7 +1861,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1414,10 +1870,10 @@
    "fach_id": "833",
    "course": "Mathematik II",
    "short": "Mathe II",
-   "lecturers": [
+   "teachers": [
     "Thoen, Haavard"
    ],
-   "groups": [
+   "curricula": [
     "163"
    ],
    "length": 4,
@@ -1425,7 +1881,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1434,10 +1890,10 @@
    "fach_id": "985",
    "course": "Praktikum Programmieren II",
    "short": "Prakt. Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Hanel, Thomas"
    ],
-   "groups": [
+   "curricula": [
     "163"
    ],
    "length": 4,
@@ -1445,7 +1901,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -1454,10 +1910,10 @@
    "fach_id": "1033",
    "course": "Statistik",
    "short": "Statistik",
-   "lecturers": [
+   "teachers": [
     "Tomashevich, Victor"
    ],
-   "groups": [
+   "curricula": [
     "163",
     "92"
    ],
@@ -1466,7 +1922,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1475,10 +1931,10 @@
    "fach_id": "1033",
    "course": "Statistik",
    "short": "Statistik",
-   "lecturers": [
+   "teachers": [
     "Tomashevich, Victor"
    ],
-   "groups": [
+   "curricula": [
     "163",
     "92"
    ],
@@ -1487,7 +1943,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1496,10 +1952,10 @@
    "fach_id": "1033",
    "course": "Statistik",
    "short": "Statistik",
-   "lecturers": [
+   "teachers": [
     "Kromer, Eduard"
    ],
-   "groups": [
+   "curricula": [
     "163",
     "92"
    ],
@@ -1508,7 +1964,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -1517,10 +1973,10 @@
    "fach_id": "1030",
    "course": "Algorithmen und Datenstrukturen",
    "short": "Algorithmen u. Datenstrukturen",
-   "lecturers": [
+   "teachers": [
     "Matzeder, Marco"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 4,
@@ -1528,7 +1984,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1537,10 +1993,10 @@
    "fach_id": "1032",
    "course": "Künstliche Intelligenz II",
    "short": "KI II",
-   "lecturers": [
+   "teachers": [
     "Kromer, Eduard"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 2,
@@ -1548,7 +2004,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1557,10 +2013,10 @@
    "fach_id": "1032",
    "course": "Künstliche Intelligenz II",
    "short": "KI II",
-   "lecturers": [
+   "teachers": [
     "Matzeder, Marco"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 2,
@@ -1568,7 +2024,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -1577,10 +2033,10 @@
    "fach_id": "1034",
    "course": "Machine Learning II",
    "short": "ML II",
-   "lecturers": [
+   "teachers": [
     "Trautmann, Philip"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 2,
@@ -1588,7 +2044,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1597,10 +2053,10 @@
    "fach_id": "1034",
    "course": "Machine Learning II",
    "short": "ML II",
-   "lecturers": [
+   "teachers": [
     "Trautmann, Philip"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 2,
@@ -1608,7 +2064,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1617,10 +2073,10 @@
    "fach_id": "1034",
    "course": "Machine Learning II",
    "short": "ML II",
-   "lecturers": [
+   "teachers": [
     "Trautmann, Philip"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 2,
@@ -1628,7 +2084,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1637,10 +2093,10 @@
    "fach_id": "1031",
    "course": "Natural Language Processing",
    "short": "NLP",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 2,
@@ -1648,7 +2104,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1657,10 +2113,10 @@
    "fach_id": "1031",
    "course": "Natural Language Processing",
    "short": "NLP",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 2,
@@ -1668,7 +2124,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1677,10 +2133,10 @@
    "fach_id": "1031",
    "course": "Natural Language Processing",
    "short": "NLP",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "164"
    ],
    "length": 2,
@@ -1688,7 +2144,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -1697,10 +2153,10 @@
    "fach_id": "1117",
    "course": "Big Data Algorithms and Systems",
    "short": "Big Data Algorithms a. Systems",
-   "lecturers": [
+   "teachers": [
     "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165"
    ],
@@ -1709,7 +2165,7 @@
    "occurrences": 9,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1718,10 +2174,10 @@
    "fach_id": "1117",
    "course": "Big Data Algorithms and Systems",
    "short": "Big Data Algorithms a. Systems",
-   "lecturers": [
+   "teachers": [
     "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165"
    ],
@@ -1730,7 +2186,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -1739,10 +2195,10 @@
    "fach_id": "1123",
    "course": "Machine Learning III",
    "short": "ML III",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "165"
    ],
    "length": 2,
@@ -1750,7 +2206,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1759,10 +2215,10 @@
    "fach_id": "1123",
    "course": "Machine Learning III",
    "short": "ML III",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "165"
    ],
    "length": 2,
@@ -1770,7 +2226,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1779,19 +2235,19 @@
    "fach_id": "1334",
    "course": "Quantencomputing",
    "short": "Quantencomputing",
-   "lecturers": [
+   "teachers": [
     "Schröter, Sebastian"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165"
    ],
    "length": 2,
    "rhythm": "7",
-   "occurrences": 13,
+   "occurrences": 11,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1800,19 +2256,19 @@
    "fach_id": "1334",
    "course": "Quantencomputing",
    "short": "Quantencomputing",
-   "lecturers": [
+   "teachers": [
     "Schröter, Sebastian"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165"
    ],
    "length": 2,
    "rhythm": "7",
-   "occurrences": 13,
+   "occurrences": 10,
    "published": {
     "day": "Fri",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1821,10 +2277,10 @@
    "fach_id": "212",
    "course": "Kosten- und Leistungsrechnung",
    "short": "KLR",
-   "lecturers": [
+   "teachers": [
     "Weisensee, Michael"
    ],
-   "groups": [
+   "curricula": [
     "45"
    ],
    "length": 2,
@@ -1832,7 +2288,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1841,10 +2297,10 @@
    "fach_id": "399",
    "course": "Grundlagen Produktion, Logistik und Dienstleistungen",
    "short": "Grundl. Produktion, Logist. u. Dienstl.",
-   "lecturers": [
+   "teachers": [
     "Michaeli, Philipp"
    ],
-   "groups": [
+   "curricula": [
     "92"
    ],
    "length": 5,
@@ -1852,7 +2308,7 @@
    "occurrences": 10,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1861,10 +2317,10 @@
    "fach_id": "399",
    "course": "Grundlagen Produktion, Logistik und Dienstleistungen",
    "short": "Grundl. Produktion, Logist. u. Dienstl.",
-   "lecturers": [
+   "teachers": [
     "Michaeli, Philipp"
    ],
-   "groups": [
+   "curricula": [
     "92"
    ],
    "length": 2,
@@ -1872,7 +2328,7 @@
    "occurrences": 4,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1881,10 +2337,10 @@
    "fach_id": "834",
    "course": "Mathematik II",
    "short": "Mathe II",
-   "lecturers": [
-    "Sagraloff, Michael"
+   "teachers": [
+    "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "45"
    ],
    "length": 4,
@@ -1892,7 +2348,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -1901,10 +2357,10 @@
    "fach_id": "1036",
    "course": "Software Engineering",
    "short": "SWE",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "167",
     "169",
     "45"
@@ -1914,7 +2370,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -1923,10 +2379,10 @@
    "fach_id": "835",
    "course": "Programmieren II",
    "short": "Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "163",
     "169",
     "45"
@@ -1936,7 +2392,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1945,10 +2401,10 @@
    "fach_id": "835",
    "course": "Programmieren II",
    "short": "Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "163",
     "169",
     "45"
@@ -1958,7 +2414,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -1967,10 +2423,10 @@
    "fach_id": "1021",
    "course": "Foundations of Scientific Work in Business Informatics",
    "short": "WIF290",
-   "lecturers": [
+   "teachers": [
     "Böhm, Markus"
    ],
-   "groups": [
+   "curricula": [
     "45"
    ],
    "length": 2,
@@ -1978,7 +2434,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -1987,10 +2443,10 @@
    "fach_id": "1021",
    "course": "Foundations of Scientific Work in Business Informatics",
    "short": "WIF290",
-   "lecturers": [
+   "teachers": [
     "Böhm, Markus"
    ],
-   "groups": [
+   "curricula": [
     "45"
    ],
    "length": 2,
@@ -1998,7 +2454,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -2007,10 +2463,10 @@
    "fach_id": "1023",
    "course": "Algorithmen und Datenstrukturen",
    "short": "Algorithmen u. Datenstrukturen",
-   "lecturers": [
+   "teachers": [
     "Franzke, Thomas"
    ],
-   "groups": [
+   "curricula": [
     "92"
    ],
    "length": 4,
@@ -2018,7 +2474,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -2027,10 +2483,10 @@
    "fach_id": "1013",
    "course": "IT-Infrastrukturen",
    "short": "IT-Infrastrukturen",
-   "lecturers": [
+   "teachers": [
     "Uhrmann, Johann"
    ],
-   "groups": [
+   "curricula": [
     "170",
     "92"
    ],
@@ -2039,7 +2495,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2048,10 +2504,10 @@
    "fach_id": "1013",
    "course": "IT-Infrastrukturen",
    "short": "IT-Infrastrukturen",
-   "lecturers": [
+   "teachers": [
     "Uhrmann, Johann"
    ],
-   "groups": [
+   "curricula": [
     "170",
     "92"
    ],
@@ -2060,7 +2516,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2069,10 +2525,10 @@
    "fach_id": "1113",
    "course": "Operations Research",
    "short": "OR",
-   "lecturers": [
+   "teachers": [
     "Sagraloff, Michael"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "92"
    ],
@@ -2081,7 +2537,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2090,10 +2546,10 @@
    "fach_id": "1113",
    "course": "Operations Research",
    "short": "OR",
-   "lecturers": [
+   "teachers": [
     "Sagraloff, Michael"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "92"
    ],
@@ -2102,7 +2558,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2111,10 +2567,10 @@
    "fach_id": "1017",
    "course": "IT-Management",
    "short": "IT-Management",
-   "lecturers": [
+   "teachers": [
     "Böhm, Markus"
    ],
-   "groups": [
+   "curricula": [
     "171",
     "49"
    ],
@@ -2123,7 +2579,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 10
+    "timeslot": 10
    }
   },
   {
@@ -2132,10 +2588,10 @@
    "fach_id": "1017",
    "course": "IT-Management",
    "short": "IT-Management",
-   "lecturers": [
+   "teachers": [
     "Böhm, Markus"
    ],
-   "groups": [
+   "curricula": [
     "171",
     "49"
    ],
@@ -2144,7 +2600,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -2153,10 +2609,10 @@
    "fach_id": "1077",
    "course": "Praktikum Programmieren II",
    "short": "Prakt. Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Uhrmann, Johann"
    ],
-   "groups": [
+   "curricula": [
     "169",
     "45"
    ],
@@ -2165,7 +2621,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2174,10 +2630,10 @@
    "fach_id": "1077",
    "course": "Praktikum Programmieren II",
    "short": "Prakt. Programmieren II",
-   "lecturers": [
+   "teachers": [
     "Lachner, Michael"
    ],
-   "groups": [
+   "curricula": [
     "169",
     "45"
    ],
@@ -2186,7 +2642,7 @@
    "occurrences": 7,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2195,10 +2651,10 @@
    "fach_id": "1118",
    "course": "Produktions- und Servicelogistik",
    "short": "Produktions- u. Servicelogistik",
-   "lecturers": [
+   "teachers": [
     "Wunderlich, Jürgen"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "171",
@@ -2209,7 +2665,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2218,10 +2674,10 @@
    "fach_id": "1118",
    "course": "Produktions- und Servicelogistik",
    "short": "Produktions- u. Servicelogistik",
-   "lecturers": [
+   "teachers": [
     "Wunderlich, Jürgen"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "171",
@@ -2232,7 +2688,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -2241,10 +2697,10 @@
    "fach_id": "1126",
    "course": "Informations- und Metamodellierung",
    "short": "Info.- und Metamodellierung",
-   "lecturers": [
+   "teachers": [
     "Schmidtner, Markus"
    ],
-   "groups": [
+   "curricula": [
     "171",
     "49"
    ],
@@ -2253,7 +2709,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -2262,10 +2718,10 @@
    "fach_id": "1126",
    "course": "Informations- und Metamodellierung",
    "short": "Info.- und Metamodellierung",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "171",
     "49"
    ],
@@ -2274,7 +2730,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2283,18 +2739,18 @@
    "fach_id": "1757",
    "course": "Smart Grids",
    "short": "IM600",
-   "lecturers": [
+   "teachers": [
     "Wallis, Alexander"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 4,
    "rhythm": "14",
-   "occurrences": 7,
+   "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -2303,10 +2759,10 @@
    "fach_id": "1757",
    "course": "Smart Grids",
    "short": "IM600",
-   "lecturers": [
+   "teachers": [
     "Wallis, Alexander"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2314,7 +2770,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -2323,10 +2779,10 @@
    "fach_id": "1816",
    "course": "Computer Systems",
    "short": "IM110",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2334,7 +2790,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2343,10 +2799,10 @@
    "fach_id": "1816",
    "course": "Computer Systems",
    "short": "IM110",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2354,7 +2810,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2363,10 +2819,10 @@
    "fach_id": "1820",
    "course": "Advanced Machine Learning",
    "short": "IM510",
-   "lecturers": [
+   "teachers": [
     "Kromer, Eduard"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2374,7 +2830,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2383,10 +2839,10 @@
    "fach_id": "1820",
    "course": "Advanced Machine Learning",
    "short": "IM510",
-   "lecturers": [
+   "teachers": [
     "Kromer, Eduard"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2394,7 +2850,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2403,10 +2859,10 @@
    "fach_id": "1835",
    "course": "Computer Vision",
    "short": "IM520",
-   "lecturers": [
+   "teachers": [
     "Wanner-Seidl, Veronika"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2414,7 +2870,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2423,10 +2879,10 @@
    "fach_id": "1835",
    "course": "Computer Vision",
    "short": "IM520",
-   "lecturers": [
+   "teachers": [
     "Wanner-Seidl, Veronika"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2434,7 +2890,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2443,10 +2899,10 @@
    "fach_id": "1839",
    "course": "Kryptographie",
    "short": "IM730",
-   "lecturers": [
+   "teachers": [
     "Griebl, Ludwig"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2454,7 +2910,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2463,10 +2919,10 @@
    "fach_id": "1839",
    "course": "Kryptographie",
    "short": "IM730",
-   "lecturers": [
+   "teachers": [
     "Ziegler, Konstantin"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2474,7 +2930,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2483,10 +2939,10 @@
    "fach_id": "1841",
    "course": "Autonomes Fahren",
    "short": "IM470",
-   "lecturers": [
+   "teachers": [
     "Pellkofer, Martin"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2494,7 +2950,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -2503,10 +2959,10 @@
    "fach_id": "1841",
    "course": "Autonomes Fahren",
    "short": "IM470",
-   "lecturers": [
+   "teachers": [
     "Pellkofer, Martin"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2514,7 +2970,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -2523,10 +2979,10 @@
    "fach_id": "1845",
    "course": "Computational Geometry",
    "short": "IM720",
-   "lecturers": [
+   "teachers": [
     "Sagraloff, Michael"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2534,7 +2990,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -2543,10 +2999,10 @@
    "fach_id": "1845",
    "course": "Computational Geometry",
    "short": "IM720",
-   "lecturers": [
+   "teachers": [
     "Sagraloff, Michael"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 4,
@@ -2554,28 +3010,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 4
-   }
-  },
-  {
-   "id": "4269-Tue-0",
-   "lv_id": "4269",
-   "fach_id": "1847",
-   "course": "Semantic Web",
-   "short": "IM480",
-   "lecturers": [
-    "Busse, Johannes"
-   ],
-   "groups": [
-    "63",
-    "69"
-   ],
-   "length": 2,
-   "rhythm": "7",
-   "occurrences": 15,
-   "published": {
-    "day": "Tue",
-    "slot": 0
+    "timeslot": 4
    }
   },
   {
@@ -2584,10 +3019,10 @@
    "fach_id": "1847",
    "course": "Semantic Web",
    "short": "IM480",
-   "lecturers": [
+   "teachers": [
     "Busse, Johannes"
    ],
-   "groups": [
+   "curricula": [
     "63",
     "69"
    ],
@@ -2596,7 +3031,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2605,10 +3040,10 @@
    "fach_id": "1848",
    "course": "Deep Reinforcement Learning",
    "short": "IM530",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2616,7 +3051,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2625,10 +3060,10 @@
    "fach_id": "1848",
    "course": "Deep Reinforcement Learning",
    "short": "IM530",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -2636,7 +3071,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2645,10 +3080,10 @@
    "fach_id": "1078",
    "course": "Konzepte des Systems Engineering",
    "short": "Konzepte d. SE",
-   "lecturers": [
+   "teachers": [
     "Schröter, Sebastian"
    ],
-   "groups": [
+   "curricula": [
     "66"
    ],
    "length": 4,
@@ -2656,7 +3091,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -2665,10 +3100,10 @@
    "fach_id": "1079",
    "course": "Projektmanagement",
    "short": "Projektmanagement",
-   "lecturers": [
+   "teachers": [
     "Dorfner, Matthias"
    ],
-   "groups": [
+   "curricula": [
     "66"
    ],
    "length": 2,
@@ -2676,7 +3111,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2685,10 +3120,10 @@
    "fach_id": "1079",
    "course": "Projektmanagement",
    "short": "Projektmanagement",
-   "lecturers": [
+   "teachers": [
     "Dorfner, Matthias"
    ],
-   "groups": [
+   "curricula": [
     "66"
    ],
    "length": 2,
@@ -2696,27 +3131,27 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
-   "id": "4273-Mon-8",
+   "id": "4273-Tue-6",
    "lv_id": "4273",
    "fach_id": "1080",
    "course": "Konzepte des Modellbasierten Systems Engineering",
    "short": "Konzepte d. Modellbas. SE",
-   "lecturers": [
+   "teachers": [
     "Diekhoff, Sebastian"
    ],
-   "groups": [
+   "curricula": [
     "66"
    ],
    "length": 2,
    "rhythm": "7",
-   "occurrences": 14,
+   "occurrences": 15,
    "published": {
-    "day": "Mon",
-    "slot": 8
+    "day": "Tue",
+    "timeslot": 6
    }
   },
   {
@@ -2725,10 +3160,10 @@
    "fach_id": "1080",
    "course": "Konzepte des Modellbasierten Systems Engineering",
    "short": "Konzepte d. Modellbas. SE",
-   "lecturers": [
+   "teachers": [
     "Diekhoff, Sebastian"
    ],
-   "groups": [
+   "curricula": [
     "66"
    ],
    "length": 2,
@@ -2736,7 +3171,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -2745,10 +3180,10 @@
    "fach_id": "1081",
    "course": "Integriertes Qualitäts- und Umweltmanagement",
    "short": "Integr. Quali.- und Umweltmgmt.",
-   "lecturers": [
+   "teachers": [
     "Eder, Klaus"
    ],
-   "groups": [
+   "curricula": [
     "66"
    ],
    "length": 4,
@@ -2756,7 +3191,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2765,19 +3200,19 @@
    "fach_id": "1082",
    "course": "Arbeitsmethodik und Führungskompetenz",
    "short": "AMFK",
-   "lecturers": [
+   "teachers": [
     "Dalnodar, Corinna",
     "Wundsam-Gollwitzer, Kerstin"
    ],
-   "groups": [
+   "curricula": [
     "66"
    ],
    "length": 4,
    "rhythm": "0",
-   "occurrences": 13,
+   "occurrences": 11,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2786,10 +3221,10 @@
    "fach_id": "1140",
    "course": "Masterarbeit inkl. Master-Seminar",
    "short": "Masterseminar",
-   "lecturers": [
+   "teachers": [
     "Dorfner, Matthias"
    ],
-   "groups": [
+   "curricula": [
     "68"
    ],
    "length": 3,
@@ -2797,7 +3232,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 1
+    "timeslot": 1
    }
   },
   {
@@ -2806,10 +3241,10 @@
    "fach_id": "1830",
    "course": "Methodik Angewandter Wissenschaften",
    "short": "IM100",
-   "lecturers": [
+   "teachers": [
     "Busse, Johannes"
    ],
-   "groups": [
+   "curricula": [
     "63",
     "69"
    ],
@@ -2818,7 +3253,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -2827,10 +3262,10 @@
    "fach_id": "1830",
    "course": "Methodik Angewandter Wissenschaften",
    "short": "IM100",
-   "lecturers": [
+   "teachers": [
     "Busse, Johannes"
    ],
-   "groups": [
+   "curricula": [
     "63",
     "69"
    ],
@@ -2839,7 +3274,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -2848,10 +3283,10 @@
    "fach_id": "1843",
    "course": "Operational Security",
    "short": "IM410",
-   "lecturers": [
+   "teachers": [
     "Uhrmann, Johann"
    ],
-   "groups": [
+   "curricula": [
     "63",
     "69"
    ],
@@ -2860,7 +3295,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -2869,10 +3304,10 @@
    "fach_id": "1843",
    "course": "Operational Security",
    "short": "IM410",
-   "lecturers": [
+   "teachers": [
     "Uhrmann, Johann"
    ],
-   "groups": [
+   "curricula": [
     "63",
     "69"
    ],
@@ -2881,7 +3316,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -2890,10 +3325,10 @@
    "fach_id": "1090",
    "course": "Management Support Systeme",
    "short": "WM120",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher"
    ],
-   "groups": [
+   "curricula": [
     "69"
    ],
    "length": 2,
@@ -2901,7 +3336,27 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4282-Mon-8",
+   "lv_id": "4282",
+   "fach_id": "1090",
+   "course": "Management Support Systeme",
+   "short": "WM120",
+   "teachers": [
+    "Wunderlich, Jürgen"
+   ],
+   "curricula": [
+    "69"
+   ],
+   "length": 2,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Mon",
+    "timeslot": 8
    }
   },
   {
@@ -2910,10 +3365,10 @@
    "fach_id": "1090",
    "course": "Management Support Systeme",
    "short": "WM120",
-   "lecturers": [
+   "teachers": [
     "Wunderlich, Jürgen"
    ],
-   "groups": [
+   "curricula": [
     "69"
    ],
    "length": 2,
@@ -2921,7 +3376,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -2930,10 +3385,10 @@
    "fach_id": "1092",
    "course": "Dienstleistungsmanagement und Wertschöpfungsnetze",
    "short": "WM160",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "69"
    ],
    "length": 2,
@@ -2941,7 +3396,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -2950,10 +3405,10 @@
    "fach_id": "1092",
    "course": "Dienstleistungsmanagement und Wertschöpfungsnetze",
    "short": "WM160",
-   "lecturers": [
+   "teachers": [
     "Jakob, Markus"
    ],
-   "groups": [
+   "curricula": [
     "69"
    ],
    "length": 2,
@@ -2961,7 +3416,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -2970,10 +3425,10 @@
    "fach_id": "1093",
    "course": "E-Government",
    "short": "WM170",
-   "lecturers": [
+   "teachers": [
     "Höllerer, Reinhard"
    ],
-   "groups": [
+   "curricula": [
     "69"
    ],
    "length": 4,
@@ -2981,7 +3436,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -2990,10 +3445,10 @@
    "fach_id": "1094",
    "course": "IT-Consulting",
    "short": "WM180",
-   "lecturers": [
+   "teachers": [
     "Varma, Devendra"
    ],
-   "groups": [
+   "curricula": [
     "69"
    ],
    "length": 10,
@@ -3001,7 +3456,7 @@
    "occurrences": 5,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3010,10 +3465,10 @@
    "fach_id": "1838",
    "course": "Digital Entrepreneurship",
    "short": "BW210",
-   "lecturers": [
+   "teachers": [
     "Schuller, Dagmar"
    ],
-   "groups": [
+   "curricula": [
     "63",
     "69"
    ],
@@ -3022,7 +3477,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -3031,10 +3486,10 @@
    "fach_id": "1838",
    "course": "Digital Entrepreneurship",
    "short": "BW210",
-   "lecturers": [
+   "teachers": [
     "Schuller, Dagmar"
    ],
-   "groups": [
+   "curricula": [
     "63",
     "69"
    ],
@@ -3043,7 +3498,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -3052,20 +3507,20 @@
    "fach_id": "1831",
    "course": "Prozess-Simulation",
    "short": "WM140",
-   "lecturers": [
+   "teachers": [
     "Wunderlich, Jürgen"
    ],
-   "groups": [
+   "curricula": [
     "63",
     "66",
     "69"
    ],
    "length": 4,
    "rhythm": "14",
-   "occurrences": 15,
+   "occurrences": 14,
    "published": {
     "day": "Mon",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3074,10 +3529,10 @@
    "fach_id": "1131",
    "course": "Softwarequalität",
    "short": "WM250",
-   "lecturers": [
+   "teachers": [
     "Scholz, Peter"
    ],
-   "groups": [
+   "curricula": [
     "69"
    ],
    "length": 2,
@@ -3085,7 +3540,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3094,10 +3549,10 @@
    "fach_id": "1131",
    "course": "Softwarequalität",
    "short": "WM250",
-   "lecturers": [
+   "teachers": [
     "Scholz, Peter"
    ],
-   "groups": [
+   "curricula": [
     "69"
    ],
    "length": 2,
@@ -3105,7 +3560,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3114,10 +3569,10 @@
    "fach_id": "822",
    "course": "Mathematik II",
    "short": "Mathe II",
-   "lecturers": [
+   "teachers": [
     "Sagraloff, Michael"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "163",
     "45"
@@ -3127,7 +3582,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3136,10 +3591,10 @@
    "fach_id": "822",
    "course": "Mathematik II",
    "short": "Mathe II",
-   "lecturers": [
+   "teachers": [
     "Sagraloff, Michael"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "163",
     "45"
@@ -3149,7 +3604,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3158,10 +3613,10 @@
    "fach_id": "836",
    "course": "Software Engineering I",
    "short": "SWE I",
-   "lecturers": [
+   "teachers": [
     "Schröter, Sebastian"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "164",
     "167",
@@ -3173,7 +3628,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3182,10 +3637,10 @@
    "fach_id": "880",
    "course": "Algorithmen und Datenstrukturen",
    "short": "Algorithmen u. Datenstrukturen",
-   "lecturers": [
+   "teachers": [
     "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "164",
     "167",
@@ -3196,7 +3651,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3205,10 +3660,10 @@
    "fach_id": "912",
    "course": "Statistik",
    "short": "Statistik",
-   "lecturers": [
+   "teachers": [
     "Ziegler, Konstantin"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 3,
@@ -3216,7 +3671,1223 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 1
+    "timeslot": 1
+   }
+  },
+  {
+   "id": "4321-Mon-6",
+   "lv_id": "4321",
+   "fach_id": "202",
+   "course": "Gesprächsführung und Beratung",
+   "short": "N2.1.2",
+   "teachers": [
+    "Heigermoser, Christiane",
+    "Oberhauser, Gertraud"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4321-Tue-0",
+   "lv_id": "4321",
+   "fach_id": "202",
+   "course": "Gesprächsführung und Beratung",
+   "short": "N2.1.2",
+   "teachers": [
+    "Schmidtke, Anja"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4321-Tue-2",
+   "lv_id": "4321",
+   "fach_id": "202",
+   "course": "Gesprächsführung und Beratung",
+   "short": "N2.1.2",
+   "teachers": [
+    "Lübke, Kathrin"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 3,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Tue",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4323-Wed-0",
+   "lv_id": "4323",
+   "fach_id": "343",
+   "course": "Einführung in die Handlungskonzepte der Sozialen Arbeit",
+   "short": "N2.1.1",
+   "teachers": [
+    "Pinkl, Johanna"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4323-Wed-2",
+   "lv_id": "4323",
+   "fach_id": "343",
+   "course": "Einführung in die Handlungskonzepte der Sozialen Arbeit",
+   "short": "N2.1.1",
+   "teachers": [
+    "Pinkl, Johanna"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4324-Mon-0",
+   "lv_id": "4324",
+   "fach_id": "346",
+   "course": "Die gesellschaftliche Funktion der Sozialen Arbeit",
+   "short": "N2.2.1",
+   "teachers": [
+    "Borrmann, Stefan"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Mon",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4327-Thu-2",
+   "lv_id": "4327",
+   "fach_id": "349",
+   "course": "Kasuistik in der Sozialen Arbeit",
+   "short": "N2.2.2",
+   "teachers": [
+    "Laub, Matthias"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4328-Thu-2",
+   "lv_id": "4328",
+   "fach_id": "351",
+   "course": "Soziale Arbeit als Menschenrechtsprofession",
+   "short": "N2.2.2",
+   "teachers": [
+    "Borrmann, Stefan"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4329-Wed-0",
+   "lv_id": "4329",
+   "fach_id": "424",
+   "course": "Einführung in die Methoden empirischer Sozialforschung",
+   "short": "N2.3.1",
+   "teachers": [
+    "Otto, Marius"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4329-Wed-2",
+   "lv_id": "4329",
+   "fach_id": "424",
+   "course": "Einführung in die Methoden empirischer Sozialforschung",
+   "short": "N2.3.1",
+   "teachers": [
+    "Otto, Marius"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4330-Mon-6",
+   "lv_id": "4330",
+   "fach_id": "425",
+   "course": "Datenerhebung, Dateneingabe und Datenanalyse - Empirie und Statistik",
+   "short": "N2.3.2",
+   "teachers": [
+    "Hofer, Anna"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Mon",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4330-Thu-0",
+   "lv_id": "4330",
+   "fach_id": "425",
+   "course": "Datenerhebung, Dateneingabe und Datenanalyse - Empirie und Statistik",
+   "short": "N2.3.2",
+   "teachers": [
+    "Otto, Marius"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4330-Thu-6",
+   "lv_id": "4330",
+   "fach_id": "425",
+   "course": "Datenerhebung, Dateneingabe und Datenanalyse - Empirie und Statistik",
+   "short": "N2.3.2",
+   "teachers": [
+    "Otto, Marius"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4330-Tue-0",
+   "lv_id": "4330",
+   "fach_id": "425",
+   "course": "Datenerhebung, Dateneingabe und Datenanalyse - Empirie und Statistik",
+   "short": "N2.3.2",
+   "teachers": [
+    "Leibetseder, Bettina"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4332-Wed-8",
+   "lv_id": "4332",
+   "fach_id": "428",
+   "course": "Jugendhilfe",
+   "short": "N2.5/TPV",
+   "teachers": [
+    "Oberhauser, Gertraud"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 8
+   }
+  },
+  {
+   "id": "4334-Wed-6",
+   "lv_id": "4334",
+   "fach_id": "431",
+   "course": "Alkoholismus",
+   "short": "N2.5/TPV",
+   "teachers": [
+    "Pinkl, Johanna"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 9,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4336-Mon-2",
+   "lv_id": "4336",
+   "fach_id": "434",
+   "course": "Sozialrecht",
+   "short": "N2.4.1",
+   "teachers": [
+    "Hartmann, Thomas"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Mon",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4337-Mon-2",
+   "lv_id": "4337",
+   "fach_id": "435",
+   "course": "Ehe- und Familienrecht",
+   "short": "N2.4.2",
+   "teachers": [
+    "Kühbeck, Bettina"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Mon",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4338-Tue-6",
+   "lv_id": "4338",
+   "fach_id": "436",
+   "course": "Strafrecht",
+   "short": "N2.4.3",
+   "teachers": [
+    "Kolb, Stefan"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4339-Thu-8",
+   "lv_id": "4339",
+   "fach_id": "438",
+   "course": "Gesundheitsbezogenes Recht",
+   "short": "N2.4.3",
+   "teachers": [
+    "Pichlmeier, Michael"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Thu",
+    "timeslot": 8
+   }
+  },
+  {
+   "id": "4341-Wed-0",
+   "lv_id": "4341",
+   "fach_id": "440",
+   "course": "Soziologie des Körpers und der Behinderung",
+   "short": "N4.2.2",
+   "teachers": [
+    "Dannenbeck, Clemens"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4342-Wed-0",
+   "lv_id": "4342",
+   "fach_id": "441",
+   "course": "Soziale Arbeit und interkulturelle Kompetenzen - europäische Perspektiven in der Straffälligenarbeit",
+   "short": "N4.2.2",
+   "teachers": [
+    "Heigermoser, Christiane"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4344-Mon-2",
+   "lv_id": "4344",
+   "fach_id": "445",
+   "course": "Klinische Psychologie - therapeutische Grundlagen psychosozialer Fallarbeit",
+   "short": "N4.3.1",
+   "teachers": [
+    "Viehhauser, Ralph"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4347-Tue-0",
+   "lv_id": "4347",
+   "fach_id": "450",
+   "course": "Betriebliches Gesundheitsmanagement",
+   "short": "N4.3.2",
+   "teachers": [
+    "Pinkl, Johanna"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Tue",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4349-Wed-2",
+   "lv_id": "4349",
+   "fach_id": "457",
+   "course": "Partizipationsformen in der sozialraumorientierten Sozialen Arbeit",
+   "short": "N4.4.2",
+   "teachers": [
+    "Schmidtke, Anja"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4350-Mon-6",
+   "lv_id": "4350",
+   "fach_id": "458",
+   "course": "Netzwerke und Netzwerkarbeit im Sozialraum",
+   "short": "N4.4.2",
+   "teachers": [
+    "Otto, Marius"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Mon",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4351-Wed-6",
+   "lv_id": "4351",
+   "fach_id": "460",
+   "course": "Soziale Ungleichheit im Kinder- und Jugendalter",
+   "short": "N4.5.2",
+   "teachers": [
+    "Wolff, Mechthild"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4355-Thu-0",
+   "lv_id": "4355",
+   "fach_id": "471",
+   "course": "Soziale Arbeit mit Menschen mit Demenz",
+   "short": "N6.3.2",
+   "teachers": [
+    "Lübke, Kathrin"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4356-Tue-2",
+   "lv_id": "4356",
+   "fach_id": "472",
+   "course": "Soziale Arbeit mit Menschen mit psychischen Störungen",
+   "short": "N6.3.2",
+   "teachers": [
+    "Lohner, Johannes"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4357-Thu-6",
+   "lv_id": "4357",
+   "fach_id": "474",
+   "course": "Recovery in der Sozialen Arbeit mit psychisch kranken Menschen",
+   "short": "N6.3.2",
+   "teachers": [
+    "Laub, Matthias"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4364-Mon-2",
+   "lv_id": "4364",
+   "fach_id": "483",
+   "course": "Ambulante Jugendhilfe im Sozialraum",
+   "short": "N6.4.2",
+   "teachers": [
+    "Schmidtke, Anja"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4365-Thu-2",
+   "lv_id": "4365",
+   "fach_id": "484",
+   "course": "Ressourcenorientierte Biografiearbeit mit Kindern, Erwachsenen und alten Menschen",
+   "short": "N6.4.2",
+   "teachers": [
+    "Lübke, Kathrin"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4366-Tue-0",
+   "lv_id": "4366",
+   "fach_id": "485",
+   "course": "Soziale Arbeit als Gerechtigkeitsprofession",
+   "short": "N6.5.1",
+   "teachers": [
+    "Laub, Matthias"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4367-Thu-6",
+   "lv_id": "4367",
+   "fach_id": "486",
+   "course": "Schutzkonzepte und Gefährdungsanalysen für Organisationen der Sozialen Arbeit",
+   "short": "N6.5.2",
+   "teachers": [
+    "Wolff, Mechthild"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4368-Tue-2",
+   "lv_id": "4368",
+   "fach_id": "487",
+   "course": "Kooperationsnetzwerke gestalten für Kinder und ihre psychisch erkrankten Eltern",
+   "short": "N6.5.2",
+   "teachers": [
+    "Laub, Matthias"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4371-Wed-6",
+   "lv_id": "4371",
+   "fach_id": "987",
+   "course": "Methoden und Ansätze ästhetischer Projektarbeit",
+   "short": "N2.5/TPV",
+   "teachers": [
+    "Franceschini, Bruno"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4373-Tue-2",
+   "lv_id": "4373",
+   "fach_id": "990",
+   "course": "Soziale Arbeit und soziale Ungleichheit - Grundlagen, Analyse und Konzepte",
+   "short": "N4.5.1",
+   "teachers": [
+    "Houben, Daniel"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4382-Fri-0",
+   "lv_id": "4382",
+   "fach_id": "1133",
+   "course": "Soziale Gruppenarbeit",
+   "short": "N2.1.3",
+   "teachers": [
+    "Lübke, Kathrin"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 5,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Fri",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4382-Tue-2",
+   "lv_id": "4382",
+   "fach_id": "1133",
+   "course": "Soziale Gruppenarbeit",
+   "short": "N2.1.3",
+   "teachers": [
+    "Franceschini, Bruno",
+    "Oberhauser, Gertraud"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 3,
+   "rhythm": "14",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4385-Thu-2",
+   "lv_id": "4385",
+   "fach_id": "1304",
+   "course": "Feministische Perspektiven auf Professionsentwicklung",
+   "short": "N2.2.2",
+   "teachers": [
+    "Ritter, Monique"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4389-Wed-6",
+   "lv_id": "4389",
+   "fach_id": "1308",
+   "course": "Gender- und queersensible Soziale Arbeit",
+   "short": "N4.5.2",
+   "teachers": [
+    "Ritter, Monique"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4391-Wed-0",
+   "lv_id": "4391",
+   "fach_id": "1310",
+   "course": "Geschlechterreflektiertes Handeln in der Sozialen Arbeit?!",
+   "short": "N6.1.1",
+   "teachers": [
+    "Ritter, Monique"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4393-Mon-6",
+   "lv_id": "4393",
+   "fach_id": "1312",
+   "course": "Ästhetische Praxis konzipieren und anwenden",
+   "short": "N6.2.2",
+   "teachers": [
+    "Franceschini, Bruno"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Mon",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4394-Thu-0",
+   "lv_id": "4394",
+   "fach_id": "1313",
+   "course": "Soziale Arbeit in der Migrationsgesellschaft",
+   "short": "N6.2.2",
+   "teachers": [
+    "Ritter, Monique"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4402-Thu-8",
+   "lv_id": "4402",
+   "fach_id": "437",
+   "course": "Kinder- und Jugendhilferecht",
+   "short": "N2.4.3",
+   "teachers": [
+    "Kühbeck, Bettina"
+   ],
+   "curricula": [
+    "73"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 8
+   }
+  },
+  {
+   "id": "4403-Wed-6",
+   "lv_id": "4403",
+   "fach_id": "2637",
+   "course": "Leseprojekt KonTEXT",
+   "short": "N2.5/TPV",
+   "teachers": [
+    "Franceschini, Bruno"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4405-Tue-0",
+   "lv_id": "4405",
+   "fach_id": "2638",
+   "course": "Case Management in der Sozialen Altenarbeit",
+   "short": "N4.3.2",
+   "teachers": [
+    "Lübke, Kathrin"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Tue",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4406-Tue-0",
+   "lv_id": "4406",
+   "fach_id": "2639",
+   "course": "Sucht und Straffälligenhilfe",
+   "short": "N4.3.2",
+   "teachers": [
+    "Heigermoser, Christiane"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4407-Mon-6",
+   "lv_id": "4407",
+   "fach_id": "452",
+   "course": "Soziale Arbeit in und an Schulen",
+   "short": "N4.4.2",
+   "teachers": [
+    "Pinkl, Johanna"
+   ],
+   "curricula": [
+    "75"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Mon",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4408-Wed-0",
+   "lv_id": "4408",
+   "fach_id": "2640",
+   "course": "Qualitativ Forschen in Kontexten des Alter(n)s",
+   "short": "N6.1.1",
+   "teachers": [
+    "Kühnel, Markus"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4409-Wed-0",
+   "lv_id": "4409",
+   "fach_id": "2641",
+   "course": "Selbsthilfe partizipativ entwickeln",
+   "short": "N6.1.1",
+   "teachers": [
+    "Liel, Katrin"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4410-Wed-0",
+   "lv_id": "4410",
+   "fach_id": "2642",
+   "course": "Zwischen Klinik und Jugendhilfe, Analyse von Einrichtungsangeboten",
+   "short": "N6.1.1",
+   "teachers": [
+    "Kühbeck, Bettina"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4413-Mon-6",
+   "lv_id": "4413",
+   "fach_id": "2645",
+   "course": "Konzeption BA-Arbeit",
+   "short": "N6.1.2",
+   "teachers": [
+    "Houben, Daniel"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 6,
+   "published": {
+    "day": "Mon",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4413-Thu-2",
+   "lv_id": "4413",
+   "fach_id": "2645",
+   "course": "Konzeption BA-Arbeit",
+   "short": "N6.1.2",
+   "teachers": [
+    "Lohner, Johannes"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 7,
+   "published": {
+    "day": "Thu",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4413-Tue-6",
+   "lv_id": "4413",
+   "fach_id": "2645",
+   "course": "Konzeption BA-Arbeit",
+   "short": "N6.1.2",
+   "teachers": [
+    "Kühbeck, Bettina",
+    "Ritter, Monique"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 5,
+   "published": {
+    "day": "Tue",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4413-Wed-6",
+   "lv_id": "4413",
+   "fach_id": "2645",
+   "course": "Konzeption BA-Arbeit",
+   "short": "N6.1.2",
+   "teachers": [
+    "Liel, Katrin"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4414-Mon-2",
+   "lv_id": "4414",
+   "fach_id": "2646",
+   "course": "Sozialdienst in stationären Einrichtungen der Altenhilfe",
+   "short": "N6.5.2",
+   "teachers": [
+    "Lübke, Kathrin"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Mon",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4415-Mon-0",
+   "lv_id": "4415",
+   "fach_id": "2647",
+   "course": "Soziale Ungleichheit und Bildung",
+   "short": "N6.5.2",
+   "teachers": [
+    "Heigermoser, Christiane"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 14,
+   "published": {
+    "day": "Mon",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4430-Thu-0",
+   "lv_id": "4430",
+   "fach_id": "237",
+   "course": "Klientenbezogene Selbst- und Praxisreflexion II",
+   "short": "KSA3.1.2_Gr.1",
+   "teachers": [
+    "Lohner, Johannes"
+   ],
+   "curricula": [
+    "91"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 6,
+   "published": {
+    "day": "Thu",
+    "timeslot": 0
    }
   },
   {
@@ -3225,10 +4896,10 @@
    "fach_id": "801",
    "course": "Grundlagen Marketing und Vertrieb",
    "short": "MKM_M&V",
-   "lecturers": [
+   "teachers": [
     "Kolbeck, Maike"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 2,
@@ -3236,7 +4907,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3245,10 +4916,10 @@
    "fach_id": "801",
    "course": "Grundlagen Marketing und Vertrieb",
    "short": "MKM_M&V",
-   "lecturers": [
+   "teachers": [
     "Kolbeck, Maike"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 2,
@@ -3256,19 +4927,19 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
    "id": "4445-Mon-6",
    "lv_id": "4445",
-   "fach_id": "2658",
-   "course": "FWPF",
-   "short": "WPN_FWPF",
-   "lecturers": [
+   "fach_id": "3127",
+   "course": "Arbeitsrecht",
+   "short": "WPN_FWP_AR",
+   "teachers": [
     "Strunz, Manuel"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 4,
@@ -3276,7 +4947,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3285,10 +4956,10 @@
    "fach_id": "1404",
    "course": "Geschäftsmodell- und Strategieentwicklung",
    "short": "MKM_GmuStrE",
-   "lecturers": [
+   "teachers": [
     "Michaeli, Philipp"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 4,
@@ -3296,7 +4967,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3305,10 +4976,10 @@
    "fach_id": "1404",
    "course": "Geschäftsmodell- und Strategieentwicklung",
    "short": "MKM_GmuStrE",
-   "lecturers": [
+   "teachers": [
     "Michaeli, Philipp"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 4,
@@ -3316,7 +4987,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3325,10 +4996,10 @@
    "fach_id": "1403",
    "course": "Grundlagen Controlling",
    "short": "MKM_Co",
-   "lecturers": [
+   "teachers": [
     "Dieses, Patrick"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 4,
@@ -3336,7 +5007,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3345,10 +5016,10 @@
    "fach_id": "1405",
    "course": "Innovations- und Projektmanagement",
    "short": "MKM",
-   "lecturers": [
+   "teachers": [
     "Lipp, Wolfram"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 3,
@@ -3356,7 +5027,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -3365,10 +5036,10 @@
    "fach_id": "33",
    "course": "Wirtschaftsinformatik I",
    "short": "BW_KM WIF I",
-   "lecturers": [
+   "teachers": [
     "Greipl, Dieter"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 2,
@@ -3376,7 +5047,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3385,10 +5056,10 @@
    "fach_id": "33",
    "course": "Wirtschaftsinformatik I",
    "short": "BW_KM WIF I",
-   "lecturers": [
+   "teachers": [
     "Greipl, Dieter"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 4,
@@ -3396,7 +5067,7 @@
    "occurrences": 9,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3405,10 +5076,10 @@
    "fach_id": "46",
    "course": "European Law",
    "short": "IB_EuLaw",
-   "lecturers": [
+   "teachers": [
     "Strunz, Manuel"
    ],
-   "groups": [
+   "curricula": [
     "49"
    ],
    "length": 3,
@@ -3416,7 +5087,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -3425,10 +5096,10 @@
    "fach_id": "398",
    "course": "Finanzen, Investition",
    "short": "Finanzen, Investition",
-   "lecturers": [
+   "teachers": [
     "Fischer, Marcus"
    ],
-   "groups": [
+   "curricula": [
     "92"
    ],
    "length": 4,
@@ -3436,7 +5107,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3445,19 +5116,180 @@
    "fach_id": "2658",
    "course": "FWPF",
    "short": "WPN_FWPF",
-   "lecturers": [
+   "teachers": [
     "Gronover, Sandra",
     "Krieger, Tina"
    ],
-   "groups": [
+   "curricula": [
     "49"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 11,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4501-Mon-2",
+   "lv_id": "4501",
+   "fach_id": "495",
+   "course": "Stationäre und teilstationäre Hilfen zur Erziehung",
+   "short": "J6.2.1",
+   "teachers": [
+    "Wolff, Mechthild"
+   ],
+   "curricula": [
+    "84"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4506-Tue-2",
+   "lv_id": "4506",
+   "fach_id": "501",
+   "course": "Leitbild Inklusion in Einrichtungen der Kinder- und Jugendhilfe",
+   "short": "J6.4.2",
+   "teachers": [
+    "Dannenbeck, Clemens"
+   ],
+   "curricula": [
+    "84"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 2
+   }
+  },
+  {
+   "id": "4507-Tue-0",
+   "lv_id": "4507",
+   "fach_id": "502",
+   "course": "Organisation, Aufgaben und sozialadministrative Grundsätze",
+   "short": "J6.5.1",
+   "teachers": [
+    "Oberhauser, Gertraud"
+   ],
+   "curricula": [
+    "84"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Tue",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4508-Wed-6",
+   "lv_id": "4508",
+   "fach_id": "503",
+   "course": "Jugendkriminalität und die Praxis der Jugendgerichtshilfe (JGH)",
+   "short": "J6.5.2",
+   "teachers": [
+    "Oberhauser, Gertraud"
+   ],
+   "curricula": [
+    "84"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4516-Mon-0",
+   "lv_id": "4516",
+   "fach_id": "2477",
+   "course": "Praxisbegleitende Kleingruppe",
+   "short": "J4.1.2",
+   "teachers": [
+    "Oberhauser, Gertraud"
+   ],
+   "curricula": [
+    "82"
+   ],
+   "length": 5,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Mon",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4517-Mon-0",
+   "lv_id": "4517",
+   "fach_id": "2478",
+   "course": "Praxisbegleitende Kleingruppe",
+   "short": "J4.1.2",
+   "teachers": [
+    "Pinkl, Johanna"
+   ],
+   "curricula": [
+    "82"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Mon",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4598-Mon-0",
+   "lv_id": "4598",
+   "fach_id": "2480",
+   "course": "Praxisbegleitende Kleingruppe",
+   "short": "J4.1.2",
+   "teachers": [
+    "Oberhauser, Gertraud"
+   ],
+   "curricula": [
+    "82"
+   ],
+   "length": 5,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Mon",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "4602-Wed-0",
+   "lv_id": "4602",
+   "fach_id": "2665",
+   "course": "Rassismuserfahrungen als Herausforderung für professionelles Handeln i",
+   "short": "N6.1.1",
+   "teachers": [
+    "Özdogan, Mihri"
+   ],
+   "curricula": [
+    "77",
+    "84"
    ],
    "length": 4,
    "rhythm": "7",
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 6
+    "timeslot": 0
    }
   },
   {
@@ -3466,10 +5298,10 @@
    "fach_id": "2667",
    "course": "Inverse Problems",
    "short": "IM740",
-   "lecturers": [
+   "teachers": [
     "Jörg, Hannah"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -3477,7 +5309,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3486,10 +5318,10 @@
    "fach_id": "2667",
    "course": "Inverse Problems",
    "short": "IM740",
-   "lecturers": [
+   "teachers": [
     "Ziegler, Konstantin"
    ],
-   "groups": [
+   "curricula": [
     "63"
    ],
    "length": 2,
@@ -3497,7 +5329,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -3506,10 +5338,10 @@
    "fach_id": "2668",
    "course": "Prakt. Algorithmen und Datenstruktur",
    "short": "Prakt. AuD",
-   "lecturers": [
+   "teachers": [
     "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 4,
@@ -3517,7 +5349,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3526,10 +5358,10 @@
    "fach_id": "2669",
    "course": "Prakt. Grundlagen theoretischer Informatik",
    "short": "Prakt. GTI",
-   "lecturers": [
+   "teachers": [
     "Auer, Christopher"
    ],
-   "groups": [
+   "curricula": [
     "160"
    ],
    "length": 4,
@@ -3537,7 +5369,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3546,10 +5378,10 @@
    "fach_id": "2670",
    "course": "Prakt. Mathematik II",
    "short": "Prakt. Mathe II",
-   "lecturers": [
+   "teachers": [
     "Thoen, Haavard"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "163",
     "45"
@@ -3559,7 +5391,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3568,10 +5400,10 @@
    "fach_id": "2670",
    "course": "Prakt. Mathematik II",
    "short": "Prakt. Mathe II",
-   "lecturers": [
+   "teachers": [
     "Siebert, Andreas"
    ],
-   "groups": [
+   "curricula": [
     "160"
    ],
    "length": 4,
@@ -3579,7 +5411,7 @@
    "occurrences": 7,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3588,10 +5420,10 @@
    "fach_id": "2671",
    "course": "Übung SWE I",
    "short": "Übung SWE I",
-   "lecturers": [
+   "teachers": [
     "Schröter, Sebastian"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "164"
    ],
@@ -3600,7 +5432,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3609,19 +5441,19 @@
    "fach_id": "2671",
    "course": "Übung SWE I",
    "short": "Übung SWE I",
-   "lecturers": [
+   "teachers": [
     "Blechinger, Markus"
    ],
-   "groups": [
+   "curricula": [
     "160",
     "164"
    ],
    "length": 2,
    "rhythm": "7",
-   "occurrences": 15,
+   "occurrences": 4,
    "published": {
     "day": "Tue",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -3630,10 +5462,10 @@
    "fach_id": "2672",
    "course": "Prakt. Internettechnologien",
    "short": "Prakt. Internettechn.",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "162"
    ],
    "length": 4,
@@ -3641,7 +5473,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3650,10 +5482,10 @@
    "fach_id": "2672",
    "course": "Prakt. Internettechnologien",
    "short": "Prakt. Internettechn.",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "162"
    ],
    "length": 4,
@@ -3661,7 +5493,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3670,10 +5502,10 @@
    "fach_id": "2673",
    "course": "Internet of Things",
    "short": "Prakt. IoT",
-   "lecturers": [
+   "teachers": [
     "Khelil, Abdelmajid"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "162"
    ],
@@ -3682,7 +5514,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3691,10 +5523,10 @@
    "fach_id": "2673",
    "course": "Internet of Things",
    "short": "Prakt. IoT",
-   "lecturers": [
+   "teachers": [
     "Khelil, Abdelmajid"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "162"
    ],
@@ -3703,7 +5535,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3712,10 +5544,10 @@
    "fach_id": "2674",
    "course": "Prakt. Statistik",
    "short": "Prakt. Statistik",
-   "lecturers": [
+   "teachers": [
     "Hartmann, Peter"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 2,
@@ -3723,7 +5555,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3732,10 +5564,10 @@
    "fach_id": "2674",
    "course": "Prakt. Statistik",
    "short": "Prakt. Statistik",
-   "lecturers": [
+   "teachers": [
     "Hartmann, Peter"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 2,
@@ -3743,7 +5575,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -3752,10 +5584,10 @@
    "fach_id": "2674",
    "course": "Prakt. Statistik",
    "short": "Prakt. Statistik",
-   "lecturers": [
+   "teachers": [
     "Hartmann, Peter"
    ],
-   "groups": [
+   "curricula": [
     "161"
    ],
    "length": 2,
@@ -3763,7 +5595,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3772,10 +5604,10 @@
    "fach_id": "1060",
    "course": "Ingenieurmathematik II",
    "short": "Ingenieurmathe II",
-   "lecturers": [
+   "teachers": [
     "Gruber, Michaela"
    ],
-   "groups": [
+   "curricula": [
     "166"
    ],
    "length": 2,
@@ -3783,7 +5615,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3792,10 +5624,10 @@
    "fach_id": "1060",
    "course": "Ingenieurmathematik II",
    "short": "Ingenieurmathe II",
-   "lecturers": [
+   "teachers": [
     "Gruber, Michaela"
    ],
-   "groups": [
+   "curricula": [
     "166"
    ],
    "length": 2,
@@ -3803,7 +5635,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -3812,10 +5644,10 @@
    "fach_id": "1261",
    "course": "Ingenieurmathematik II",
    "short": "Ing.mathe II Üb.",
-   "lecturers": [
+   "teachers": [
     "Kreis, Raimund"
    ],
-   "groups": [
+   "curricula": [
     "166"
    ],
    "length": 2,
@@ -3823,7 +5655,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3832,19 +5664,19 @@
    "fach_id": "2926",
    "course": "Biomedizinische Projektarbeit",
    "short": "Biomed. PA",
-   "lecturers": [
+   "teachers": [
     "Kromer, Eduard",
     "Remmele, Stefanie"
    ],
-   "groups": [
+   "curricula": [
     "165"
    ],
    "length": 4,
-   "rhythm": "14",
-   "occurrences": 8,
+   "rhythm": "7",
+   "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3853,10 +5685,10 @@
    "fach_id": "1071",
    "course": "Elektronik und Messtechnik",
    "short": "Elektronik u. Messtechnik",
-   "lecturers": [
+   "teachers": [
     "Giersch, Jürgen"
    ],
-   "groups": [
+   "curricula": [
     "166"
    ],
    "length": 4,
@@ -3864,7 +5696,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3873,10 +5705,10 @@
    "fach_id": "1386",
    "course": "LN Elektronik und Messtechnik",
    "short": "Elektr./Messt. Prakt.",
-   "lecturers": [
+   "teachers": [
     "Roderer, Götz"
    ],
-   "groups": [
+   "curricula": [
     "166"
    ],
    "length": 4,
@@ -3884,7 +5716,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -3893,10 +5725,10 @@
    "fach_id": "1072",
    "course": "Angewandte Physik",
    "short": "Angew. Physik",
-   "lecturers": [
+   "teachers": [
     "Giersch, Jürgen"
    ],
-   "groups": [
+   "curricula": [
     "166"
    ],
    "length": 2,
@@ -3904,7 +5736,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3913,10 +5745,10 @@
    "fach_id": "1072",
    "course": "Angewandte Physik",
    "short": "Angew. Physik",
-   "lecturers": [
+   "teachers": [
     "Giersch, Jürgen"
    ],
-   "groups": [
+   "curricula": [
     "166"
    ],
    "length": 4,
@@ -3924,7 +5756,28 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 6
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "4852-Wed-0",
+   "lv_id": "4852",
+   "fach_id": "2643",
+   "course": "Zukunftsthemen Sozialer Arbeit",
+   "short": "N6.1.1",
+   "teachers": [
+    "Houben, Daniel"
+   ],
+   "curricula": [
+    "77",
+    "84"
+   ],
+   "length": 4,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 0
    }
   },
   {
@@ -3933,10 +5786,10 @@
    "fach_id": "1321",
    "course": "Grundlagen der Automobiltechnik",
    "short": "Grundl. Automobiltechnik",
-   "lecturers": [
+   "teachers": [
     "Strohe, Manfred"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 2,
@@ -3944,7 +5797,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -3953,10 +5806,10 @@
    "fach_id": "1321",
    "course": "Grundlagen der Automobiltechnik",
    "short": "Grundl. Automobiltechnik",
-   "lecturers": [
+   "teachers": [
     "Strohe, Manfred"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 2,
@@ -3964,7 +5817,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3973,10 +5826,10 @@
    "fach_id": "1394",
    "course": "Grundlagen der Automobiltechnik",
    "short": "AT-Grundl. Prakt.",
-   "lecturers": [
+   "teachers": [
     "Strohe, Manfred"
    ],
-   "groups": [
+   "curricula": [
     "167"
    ],
    "length": 2,
@@ -3984,7 +5837,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -3993,10 +5846,10 @@
    "fach_id": "1073",
    "course": "Fahrwerktechnik",
    "short": "Fahrwerktechnik",
-   "lecturers": [
+   "teachers": [
     "Koletzko, Christian"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 2,
@@ -4004,7 +5857,7 @@
    "occurrences": 8,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -4013,10 +5866,10 @@
    "fach_id": "1073",
    "course": "Fahrwerktechnik",
    "short": "Fahrwerktechnik",
-   "lecturers": [
+   "teachers": [
     "Koletzko, Christian"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 2,
@@ -4024,7 +5877,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -4033,10 +5886,10 @@
    "fach_id": "1074",
    "course": "Antriebskonzepte",
    "short": "Antriebskonzepte",
-   "lecturers": [
+   "teachers": [
     "Wagensoner, Matthias"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 2,
@@ -4044,7 +5897,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -4053,10 +5906,10 @@
    "fach_id": "1074",
    "course": "Antriebskonzepte",
    "short": "Antriebskonzepte",
-   "lecturers": [
+   "teachers": [
     "Strohe, Manfred"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 2,
@@ -4064,7 +5917,7 @@
    "occurrences": 9,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -4073,10 +5926,10 @@
    "fach_id": "2590",
    "course": "Automobiltechnik I: Fahrwerk",
    "short": "AT1: Fahrwerk Prakt",
-   "lecturers": [
+   "teachers": [
     "Koletzko, Christian"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 2,
@@ -4084,7 +5937,7 @@
    "occurrences": 8,
    "published": {
     "day": "Mon",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -4093,10 +5946,10 @@
    "fach_id": "1397",
    "course": "Automobiltechnik II: Antriebskonzepte",
    "short": "AT2: Antrieb Prakt",
-   "lecturers": [
+   "teachers": [
     "Wagensoner, Matthias"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 2,
@@ -4104,7 +5957,7 @@
    "occurrences": 9,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -4113,10 +5966,10 @@
    "fach_id": "2836",
    "course": "Prakt. Praxisgrundlagen der Informatik",
    "short": "Prakt. PGI",
-   "lecturers": [
+   "teachers": [
     "Uhrmann, Johann"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "168",
     "171",
@@ -4127,7 +5980,7 @@
    "occurrences": 7,
    "published": {
     "day": "Thu",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -4136,10 +5989,10 @@
    "fach_id": "947",
    "course": "Datenkommunikation",
    "short": "IB420",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "162"
    ],
@@ -4148,7 +6001,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -4157,10 +6010,10 @@
    "fach_id": "978",
    "course": "Praktikum Datenkommunikation",
    "short": "Prakt. IB420",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "162"
    ],
@@ -4169,7 +6022,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -4178,10 +6031,10 @@
    "fach_id": "978",
    "course": "Praktikum Datenkommunikation",
    "short": "Prakt. IB420",
-   "lecturers": [
+   "teachers": [
     "Weber, Yannick"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "162"
    ],
@@ -4190,7 +6043,45 @@
    "occurrences": 9,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
+   }
+  },
+  {
+   "id": "5006-Tue-6",
+   "lv_id": "5006",
+   "fach_id": "1226",
+   "course": "Fakultätsratssitzungen SoSe25/26",
+   "short": "Fakultätsratssitzung",
+   "teachers": [],
+   "curricula": [
+    "285"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Tue",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "5076-Tue-6",
+   "lv_id": "5076",
+   "fach_id": "2923",
+   "course": "Mindestsicherung: Bürger:innengeld und Kindergrundsicherung",
+   "short": "N6.5.2",
+   "teachers": [
+    "Leibetseder, Bettina"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 4,
+   "rhythm": "0",
+   "occurrences": 8,
+   "published": {
+    "day": "Tue",
+    "timeslot": 6
    }
   },
   {
@@ -4199,10 +6090,10 @@
    "fach_id": "2953",
    "course": "Hightech meets Business: AI & Robotics",
    "short": "HMB:AI&R",
-   "lecturers": [
+   "teachers": [
     "Kromer, Eduard"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "171",
@@ -4213,7 +6104,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -4222,10 +6113,10 @@
    "fach_id": "2953",
    "course": "Hightech meets Business: AI & Robotics",
    "short": "HMB:AI&R",
-   "lecturers": [
+   "teachers": [
     "Osendorfer, Christian"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "171",
@@ -4236,7 +6127,28 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 7
+    "timeslot": 7
+   }
+  },
+  {
+   "id": "5090-Wed-6",
+   "lv_id": "5090",
+   "fach_id": "314",
+   "course": "Ehrenamtliche professionell begleiten",
+   "short": "N2.5/TPV",
+   "teachers": [
+    "Pinkl, Johanna"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 4,
+   "rhythm": "14",
+   "occurrences": 8,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
    }
   },
   {
@@ -4245,10 +6157,10 @@
    "fach_id": "2950",
    "course": "Einführung in die digitale Forensik und Mobile Forensics",
    "short": "IB766",
-   "lecturers": [
+   "teachers": [
     "Scholz, Peter"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165"
    ],
@@ -4257,7 +6169,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -4266,10 +6178,10 @@
    "fach_id": "2950",
    "course": "Einführung in die digitale Forensik und Mobile Forensics",
    "short": "IB766",
-   "lecturers": [
+   "teachers": [
     "Scholz, Peter"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165"
    ],
@@ -4278,7 +6190,7 @@
    "occurrences": 17,
    "published": {
     "day": "Wed",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -4287,10 +6199,10 @@
    "fach_id": "1110",
    "course": "Internet of Things",
    "short": "IB764",
-   "lecturers": [
+   "teachers": [
     "Khelil, Abdelmajid"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "162",
     "165",
@@ -4303,7 +6215,7 @@
    "occurrences": 15,
    "published": {
     "day": "Tue",
-    "slot": 8
+    "timeslot": 8
    }
   },
   {
@@ -4312,10 +6224,10 @@
    "fach_id": "2140",
    "course": "Innovationslabor loT Projekt",
    "short": "IB765",
-   "lecturers": [
+   "teachers": [
     "Khelil, Abdelmajid"
    ],
-   "groups": [
+   "curricula": [
     "161",
     "165",
     "49"
@@ -4325,7 +6237,7 @@
    "occurrences": 13,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -4334,10 +6246,10 @@
    "fach_id": "1109",
    "course": "Bias Mitigation",
    "short": "Bias Mitigation",
-   "lecturers": [
+   "teachers": [
     "Schuller, Dagmar"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "171",
@@ -4348,7 +6260,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -4357,10 +6269,10 @@
    "fach_id": "1109",
    "course": "Bias Mitigation",
    "short": "Bias Mitigation",
-   "lecturers": [
+   "teachers": [
     "Schuller, Dagmar"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "171",
@@ -4371,7 +6283,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -4380,10 +6292,10 @@
    "fach_id": "2954",
    "course": "Einführung in die Programmiersprache Rust",
    "short": "Rust",
-   "lecturers": [
+   "teachers": [
     "Nazareth, Dieter"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "168"
@@ -4393,7 +6305,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 6
+    "timeslot": 6
    }
   },
   {
@@ -4402,10 +6314,10 @@
    "fach_id": "2954",
    "course": "Einführung in die Programmiersprache Rust",
    "short": "Rust",
-   "lecturers": [
+   "teachers": [
     "Nazareth, Dieter"
    ],
-   "groups": [
+   "curricula": [
     "162",
     "165",
     "168"
@@ -4415,7 +6327,7 @@
    "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -4424,10 +6336,10 @@
    "fach_id": "2956",
    "course": "Machine Learning in the Cloud",
    "short": "ML Cloud",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "165"
    ],
    "length": 2,
@@ -4435,7 +6347,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 2
+    "timeslot": 2
    }
   },
   {
@@ -4444,10 +6356,10 @@
    "fach_id": "2956",
    "course": "Machine Learning in the Cloud",
    "short": "ML Cloud",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "165"
    ],
    "length": 4,
@@ -4455,7 +6367,7 @@
    "occurrences": 8,
    "published": {
     "day": "Wed",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -4464,10 +6376,10 @@
    "fach_id": "1209",
    "course": "Fahrzeuginformatik",
    "short": "AP604 FI",
-   "lecturers": [
+   "teachers": [
     "Kinalzyk, Dietmar"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 4,
@@ -4475,7 +6387,7 @@
    "occurrences": 5,
    "published": {
     "day": "Fri",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -4484,10 +6396,10 @@
    "fach_id": "2969",
    "course": "ESKS - Einführung in das Systems Engineering",
    "short": "ESKS - Einführung in Sys. Eng.",
-   "lecturers": [
+   "teachers": [
     "Schröter, Sebastian"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 2,
@@ -4495,7 +6407,7 @@
    "occurrences": 14,
    "published": {
     "day": "Thu",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -4504,10 +6416,10 @@
    "fach_id": "2970",
    "course": "ESKS - Funktionale Sicherheit",
    "short": "ESKS - Prakt. Funkt. Sicherheit",
-   "lecturers": [
+   "teachers": [
     "Kinalzyk, Dietmar"
    ],
-   "groups": [
+   "curricula": [
     "168"
    ],
    "length": 4,
@@ -4515,7 +6427,7 @@
    "occurrences": 4,
    "published": {
     "day": "Fri",
-    "slot": 4
+    "timeslot": 4
    }
   },
   {
@@ -4524,10 +6436,10 @@
    "fach_id": "1971",
    "course": "Compiler",
    "short": "IB610",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "162"
    ],
    "length": 2,
@@ -4535,7 +6447,7 @@
    "occurrences": 15,
    "published": {
     "day": "Mon",
-    "slot": 0
+    "timeslot": 0
    }
   },
   {
@@ -4544,33 +6456,198 @@
    "fach_id": "1972",
    "course": "Praktikum Compiler",
    "short": "IB610 Prakt.",
-   "lecturers": [
+   "teachers": [
     "Mock, Markus"
    ],
-   "groups": [
+   "curricula": [
     "162"
    ],
    "length": 4,
    "rhythm": "14",
-   "occurrences": 7,
+   "occurrences": 8,
    "published": {
     "day": "Tue",
-    "slot": 4
+    "timeslot": 4
+   }
+  },
+  {
+   "id": "5329-Thu-0",
+   "lv_id": "5329",
+   "fach_id": "3008",
+   "course": "Digitalisierungsrecht",
+   "short": "N2.4.3",
+   "teachers": [
+    "Kühbeck, Bettina"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 13,
+   "published": {
+    "day": "Thu",
+    "timeslot": 0
+   }
+  },
+  {
+   "id": "5414-Wed-6",
+   "lv_id": "5414",
+   "fach_id": "3036",
+   "course": "2.6 MentLA",
+   "short": "J2.6",
+   "teachers": [
+    "Heigermoser, Christiane"
+   ],
+   "curricula": [
+    "73",
+    "80"
+   ],
+   "length": 2,
+   "rhythm": "14",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "5474-Tue-5",
+   "lv_id": "5474",
+   "fach_id": "1226",
+   "course": "Fakultätsratssitzungen SoSe25/26",
+   "short": "SV Bruno Franceschini",
+   "teachers": [
+    "Franceschini, Bruno"
+   ],
+   "curricula": [
+    "285"
+   ],
+   "length": 6,
+   "rhythm": "0",
+   "occurrences": 16,
+   "published": {
+    "day": "Tue",
+    "timeslot": 5
+   }
+  },
+  {
+   "id": "5474-Wed-9",
+   "lv_id": "5474",
+   "fach_id": "1226",
+   "course": "Fakultätsratssitzungen SoSe25/26",
+   "short": "SV Bruno Franceschini",
+   "teachers": [
+    "Franceschini, Bruno"
+   ],
+   "curricula": [
+    "285"
+   ],
+   "length": 2,
+   "rhythm": "0",
+   "occurrences": 15,
+   "published": {
+    "day": "Wed",
+    "timeslot": 9
+   }
+  },
+  {
+   "id": "5535-Mon-6",
+   "lv_id": "5535",
+   "fach_id": "3075",
+   "course": "Digitale Selbstdiagnosen als Herausforderung für die Soziale Arbeit",
+   "short": "N6.3.2",
+   "teachers": [
+    "Houben, Daniel"
+   ],
+   "curricula": [
+    "77"
+   ],
+   "length": 6,
+   "rhythm": "0",
+   "occurrences": 4,
+   "published": {
+    "day": "Mon",
+    "timeslot": 6
+   }
+  },
+  {
+   "id": "5588-Mon-10",
+   "lv_id": "5588",
+   "fach_id": "3080",
+   "course": "Tutorium Ingenieurmathematik I",
+   "short": "TUT Ing. Mathe I",
+   "teachers": [
+    "Studentische Tutoren, Sammeleintrag für alle Organisationseinheiten"
+   ],
+   "curricula": [
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 15,
+   "published": {
+    "day": "Mon",
+    "timeslot": 10
+   }
+  },
+  {
+   "id": "5590-Tue-8",
+   "lv_id": "5590",
+   "fach_id": "3082",
+   "course": "Tutorium Ingenieurmathematik II",
+   "short": "TUT Ing. Mathe II",
+   "teachers": [
+    "Studentische Tutoren, Sammeleintrag für alle Organisationseinheiten"
+   ],
+   "curricula": [
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "0",
+   "occurrences": 16,
+   "published": {
+    "day": "Tue",
+    "timeslot": 8
+   }
+  },
+  {
+   "id": "5617-Wed-8",
+   "lv_id": "5617",
+   "fach_id": "3085",
+   "course": "TUT Elektr. u. Messtechn.",
+   "short": "TUT Elektr. u. Messtechn.",
+   "teachers": [
+    "Studentische Tutoren, Sammeleintrag für alle Organisationseinheiten"
+   ],
+   "curricula": [
+    "166"
+   ],
+   "length": 2,
+   "rhythm": "7",
+   "occurrences": 17,
+   "published": {
+    "day": "Wed",
+    "timeslot": 8
    }
   }
  ],
  "summary": {
-  "professors": [
+  "teachers": [
    "Auer, Christopher",
    "Blechinger, Markus",
+   "Borrmann, Stefan",
    "Busse, Johannes",
    "Böhm, Markus",
    "Dalnodar, Corinna",
+   "Dannenbeck, Clemens",
    "Diekhoff, Sebastian",
    "Dieses, Patrick",
    "Dorfner, Matthias",
    "Eder, Klaus",
    "Fischer, Marcus",
+   "Franceschini, Bruno",
    "Franzke, Thomas",
    "Gerlit, Robert",
    "Giersch, Jürgen",
@@ -4580,28 +6657,47 @@
    "Gruber, Michaela",
    "Hanel, Thomas",
    "Hartmann, Peter",
+   "Hartmann, Thomas",
+   "Heigermoser, Christiane",
+   "Hofer, Anna",
+   "Houben, Daniel",
    "Höllerer, Reinhard",
    "Jakob, Markus",
    "Jochum, Bernadette",
    "Jörg, Hannah",
    "Khelil, Abdelmajid",
    "Kinalzyk, Dietmar",
+   "Kolb, Stefan",
    "Kolbeck, Maike",
    "Koletzko, Christian",
    "Kreis, Raimund",
    "Krieger, Tina",
    "Kromer, Eduard",
+   "Kühbeck, Bettina",
+   "Kühnel, Markus",
    "Lachner, Michael",
+   "Laub, Matthias",
+   "Leibetseder, Bettina",
+   "Liel, Katrin",
    "Lipp, Wolfram",
+   "Lohner, Johannes",
+   "Lübke, Kathrin",
    "Matzeder, Marco",
    "Michaeli, Philipp",
    "Mock, Markus",
    "Nazareth, Dieter",
+   "Oberhauser, Gertraud",
    "Osendorfer, Christian",
+   "Otto, Marius",
    "Pellkofer, Martin",
+   "Pichlmeier, Michael",
+   "Pinkl, Johanna",
    "Remmele, Stefanie",
+   "Ritter, Monique",
    "Roderer, Götz",
+   "Rogall, Bianca",
    "Sagraloff, Michael",
+   "Schmidtke, Anja",
    "Schmidtner, Markus",
    "Scholz, Peter",
    "Schröter, Sebastian",
@@ -4609,59 +6705,86 @@
    "Siebert, Andreas",
    "Strohe, Manfred",
    "Strunz, Manuel",
+   "Studentische Tutoren, Sammeleintrag für alle Organisationseinheiten",
    "Thoen, Haavard",
    "Tomashevich, Victor",
    "Trautmann, Philip",
    "Uhrmann, Johann",
    "Varma, Devendra",
+   "Viehhauser, Ralph",
    "Wagensoner, Matthias",
    "Wallis, Alexander",
    "Wanner-Seidl, Veronika",
    "Weber, Yannick",
    "Weisensee, Michael",
+   "Wolff, Mechthild",
    "Wunderlich, Jürgen",
    "Wundsam-Gollwitzer, Kerstin",
-   "Ziegler, Konstantin"
+   "Ziegler, Konstantin",
+   "Özdogan, Mihri"
   ],
   "courses": [
+   "2.6 MentLA",
    "Advanced Machine Learning",
    "Algorithmen und Datenstrukturen",
+   "Alkoholismus",
+   "Ambulante Jugendhilfe im Sozialraum",
    "Angewandte Physik",
    "Antriebskonzepte",
    "Arbeitsmethodik und Führungskompetenz",
+   "Arbeitsrecht",
    "Automobiltechnik I: Fahrwerk",
    "Automobiltechnik II: Antriebskonzepte",
    "Autonome Fahrzeuge",
    "Autonomes Fahren",
+   "Betriebliches Gesundheitsmanagement",
    "Betriebssysteme",
    "Bias Mitigation",
    "Big Data Algorithms and Systems",
    "Biomedizinische Projektarbeit",
+   "Case Management in der Sozialen Altenarbeit",
    "Compiler",
    "Computational Geometry",
    "Computer Systems",
    "Computer Vision",
    "Data Science II",
+   "Datenerhebung, Dateneingabe und Datenanalyse - Empirie und Statistik",
    "Datenkommunikation",
    "Deep Reinforcement Learning",
+   "Die gesellschaftliche Funktion der Sozialen Arbeit",
    "Dienstleistungsmanagement und Wertschöpfungsnetze",
    "Digital Entrepreneurship",
+   "Digitale Selbstdiagnosen als Herausforderung für die Soziale Arbeit",
+   "Digitalisierungsrecht",
+   "Diversität Gestalten durch die UN-Behindertenrechtskonvention",
    "E-Government",
    "ESKS - Einführung in das Systems Engineering",
    "ESKS - Funktionale Sicherheit",
    "Echtzeitbetriebssysteme",
    "Effizienz im öffentlichen Sektor",
+   "Ehe- und Familienrecht",
+   "Ehrenamtliche professionell begleiten",
+   "Einführung \"Soziale Arbeit und Gesundheit\"",
+   "Einführung in die Handlungskonzepte der Sozialen Arbeit",
+   "Einführung in die Methoden empirischer Sozialforschung",
    "Einführung in die Programmiersprache Rust",
    "Einführung in die digitale Forensik und Mobile Forensics",
    "Elektronik und Messtechnik",
+   "Ethische und gesundheitspolitische Fragestellungen im Kontext Klinischer Sozialarbeit",
    "European Law",
    "FWPF",
    "Fahrwerktechnik",
    "Fahrzeuginformatik",
+   "Fakultätsratssitzungen SoSe25/26",
+   "Feministische Perspektiven auf Professionsentwicklung",
    "Finanzen, Investition",
    "Foundations of Scientific Work in Business Informatics",
    "Foundations of Scientific Work in Smart Administration",
+   "Gender- und queersensible Soziale Arbeit",
+   "Geschlechterreflektiertes Handeln in der Sozialen Arbeit?!",
    "Geschäftsmodell- und Strategieentwicklung",
+   "Gesprächsführung und Beratung",
+   "Gesundheitsbezogenes Recht",
    "Grundlagen Controlling",
    "Grundlagen Marketing und Vertrieb",
    "Grundlagen Produktion, Logistik und Dienstleistungen",
@@ -4680,12 +6803,22 @@
    "Internet of Things",
    "Internettechnologien",
    "Inverse Problems",
+   "Jugendhilfe",
+   "Jugendkriminalität und die Praxis der Jugendgerichtshilfe (JGH)",
+   "Kasuistik in der Sozialen Arbeit",
+   "Kinder- und Jugendhilferecht",
+   "Klientenbezogene Selbst- und Praxisreflexion II",
+   "Klinische Psychologie - therapeutische Grundlagen psychosozialer Fallarbeit",
    "Konzepte des Modellbasierten Systems Engineering",
    "Konzepte des Systems Engineering",
+   "Konzeption BA-Arbeit",
+   "Kooperationsnetzwerke gestalten für Kinder und ihre psychisch erkrankten Eltern",
    "Kosten- und Leistungsrechnung",
    "Kryptographie",
    "Künstliche Intelligenz II",
    "LN Elektronik und Messtechnik",
+   "Leitbild Inklusion in Einrichtungen der Kinder- und Jugendhilfe",
+   "Leseprojekt KonTEXT",
    "Machine Learning II",
    "Machine Learning III",
    "Machine Learning in the Cloud",
@@ -4693,12 +6826,18 @@
    "Management von Veränderungsprojekten und -prozessen",
    "Masterarbeit inkl. Master-Seminar",
    "Mathematik II",
+   "Methoden und Ansätze ästhetischer Projektarbeit",
    "Methodik Angewandter Wissenschaften",
+   "Mindestsicherung: Bürger:innengeld und Kindergrundsicherung",
    "Modellbasierte Entwicklung II",
    "Natural Language Processing",
+   "Netzwerk- und Projektmanagement",
+   "Netzwerke und Netzwerkarbeit im Sozialraum",
    "Open Government and Open Data",
    "Operational Security",
    "Operations Research",
+   "Organisation, Aufgaben und sozialadministrative Grundsätze",
+   "Partizipationsformen in der sozialraumorientierten Sozialen Arbeit",
    "Prakt. Algorithmen und Datenstruktur",
    "Prakt. Grundlagen theoretischer Informatik",
    "Prakt. Internettechnologien",
@@ -4714,15 +6853,28 @@
    "Praktikum Programmieren II",
    "Praktikum Rechnerarchitektur",
    "Praktikum Softwarearchitekturen",
+   "Praxisbegleitende Kleingruppe",
    "Praxisgrundlagen der Informatik",
    "Process Mining",
    "Produktions- und Servicelogistik",
+   "Professionelle Beziehungsgestaltung und Motivationsarbeit",
    "Programmieren II",
    "Projektmanagement",
    "Prozess-Simulation",
    "Präsentation und Kommunikation",
+   "Qualitativ Forschen in Kontexten des Alter(n)s",
+   "Qualitative Methoden der empirischen Sozialforschung",
    "Quantencomputing",
+   "Quantitative Forschungsmethoden im sozial-klinischen Feld und Evaluation",
+   "Rassismuserfahrungen als Herausforderung für professionelles Handeln i",
+   "Rassismuskritische Theorien",
    "Rechnerarchitektur",
+   "Rechtliche Grundlagen der Klinischen Sozialarbeit",
+   "Recovery in der Sozialen Arbeit mit psychisch kranken Menschen",
+   "Rekonstruktiv Forschen: Fachfremde Quereinsteiger*innen in der Sozialen Arbeit",
+   "Ressourcenorientierte Biografiearbeit mit Kindern, Erwachsenen und alten Menschen",
+   "Schutzkonzepte und Gefährdungsanalysen für Organisationen der Sozialen Arbeit",
+   "Selbsthilfe partizipativ entwickeln",
    "Semantic Web",
    "Smart Cities",
    "Smart Grids",
@@ -4730,53 +6882,102 @@
    "Software Engineering I",
    "Softwarearchitekturen",
    "Softwarequalität",
+   "Sozialdienst in stationären Einrichtungen der Altenhilfe",
+   "Soziale Arbeit als Gerechtigkeitsprofession",
+   "Soziale Arbeit als Menschenrechtsprofession",
+   "Soziale Arbeit in der Migrationsgesellschaft",
+   "Soziale Arbeit in und an Schulen",
+   "Soziale Arbeit mit Menschen mit Demenz",
+   "Soziale Arbeit mit Menschen mit psychischen Störungen",
+   "Soziale Arbeit und interkulturelle Kompetenzen - europäische Perspektiven in der Straffälligenarbeit",
+   "Soziale Arbeit und soziale Ungleichheit - Grundlagen, Analyse und Konzepte",
+   "Soziale Gruppenarbeit",
+   "Soziale Ungleichheit",
+   "Soziale Ungleichheit im Kinder- und Jugendalter",
+   "Soziale Ungleichheit und Bildung",
+   "Sozialrecht",
+   "Soziologie des Körpers und der Behinderung",
    "Standard-IT-Anwendungen in der Verwaltung",
+   "Stationäre und teilstationäre Hilfen zur Erziehung",
    "Statistik",
+   "Strafrecht",
+   "Sucht und Straffälligenhilfe",
+   "TUT Elektr. u. Messtechn.",
+   "Theoretische Grundlagen und Modelle psychosozialer Interventionen",
+   "Tutorium Ingenieurmathematik I",
+   "Tutorium Ingenieurmathematik II",
    "Verteilte Systeme",
    "Verwaltungsrecht",
    "Visual Analytics",
    "Wirtschaftsinformatik I",
+   "Wissenschaftlicher Diskurs Masterarbeit",
+   "Zukunftsthemen Sozialer Arbeit",
+   "Zwischen Klinik und Jugendhilfe, Analyse von Einrichtungsangeboten",
+   "Ästhetische Praxis konzipieren und anwenden",
    "Übung SWE I"
   ],
   "course_hours_per_week": {
+   "2.6 MentLA": 0.75,
    "Advanced Machine Learning": 3.0,
    "Algorithmen und Datenstrukturen": 6.0,
+   "Alkoholismus": 1.5,
+   "Ambulante Jugendhilfe im Sozialraum": 1.5,
    "Angewandte Physik": 4.5,
    "Antriebskonzepte": 2.25,
    "Arbeitsmethodik und Führungskompetenz": 3.0,
+   "Arbeitsrecht": 3.0,
    "Automobiltechnik I: Fahrwerk": 0.75,
    "Automobiltechnik II: Antriebskonzepte": 0.75,
    "Autonome Fahrzeuge": 4.5,
    "Autonomes Fahren": 3.0,
+   "Betriebliches Gesundheitsmanagement": 1.5,
    "Betriebssysteme": 1.5,
    "Bias Mitigation": 3.0,
    "Big Data Algorithms and Systems": 3.0,
-   "Biomedizinische Projektarbeit": 1.5,
+   "Biomedizinische Projektarbeit": 3.0,
+   "Case Management in der Sozialen Altenarbeit": 1.5,
    "Compiler": 1.5,
    "Computational Geometry": 3.0,
    "Computer Systems": 3.0,
    "Computer Vision": 3.0,
    "Data Science II": 3.0,
+   "Datenerhebung, Dateneingabe und Datenanalyse - Empirie und Statistik": 6.0,
    "Datenkommunikation": 1.5,
    "Deep Reinforcement Learning": 3.0,
+   "Die gesellschaftliche Funktion der Sozialen Arbeit": 1.5,
    "Dienstleistungsmanagement und Wertschöpfungsnetze": 3.0,
    "Digital Entrepreneurship": 3.0,
+   "Digitale Selbstdiagnosen als Herausforderung für die Soziale Arbeit": 4.5,
+   "Digitalisierungsrecht": 1.5,
+   "Diversität Gestalten durch die UN-Behindertenrechtskonvention": 1.5,
    "E-Government": 3.0,
    "ESKS - Einführung in das Systems Engineering": 1.5,
    "ESKS - Funktionale Sicherheit": 3.0,
    "Echtzeitbetriebssysteme": 1.5,
    "Effizienz im öffentlichen Sektor": 1.5,
+   "Ehe- und Familienrecht": 1.5,
+   "Ehrenamtliche professionell begleiten": 1.5,
+   "Einführung \"Soziale Arbeit und Gesundheit\"": 1.5,
+   "Einführung in die Handlungskonzepte der Sozialen Arbeit": 3.0,
+   "Einführung in die Methoden empirischer Sozialforschung": 3.0,
    "Einführung in die Programmiersprache Rust": 3.0,
    "Einführung in die digitale Forensik und Mobile Forensics": 3.0,
    "Elektronik und Messtechnik": 3.0,
+   "Ethische und gesundheitspolitische Fragestellungen im Kontext Klinischer Sozialarbeit": 1.5,
    "European Law": 2.25,
-   "FWPF": 6.0,
+   "FWPF": 3.0,
    "Fahrwerktechnik": 2.25,
    "Fahrzeuginformatik": 3.0,
+   "Fakultätsratssitzungen SoSe25/26": 9.0,
+   "Feministische Perspektiven auf Professionsentwicklung": 1.5,
    "Finanzen, Investition": 3.0,
    "Foundations of Scientific Work in Business Informatics": 3.0,
    "Foundations of Scientific Work in Smart Administration": 1.5,
+   "Gender- und queersensible Soziale Arbeit": 1.5,
+   "Geschlechterreflektiertes Handeln in der Sozialen Arbeit?!": 3.0,
    "Geschäftsmodell- und Strategieentwicklung": 6.0,
+   "Gesprächsführung und Beratung": 4.125,
+   "Gesundheitsbezogenes Recht": 1.5,
    "Grundlagen Controlling": 3.0,
    "Grundlagen Marketing und Vertrieb": 3.0,
    "Grundlagen Produktion, Logistik und Dienstleistungen": 5.25,
@@ -4795,25 +6996,41 @@
    "Internet of Things": 4.5,
    "Internettechnologien": 1.5,
    "Inverse Problems": 3.0,
+   "Jugendhilfe": 1.5,
+   "Jugendkriminalität und die Praxis der Jugendgerichtshilfe (JGH)": 1.5,
+   "Kasuistik in der Sozialen Arbeit": 1.5,
+   "Kinder- und Jugendhilferecht": 1.5,
+   "Klientenbezogene Selbst- und Praxisreflexion II": 3.0,
+   "Klinische Psychologie - therapeutische Grundlagen psychosozialer Fallarbeit": 1.5,
    "Konzepte des Modellbasierten Systems Engineering": 3.0,
    "Konzepte des Systems Engineering": 3.0,
+   "Konzeption BA-Arbeit": 7.5,
+   "Kooperationsnetzwerke gestalten für Kinder und ihre psychisch erkrankten Eltern": 1.5,
    "Kosten- und Leistungsrechnung": 1.5,
    "Kryptographie": 3.0,
    "Künstliche Intelligenz II": 3.0,
    "LN Elektronik und Messtechnik": 1.5,
+   "Leitbild Inklusion in Einrichtungen der Kinder- und Jugendhilfe": 1.5,
+   "Leseprojekt KonTEXT": 3.0,
    "Machine Learning II": 4.5,
    "Machine Learning III": 3.0,
    "Machine Learning in the Cloud": 3.0,
-   "Management Support Systeme": 3.0,
+   "Management Support Systeme": 4.5,
    "Management von Veränderungsprojekten und -prozessen": 3.0,
    "Masterarbeit inkl. Master-Seminar": 2.25,
    "Mathematik II": 6.0,
+   "Methoden und Ansätze ästhetischer Projektarbeit": 3.0,
    "Methodik Angewandter Wissenschaften": 3.0,
+   "Mindestsicherung: Bürger:innengeld und Kindergrundsicherung": 3.0,
    "Modellbasierte Entwicklung II": 1.5,
    "Natural Language Processing": 4.5,
+   "Netzwerk- und Projektmanagement": 1.5,
+   "Netzwerke und Netzwerkarbeit im Sozialraum": 1.5,
    "Open Government and Open Data": 3.0,
    "Operational Security": 3.0,
    "Operations Research": 3.0,
+   "Organisation, Aufgaben und sozialadministrative Grundsätze": 1.5,
+   "Partizipationsformen in der sozialraumorientierten Sozialen Arbeit": 1.5,
    "Prakt. Algorithmen und Datenstruktur": 1.5,
    "Prakt. Grundlagen theoretischer Informatik": 1.5,
    "Prakt. Internettechnologien": 3.0,
@@ -4829,41 +7046,83 @@
    "Praktikum Programmieren II": 7.5,
    "Praktikum Rechnerarchitektur": 3.0,
    "Praktikum Softwarearchitekturen": 1.5,
+   "Praxisbegleitende Kleingruppe": 9.0,
    "Praxisgrundlagen der Informatik": 1.5,
    "Process Mining": 3.0,
    "Produktions- und Servicelogistik": 3.0,
+   "Professionelle Beziehungsgestaltung und Motivationsarbeit": 1.125,
    "Programmieren II": 6.0,
    "Projektmanagement": 3.0,
    "Prozess-Simulation": 1.5,
    "Präsentation und Kommunikation": 3.0,
+   "Qualitativ Forschen in Kontexten des Alter(n)s": 3.0,
+   "Qualitative Methoden der empirischen Sozialforschung": 1.5,
    "Quantencomputing": 3.0,
+   "Quantitative Forschungsmethoden im sozial-klinischen Feld und Evaluation": 1.5,
+   "Rassismuserfahrungen als Herausforderung für professionelles Handeln i": 3.0,
+   "Rassismuskritische Theorien": 1.5,
    "Rechnerarchitektur": 3.0,
-   "Semantic Web": 3.0,
+   "Rechtliche Grundlagen der Klinischen Sozialarbeit": 1.5,
+   "Recovery in der Sozialen Arbeit mit psychisch kranken Menschen": 1.5,
+   "Rekonstruktiv Forschen: Fachfremde Quereinsteiger*innen in der Sozialen Arbeit": 3.0,
+   "Ressourcenorientierte Biografiearbeit mit Kindern, Erwachsenen und alten Menschen": 1.5,
+   "Schutzkonzepte und Gefährdungsanalysen für Organisationen der Sozialen Arbeit": 1.5,
+   "Selbsthilfe partizipativ entwickeln": 3.0,
+   "Semantic Web": 1.5,
    "Smart Cities": 3.0,
    "Smart Grids": 3.0,
    "Software Engineering": 1.5,
    "Software Engineering I": 1.5,
    "Softwarearchitekturen": 1.5,
    "Softwarequalität": 3.0,
+   "Sozialdienst in stationären Einrichtungen der Altenhilfe": 1.5,
+   "Soziale Arbeit als Gerechtigkeitsprofession": 1.5,
+   "Soziale Arbeit als Menschenrechtsprofession": 1.5,
+   "Soziale Arbeit in der Migrationsgesellschaft": 1.5,
+   "Soziale Arbeit in und an Schulen": 1.5,
+   "Soziale Arbeit mit Menschen mit Demenz": 1.5,
+   "Soziale Arbeit mit Menschen mit psychischen Störungen": 1.5,
+   "Soziale Arbeit und interkulturelle Kompetenzen - europäische Perspektiven in der Straffälligenarbeit": 1.5,
+   "Soziale Arbeit und soziale Ungleichheit - Grundlagen, Analyse und Konzepte": 1.5,
+   "Soziale Gruppenarbeit": 4.875,
+   "Soziale Ungleichheit": 1.5,
+   "Soziale Ungleichheit im Kinder- und Jugendalter": 1.5,
+   "Soziale Ungleichheit und Bildung": 1.5,
+   "Sozialrecht": 1.5,
+   "Soziologie des Körpers und der Behinderung": 1.5,
    "Standard-IT-Anwendungen in der Verwaltung": 4.5,
+   "Stationäre und teilstationäre Hilfen zur Erziehung": 1.5,
    "Statistik": 5.25,
+   "Strafrecht": 1.5,
+   "Sucht und Straffälligenhilfe": 1.5,
+   "TUT Elektr. u. Messtechn.": 1.5,
+   "Theoretische Grundlagen und Modelle psychosozialer Interventionen": 1.125,
+   "Tutorium Ingenieurmathematik I": 1.5,
+   "Tutorium Ingenieurmathematik II": 1.5,
    "Verteilte Systeme": 3.0,
    "Verwaltungsrecht": 3.0,
    "Visual Analytics": 3.0,
    "Wirtschaftsinformatik I": 3.0,
+   "Wissenschaftlicher Diskurs Masterarbeit": 1.5,
+   "Zukunftsthemen Sozialer Arbeit": 3.0,
+   "Zwischen Klinik und Jugendhilfe, Analyse von Einrichtungsangeboten": 3.0,
+   "Ästhetische Praxis konzipieren und anwenden": 1.5,
    "Übung SWE I": 3.0
   },
-  "professor_hours_per_week": {
+  "teacher_hours_per_week": {
    "Auer, Christopher": 13.5,
    "Blechinger, Markus": 1.5,
-   "Busse, Johannes": 9.0,
+   "Borrmann, Stefan": 3.0,
+   "Busse, Johannes": 7.5,
    "Böhm, Markus": 9.0,
    "Dalnodar, Corinna": 3.0,
+   "Dannenbeck, Clemens": 4.5,
    "Diekhoff, Sebastian": 3.0,
    "Dieses, Patrick": 3.0,
    "Dorfner, Matthias": 5.25,
    "Eder, Klaus": 3.0,
    "Fischer, Marcus": 3.0,
+   "Franceschini, Bruno": 14.625,
    "Franzke, Thomas": 6.0,
    "Gerlit, Robert": 3.0,
    "Giersch, Jürgen": 7.5,
@@ -4873,48 +7132,71 @@
    "Gruber, Michaela": 3.0,
    "Hanel, Thomas": 1.5,
    "Hartmann, Peter": 2.25,
+   "Hartmann, Thomas": 1.5,
+   "Heigermoser, Christiane": 6.75,
+   "Hofer, Anna": 1.5,
+   "Houben, Daniel": 12.0,
    "Höllerer, Reinhard": 4.5,
    "Jakob, Markus": 13.5,
    "Jochum, Bernadette": 3.0,
    "Jörg, Hannah": 1.5,
    "Khelil, Abdelmajid": 7.5,
    "Kinalzyk, Dietmar": 6.0,
+   "Kolb, Stefan": 1.5,
    "Kolbeck, Maike": 3.0,
    "Koletzko, Christian": 3.0,
    "Kreis, Raimund": 1.5,
    "Krieger, Tina": 3.0,
-   "Kromer, Eduard": 7.5,
+   "Kromer, Eduard": 9.0,
+   "Kühbeck, Bettina": 12.0,
+   "Kühnel, Markus": 4.5,
    "Lachner, Michael": 1.5,
+   "Laub, Matthias": 10.5,
+   "Leibetseder, Bettina": 7.5,
+   "Liel, Katrin": 5.25,
    "Lipp, Wolfram": 2.25,
+   "Lohner, Johannes": 3.75,
+   "Lübke, Kathrin": 10.875,
    "Matzeder, Marco": 10.5,
    "Michaeli, Philipp": 11.25,
    "Mock, Markus": 13.5,
    "Nazareth, Dieter": 9.0,
+   "Oberhauser, Gertraud": 14.625,
    "Osendorfer, Christian": 14.25,
+   "Otto, Marius": 7.5,
    "Pellkofer, Martin": 12.0,
-   "Remmele, Stefanie": 1.5,
+   "Pichlmeier, Michael": 1.5,
+   "Pinkl, Johanna": 12.0,
+   "Remmele, Stefanie": 3.0,
+   "Ritter, Monique": 10.5,
    "Roderer, Götz": 1.5,
-   "Sagraloff, Michael": 10.5,
+   "Rogall, Bianca": 1.5,
+   "Sagraloff, Michael": 9.0,
+   "Schmidtke, Anja": 4.5,
    "Schmidtner, Markus": 1.5,
    "Scholz, Peter": 6.0,
    "Schröter, Sebastian": 10.5,
    "Schuller, Dagmar": 9.0,
-   "Siebert, Andreas": 12.0,
+   "Siebert, Andreas": 13.5,
    "Strohe, Manfred": 3.75,
    "Strunz, Manuel": 5.25,
+   "Studentische Tutoren, Sammeleintrag für alle Organisationseinheiten": 4.5,
    "Thoen, Haavard": 3.0,
    "Tomashevich, Victor": 2.25,
    "Trautmann, Philip": 4.5,
    "Uhrmann, Johann": 10.5,
    "Varma, Devendra": 9.0,
+   "Viehhauser, Ralph": 3.75,
    "Wagensoner, Matthias": 2.25,
    "Wallis, Alexander": 3.0,
    "Wanner-Seidl, Veronika": 3.0,
    "Weber, Yannick": 15.0,
    "Weisensee, Michael": 1.5,
-   "Wunderlich, Jürgen": 7.5,
+   "Wolff, Mechthild": 6.0,
+   "Wunderlich, Jürgen": 9.0,
    "Wundsam-Gollwitzer, Kerstin": 3.0,
-   "Ziegler, Konstantin": 5.25
+   "Ziegler, Konstantin": 5.25,
+   "Özdogan, Mihri": 4.5
   }
  }
 }

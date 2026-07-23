@@ -7,22 +7,22 @@ Why this file exists
 --------------------
 The Primuss export says *that* a course is taught, never whether a student
 must attend it. The SPO says exactly that. Without it, the scheduler treats a
-6th-semester cohort as 22 simultaneous mandatory courses (52 slots a week),
-which is why checking the published timetable produced 104 phantom "cohort
-clash" violations.
+6th-semester curriculum as 22 simultaneous mandatory courses (52 timeslots a
+week), which is why checking the published timetable produced 104 phantom
+"curriculum clash" violations.
 
-Only mandatory modules (PFM) bind every student in a cohort. Elective modules
-(WPFM) are picked a few at a time, so they may overlap with each other — the
-SPOs even say so explicitly: "kein Anspruch darauf, dass keine zeitlichen
-Überschneidungen sämtlicher wählbarer Module existieren."
+Only mandatory courses (PFM) bind every student in a curriculum. Elective
+courses (WPFM) are picked a few at a time, so they may overlap with each
+other — the SPOs even say so explicitly: "kein Anspruch darauf, dass keine
+zeitlichen Überschneidungen sämtlicher wählbarer Module existieren."
 
-Each entry: module code -> (name, semester, ECTS, SWS). The IF-faculty
-programs only transcribe the summer-semester cohorts present in that scraped
-data (semester 2, 4, 6); the SA-faculty programs below cover all 7 semesters.
-Semester 5 (IF) / 4 (SA) / 5 (KIJ) is the Praxissemester and has almost no
-teaching. SA semester 6 offers "N6.1 and 2 of {N6.2..N6.5}" as a themed
-choice — those four are electives, not transcribed here, matching how WPF
-modules are excluded everywhere else in this file.
+Each entry: course code -> (name, semester, ECTS, SWS). The IF-faculty
+programs only transcribe the summer-semester curricula present in that
+scraped data (semester 2, 4, 6); the SA-faculty programs below cover all 7
+semesters. Semester 5 (IF) / 4 (SA) / 5 (KIJ) is the Praxissemester and has
+almost no teaching. SA semester 6 offers "N6.1 and 2 of {N6.2..N6.5}" as a
+themed choice — those four are electives, not transcribed here, matching how
+WPF courses are excluded everywhere else in this file.
 """
 
 # --- mandatory modules per program, summer semesters -----------------------
@@ -179,7 +179,7 @@ MANDATORY = {
 
 
 def mandatory_names(program, semester):
-    """Lowercased module names a cohort of this program/semester must attend."""
+    """Lowercased course names a curriculum of this program/semester must attend."""
     entries = MANDATORY.get(program, {}).get(semester, [])
     return {name.lower() for _code, name, _e, _s in entries}
 

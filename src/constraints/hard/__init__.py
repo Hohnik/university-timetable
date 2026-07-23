@@ -1,19 +1,19 @@
 from . import (
-    cohort_no_overlap,
-    lecturer_no_overlap,
-    lecturer_availability,
-    module_daily_cap,
+    curriculum_no_overlap,
+    teacher_no_overlap,
+    teacher_availability,
+    course_daily_cap,
     contiguous_same_type,
     no_late_mandatory,
-    cohort_day_cap,
+    curriculum_day_cap,
 )
 
 __all__ = [
-    "cohort_no_overlap",
-    "lecturer_no_overlap",
-    "lecturer_availability",
-    "module_daily_cap",
+    "curriculum_no_overlap",
+    "teacher_no_overlap",
+    "teacher_availability",
+    "course_daily_cap",
     "contiguous_same_type",
     "no_late_mandatory",
-    "cohort_day_cap",
+    "curriculum_day_cap",
 ]

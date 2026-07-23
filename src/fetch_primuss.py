@@ -20,7 +20,7 @@ import asyncio
 import json
 import os
 import re
-from datetime import date, timedelta
+from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin
@@ -254,8 +254,18 @@ async def _finish_saml(client: httpx.AsyncClient, r) -> dict:
     sesn = (m.group(1) if (m := re.search(r"[?&]Session=([^&#]+)", url)) else "")
     user = (m.group(1) if (m := re.search(r"[?&]User=([^&#]+)", url)) else "")
 
+    # The landing page renders the tree for whatever semester Primuss
+    # currently considers "default" (e.g. it rolls over to the next, still
+    # mostly-unpublished semester as soon as the current one ends) which can
+    # silently diverge from SEM. Re-select SEM explicitly so the tree always
+    # matches the semester we're about to fetch events for.
+    tree_page = await client.post(
+        url, data={"sem": SEM},
+        headers={**_HEADERS, "Referer": url,
+                 "Content-Type": "application/x-www-form-urlencoded"})
+
     return {"cookies": cookie_str, "session": sesn, "user": user,
-            "course_tree": _parse_course_groups(final.text)["tree"]}
+            "course_tree": _parse_course_groups(tree_page.text)["tree"]}
 
 
 async def _shibboleth_login(username: str, password: str) -> dict:
@@ -306,7 +316,7 @@ async def _shibboleth_login(username: str, password: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# 4. Primuss helpers (semester weeks, event parsing)
+# 4. Primuss helpers (semester dates, event parsing)
 # ---------------------------------------------------------------------------
 
 def _current_semester() -> tuple[date, date]:
@@ -317,13 +327,6 @@ def _current_semester() -> tuple[date, date]:
     if today.month >= 8:
         return date(y, 10, 1), date(y + 1, 2, 15)
     return date(y - 1, 10, 1), date(y, 2, 15)
-
-
-def _week_mondays(start: date, end: date):
-    d = start - timedelta(days=start.weekday())
-    while d <= end:
-        yield d
-        d += timedelta(weeks=1)
 
 
 def _primuss_date(d: date) -> str:
@@ -386,38 +389,41 @@ def _dedupe(events: list[dict]) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 async def fetch_group(stgru: str, session: dict, http_sem: asyncio.Semaphore) -> list[dict]:
-    """Fetch all events for one study group across the semester."""
+    """Fetch all events for one study group.
+
+    A single request already returns the group's entire semester: Primuss's
+    `method=list` endpoint ignores `showdate` and always returns the full
+    event list, so no per-week pagination is needed (confirmed: same result
+    for every showdate tried). Looping over every week of the semester used
+    to send ~18x more requests than necessary, which was enough to trip a
+    server-side abuse/rate limit partway through a full scrape -- requests
+    kept returning HTTP 200 with an empty event list instead of erroring, so
+    it looked like missing data rather than throttling.
+    """
     cookies = dict(p.split("=", 1) for p in session["cookies"].split("; ") if "=" in p)
-    sem_start, sem_end = _current_semester()
-    mondays = list(_week_mondays(sem_start, sem_end))
-    base = {"viewtype": "week", "timezone": "1", "mode": "calendar",
-            "Session": session["session"], "User": session["user"], "stgru": stgru}
+    data = {"viewtype": "week", "timezone": "1", "mode": "calendar",
+            "Session": session["session"], "User": session["user"], "stgru": stgru,
+            "showdate": _primuss_date(_current_semester()[0])}
 
-    async def fetch_week(client, monday):
-        async with http_sem:
-            try:
-                r = await client.post(
-                    f"{PRIMUSS_URL}?FH={FH}&Language={LANG}&sem={SEM}&method=list",
-                    data={**base, "showdate": _primuss_date(monday)},
-                    cookies=cookies, timeout=15,
-                    headers={"User-Agent": _UA,
-                             "X-Requested-With": "XMLHttpRequest",
-                             "Accept": "application/json",
-                             "Content-Type": "application/x-www-form-urlencoded"})
-                return r.json() if r.status_code == 200 else None
-            except Exception:
-                return None
-
-    async with httpx.AsyncClient(follow_redirects=False) as client:
-        results = await asyncio.gather(*[fetch_week(client, m) for m in mondays])
+    async with http_sem, httpx.AsyncClient(follow_redirects=False) as client:
+        try:
+            r = await client.post(
+                f"{PRIMUSS_URL}?FH={FH}&Language={LANG}&sem={SEM}&method=list",
+                data=data, cookies=cookies, timeout=15,
+                headers={"User-Agent": _UA,
+                         "X-Requested-With": "XMLHttpRequest",
+                         "Accept": "application/json",
+                         "Content-Type": "application/x-www-form-urlencoded"})
+            payload = r.json() if r.status_code == 200 else None
+        except Exception:
+            payload = None
 
     events = []
-    for data in results:
-        if isinstance(data, dict):
-            for raw in data.get("events", []):
-                ev = _normalize_event(raw)
-                if ev:
-                    events.append(ev)
+    if isinstance(payload, dict):
+        for raw in payload.get("events", []):
+            ev = _normalize_event(raw)
+            if ev:
+                events.append(ev)
     return _dedupe(events)
 
 
